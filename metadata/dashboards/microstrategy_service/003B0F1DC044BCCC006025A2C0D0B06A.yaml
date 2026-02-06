@@ -1,0 +1,142 @@
+name: 003B0F1DC044BCCC006025A2C0D0B06A
+displayName: Finance Wealth Management
+fullyQualifiedName: microstrategy_service.003B0F1DC044BCCC006025A2C0D0B06A
+project: AI Auto
+sourceUrl: https://demo.microstrategy.com/MicroStrategyLibrary/app/EC70648611E7A2F962E90080EFD58751/003B0F1DC044BCCC006025A2C0D0B06A
+charts:
+  - id: a898e684-0e37-44a8-a206-1ebdf1e75149
+    type: chart
+    name: W2271866D34EF4B1990731A03B0734C17K1ACB96DEB24566C1AB5B44A71CD7FBAC
+    fullyQualifiedName: microstrategy_service.W2271866D34EF4B1990731A03B0734C17K1ACB96DEB24566C1AB5B44A71CD7FBAC
+    displayName: Funds
+    deleted: false
+  - id: 28de8746-fb73-40dc-a721-a5775492e473
+    type: chart
+    name: W2271866D34EF4B1990731A03B0734C17K3265A428C34237BE0BB1ADB594DFCD25
+    fullyQualifiedName: microstrategy_service.W2271866D34EF4B1990731A03B0734C17K3265A428C34237BE0BB1ADB594DFCD25
+    displayName: Activity
+    deleted: false
+  - id: 12e69423-7b08-4d41-a378-6bd48bb367ee
+    type: chart
+    name: W2271866D34EF4B1990731A03B0734C17K4A881834B94EF368253EDDAB4AE47889
+    fullyQualifiedName: microstrategy_service.W2271866D34EF4B1990731A03B0734C17K4A881834B94EF368253EDDAB4AE47889
+    displayName: Equities
+    deleted: false
+  - id: 21916b7b-4207-46eb-9d67-0e07ad35930d
+    type: chart
+    name: W2271866D34EF4B1990731A03B0734C17K4C5A688A8642D4DB50F5CBBD3A469FA7
+    fullyQualifiedName: microstrategy_service.W2271866D34EF4B1990731A03B0734C17K4C5A688A8642D4DB50F5CBBD3A469FA7
+    displayName: Cash
+    deleted: false
+  - id: 3825e5cf-6a5e-44e1-8632-7799d4143594
+    type: chart
+    name: W2271866D34EF4B1990731A03B0734C17K5429156D034B9CC6F252BA95429EDB58
+    fullyQualifiedName: microstrategy_service.W2271866D34EF4B1990731A03B0734C17K5429156D034B9CC6F252BA95429EDB58
+    displayName: Investment Style Target
+    deleted: false
+  - id: 0a43fb7c-8867-43ba-b1bd-f66dd0376434
+    type: chart
+    name: W2271866D34EF4B1990731A03B0734C17K6E21966CC34A6D69A6B26291A0BC6FE0
+    fullyQualifiedName: microstrategy_service.W2271866D34EF4B1990731A03B0734C17K6E21966CC34A6D69A6B26291A0BC6FE0
+    displayName: Bonds
+    deleted: false
+  - id: ec7a7d61-d3b5-4f58-9f14-3228bc2b1590
+    type: chart
+    name: W2271866D34EF4B1990731A03B0734C17K6FD9585D9F4A591C660405A8174A32BA
+    fullyQualifiedName: microstrategy_service.W2271866D34EF4B1990731A03B0734C17K6FD9585D9F4A591C660405A8174A32BA
+    displayName: Visualization 1
+    deleted: false
+  - id: 07cda278-d3c0-4101-8c53-778641fa61a6
+    type: chart
+    name: W2271866D34EF4B1990731A03B0734C17K7B1AD207C3428D578DFF5AA23AE40ACA
+    fullyQualifiedName: microstrategy_service.W2271866D34EF4B1990731A03B0734C17K7B1AD207C3428D578DFF5AA23AE40ACA
+    displayName: Investment Style Actual
+    deleted: false
+  - id: 09e34f23-c95a-41c4-b306-ebdebd6b28db
+    type: chart
+    name: W2271866D34EF4B1990731A03B0734C17KCAB5B44B7940A4D6450363A7C193D02E
+    fullyQualifiedName: microstrategy_service.W2271866D34EF4B1990731A03B0734C17KCAB5B44B7940A4D6450363A7C193D02E
+    displayName: Asset Allocation
+    deleted: false
+  - id: fc32e6c1-af98-42ba-bd95-961538b41704
+    type: chart
+    name: W2271866D34EF4B1990731A03B0734C17KF9808E00D344B3EE558D95A9546F29EB
+    fullyQualifiedName: microstrategy_service.W2271866D34EF4B1990731A03B0734C17KF9808E00D344B3EE558D95A9546F29EB
+    displayName: Time Weighted Returns
+    deleted: false
+  - id: eb5d14dd-eefd-47ab-be9d-7d0aa2a1d3d7
+    type: chart
+    name: W2271866D34EF4B1990731A03B0734C17WCD754883A06343939F11113DAB28BA32
+    fullyQualifiedName: microstrategy_service.W2271866D34EF4B1990731A03B0734C17WCD754883A06343939F11113DAB28BA32
+    displayName: Other
+    deleted: false
+  - id: 0960fc00-2bd6-4850-b1cb-842802c3c4a1
+    type: chart
+    name: WDAD5191D7DFB4B19A1B04E3420B2BB80A843E232BC344E5EBD8A71B3A9D6DBAD
+    fullyQualifiedName: microstrategy_service.WDAD5191D7DFB4B19A1B04E3420B2BB80A843E232BC344E5EBD8A71B3A9D6DBAD
+    displayName: Visualization 1
+    deleted: false
+  - id: 1ce54ef9-cf35-4809-9449-4c4579fe7aac
+    type: chart
+    name: WDAD5191D7DFB4B19A1B04E3420B2BB80K0B2DB270324390B6C80074AE1EECBEAD
+    fullyQualifiedName: microstrategy_service.WDAD5191D7DFB4B19A1B04E3420B2BB80K0B2DB270324390B6C80074AE1EECBEAD
+    displayName: Clients
+    deleted: false
+  - id: 0ef28463-7b88-490e-b3f5-a2a1c1fc7916
+    type: chart
+    name: WDAD5191D7DFB4B19A1B04E3420B2BB80K707B07B6284C3C3ECA9B149757254B13
+    fullyQualifiedName: microstrategy_service.WDAD5191D7DFB4B19A1B04E3420B2BB80K707B07B6284C3C3ECA9B149757254B13
+    displayName: Asset Class Breakout
+    deleted: false
+  - id: 2742f6e4-7268-44ce-be09-fcefda114771
+    type: chart
+    name: WDAD5191D7DFB4B19A1B04E3420B2BB80KBB636E2F4D43E3AF79C1F3B3C5343313
+    fullyQualifiedName: microstrategy_service.WDAD5191D7DFB4B19A1B04E3420B2BB80KBB636E2F4D43E3AF79C1F3B3C5343313
+    displayName: Balance Summary
+    deleted: false
+  - id: e02d8ad0-3665-4f9c-ace5-47004613a2ec
+    type: chart
+    name: WDAD5191D7DFB4B19A1B04E3420B2BB80W55A644E1564B4322875F1B9D8EC156A3
+    fullyQualifiedName: microstrategy_service.WDAD5191D7DFB4B19A1B04E3420B2BB80W55A644E1564B4322875F1B9D8EC156A3
+    displayName: Recent Interactions
+    deleted: false
+dataModels: []
+owners: []
+tags: []
+service:
+  id: 807cfa94-767d-4ce4-9e5e-903ba736a7cb
+  type: dashboardService
+  name: microstrategy_service
+  fullyQualifiedName: microstrategy_service
+  displayName: microstrategy_service
+  deleted: false
+serviceType: MicroStrategy
+incrementalChangeDescription:
+  fieldsAdded:
+    - name: certification
+      newValue: "{\"tagLabel\":{\"tagFQN\":\"Certification.Gold\",\"name\":\"Gold\"\
+        ,\"description\":\"Gold certified Data Asset.\",\"style\":{\"color\":\"#FFCE00\"\
+        ,\"iconURL\":\"GoldCertification.svg\"},\"source\":\"Classification\",\"labelType\"\
+        :\"Manual\",\"state\":\"Confirmed\"},\"appliedDate\":1770408694740,\"expiryDate\"\
+        :1773000694740}"
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.5
+  changeSummary: {}
+domains: []
+dataProducts: []
+certification:
+  tagLabel:
+    tagFQN: Certification.Gold
+    name: Gold
+    description: Gold certified Data Asset.
+    style:
+      color: "#FFCE00"
+      iconURL: GoldCertification.svg
+    source: Classification
+    labelType: Manual
+    state: Confirmed
+  appliedDate: 1770408694850
+  expiryDate: 1773000694850
+sourceHash: 98d2470c57821deb0f56336ec52737f0
+entityStatus: Approved
