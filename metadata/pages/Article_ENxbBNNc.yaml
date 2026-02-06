@@ -1,0 +1,115 @@
+name: Article_ENxbBNNc
+fullyQualifiedName: Article_ENxbBNNc
+displayName: Test Article
+description: "<h1>Title</h1><p>Twst with git synv</p><p></p><pre><code>Test code block</code></pre><p></p><ul\
+  \ class=\"om-list-disc\"><li class=\"om-leading-normal\"><p>List 1</p></li><li class=\"\
+  om-leading-normal\"><p>List 2</p></li></ul><p></p><ol class=\"om-list-decimal\"\
+  ><li class=\"om-leading-normal\"><p>List 1</p></li><li class=\"om-leading-normal\"\
+  ><p>List 2</p></li></ol><hr><p></p><blockquote><p>Test quote added.</p></blockquote><p></p><ul\
+  \ class=\"om-task-list\" data-type=\"taskList\"><li class=\"om-task-item\" data-checked=\"\
+  false\" data-type=\"taskItem\"><label><input type=\"checkbox\"><span></span></label><div><p>Task\
+  \ 1</p></div></li><li class=\"om-task-item\" data-checked=\"true\" data-type=\"\
+  taskItem\"><label><input type=\"checkbox\" checked=\"checked\"><span></span></label><div><p>Task\
+  \ 2</p></div></li><li class=\"om-task-item\" data-checked=\"false\" data-type=\"\
+  taskItem\"><label><input type=\"checkbox\"><span></span></label><div><p>Task 3</p></div></li><li\
+  \ class=\"om-task-item\" data-checked=\"false\" data-type=\"taskItem\"><label><input\
+  \ type=\"checkbox\"><span></span></label><div><p>Task 4</p></div></li></ul><div\
+  \ callouttype=\"note\" data-type=\"callout\" data-callouttype=\"note\"><p>Callout\
+  \ block added.</p></div><p></p><p></p><table class=\"om-table\" data-om-table=\"\
+  om-table\" style=\"minWidth: 75px\"><colgroup><col><col><col></colgroup><tbody><tr\
+  \ class=\"om-table-row\" data-om-table-row=\"om-table-row\"><th class=\"om-table-header\"\
+  \ data-om-table-header=\"om-table-header\" colspan=\"1\" rowspan=\"1\"><p>Table\
+  \ 1</p></th><th class=\"om-table-header\" data-om-table-header=\"om-table-header\"\
+  \ colspan=\"1\" rowspan=\"1\"><p>Table 2</p></th><th class=\"om-table-header\" data-om-table-header=\"\
+  om-table-header\" colspan=\"1\" rowspan=\"1\"><p>Table 3</p></th></tr><tr class=\"\
+  om-table-row\" data-om-table-row=\"om-table-row\"><td class=\"om-table-cell\" data-om-table-cell=\"\
+  om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>Item 1</p></td><td class=\"om-table-cell\"\
+  \ data-om-table-cell=\"om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>Item 2</p></td><td\
+  \ class=\"om-table-cell\" data-om-table-cell=\"om-table-cell\" colspan=\"1\" rowspan=\"\
+  1\"><p>Item 3</p></td></tr><tr class=\"om-table-row\" data-om-table-row=\"om-table-row\"\
+  ><td class=\"om-table-cell\" data-om-table-cell=\"om-table-cell\" colspan=\"1\"\
+  \ rowspan=\"1\"><p>Item 4</p></td><td class=\"om-table-cell\" data-om-table-cell=\"\
+  om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>Item 5</p></td><td class=\"om-table-cell\"\
+  \ data-om-table-cell=\"om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>Item 6</p></td></tr><tr\
+  \ class=\"om-table-row\" data-om-table-row=\"om-table-row\"><td class=\"om-table-cell\"\
+  \ data-om-table-cell=\"om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>Item 7</p></td><td\
+  \ class=\"om-table-cell\" data-om-table-cell=\"om-table-cell\" colspan=\"1\" rowspan=\"\
+  1\"><p>Item 8</p></td><td class=\"om-table-cell\" data-om-table-cell=\"om-table-cell\"\
+  \ colspan=\"1\" rowspan=\"1\"><p>Item 9</p></td></tr></tbody></table><p></p>"
+incrementalChangeDescription:
+  fieldsAdded:
+    - name: reviewers
+      newValue: "[{\"id\":\"02572492-b9af-4e28-8231-b6d311e81d51\",\"type\":\"team\"\
+        ,\"name\":\"abc.def.ghi\",\"fullyQualifiedName\":\"\\\"abc.def.ghi\\\"\",\"\
+        displayName\":\"abc.def.ghi\",\"deleted\":false}]"
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.4
+  changeSummary: {}
+owners:
+  - id: 0621fad7-1ef1-441d-96a9-500a55c01a1f
+    type: user
+    name: sweta.a
+    fullyQualifiedName: '"sweta.a"'
+    displayName: Sweta
+    deleted: false
+reviewers:
+  - id: 02572492-b9af-4e28-8231-b6d311e81d51
+    type: team
+    name: abc.def.ghi
+    fullyQualifiedName: '"abc.def.ghi"'
+    description: ""
+    displayName: abc.def.ghi
+    deleted: false
+entityStatus: Approved
+tags:
+  - tagFQN: test_2_policy_tag.test_2_policy_tag
+    name: test_2_policy_tag
+    description: Bigquery Policy Tag
+    source: Classification
+    labelType: Manual
+    state: Confirmed
+    appliedAt: 1767969396000
+    appliedBy: admin
+pageType: Article
+page:
+  publicationDate: 1733813043974
+  relatedArticles: []
+relatedEntities:
+  - id: 9efbccd7-3d0b-485d-89c4-ac0f8fc80da5
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: <p>Organization under which all the other team hierarchy is created
+      Organization under which all the other team hierarchy is createdOrganization
+      under which all the other team hierarchy is createdOrganization under which
+      all the other team hierarchy is createdOrganization under which all the other
+      team hierarchy is createdOrganization under which all the other team hierarchy
+      is createdOrganization under which all the other team hierarchy is createdOrganization
+      under which all the other team hierarchy is createdOrganization under which
+      all the other team hierarchy is createdOrganization under which all the other
+      team hierarchy is createdOrganization under which all the other team hierarchy
+      is createdOrganization under which all the other team hierarchy is createdOrganization
+      under which all the other team hierarchy is createdOrganization under which
+      all the other team hierarchy is createdOrganization under which all the other
+      team hierarchy is createdOrganization under which all the other team hierarchy
+      is createdOrganization under which all the other team hierarchy is created</p>
+    displayName: Organization
+    deleted: false
+    href: https://sandbox-beta.open-metadata.org/api/v1/teams/9efbccd7-3d0b-485d-89c4-ac0f8fc80da5
+editors:
+  - id: 353928e3-8c86-423b-93eb-562b3accd828
+    type: user
+    name: anujkumar.yadav
+    fullyQualifiedName: '"anujkumar.yadav"'
+    displayName: anujkumar.yadav
+    deleted: false
+  - id: 0621fad7-1ef1-441d-96a9-500a55c01a1f
+    type: user
+    name: sweta.a
+    fullyQualifiedName: '"sweta.a"'
+    displayName: Sweta
+    deleted: false
+children: []
+dataProducts: []
+attachments: []
