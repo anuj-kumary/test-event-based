@@ -1,0 +1,101 @@
+name: ADD_AGENT_CERTIFICATE
+fullyQualifiedName: oracle_test.default.remote_scheduler_agent.ADD_AGENT_CERTIFICATE
+storedProcedureCode:
+  language: SQL
+  code: |
+    procedure                        add_agent_certificate wrapped
+    a000000
+    1
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    7
+    320 1d6
+    Vj9evIe80VqtGg7Q3GG6w+W8Z0Iwg3n3mEgVfI5A2sE+NPMUmSZNzWkbxiIvCvSkMdzVG9Ws
+    oOApaX+bpTLRW3asHwz53JsP3AEhW8z9ytcIfRNPM/6KKM2aOtIQeyHB3y7n+g0yGI1nQE76
+    dHJYk+upVwRJxPGCW4LD/R2XQn9LBFxHg5Z5RnJY17vI30po3F+JK3Yc72loqt35855yjEd0
+    LUzBu+xWYFUfynqr7cKRWFr9ML7+LaTbKQXZwIKP8QhYXNtmTsxPeOSSNMt61pDDOJe5zfKR
+    Y4Elm/9fNwnapV/HS5+VRqWEqRFbPuLl2WcbHmu3AlApyxGa2qTF6FTBzrZ+yGACs/hAFkBR
+    sUh9VIQsk0ggkKH9RnbMMswv6DZhlCSYdsNkQZgnXIgmcUW0lHsLAiwyGfoGwDWzh+BlaNWB
+    ghbaT69wV0CHqDDxBS7TudfrJEW8lXk=
+dataProducts: []
+incrementalChangeDescription:
+  fieldsAdded:
+    - name: certification
+      newValue: "{\"tagLabel\":{\"tagFQN\":\"Certification.Silver\",\"name\":\"Silver\"\
+        ,\"description\":\"Silver certified Data Asset.\",\"style\":{\"color\":\"\
+        #ADADAD\",\"iconURL\":\"SilverCertification.svg\"},\"source\":\"Classification\"\
+        ,\"labelType\":\"Manual\",\"state\":\"Confirmed\"},\"appliedDate\":1770408444729,\"\
+        expiryDate\":1773000444729}"
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.2
+  changeSummary: {}
+databaseSchema:
+  id: be4247c9-b8b3-47b5-9cae-17a79def9065
+  type: databaseSchema
+  name: remote_scheduler_agent
+  fullyQualifiedName: oracle_test.default.remote_scheduler_agent
+  displayName: remote_scheduler_agent
+  deleted: false
+database:
+  id: 635299d9-9c3d-4ccc-98ff-dfb95889d8d6
+  type: database
+  name: default
+  fullyQualifiedName: oracle_test.default
+  displayName: default
+  deleted: false
+service:
+  id: 81062063-d522-406b-92a3-ccad1f68f1ad
+  type: databaseService
+  name: oracle_test
+  fullyQualifiedName: oracle_test
+  displayName: oracle_test
+  deleted: false
+serviceType: Oracle
+owners: []
+tags:
+  - tagFQN: Tier.Tier3
+    name: Tier3
+    description: |-
+      **Department/group level datasets that are typically non-business and general internal system**
+
+      - Used in product metrics, and dashboards to drive product decisions
+
+      - Used to track operational metrics of internal systems
+
+      - Source used to derive other critical Tier-3 datasets
+    source: Classification
+    labelType: Manual
+    state: Confirmed
+    appliedAt: 1770015473358
+    appliedBy: anujkumar.yadav
+domains: []
+certification:
+  tagLabel:
+    tagFQN: Certification.Silver
+    name: Silver
+    description: Silver certified Data Asset.
+    style:
+      color: "#ADADAD"
+      iconURL: SilverCertification.svg
+    source: Classification
+    labelType: Manual
+    state: Confirmed
+  appliedDate: 1770408444730
+  expiryDate: 1773000444730
+sourceHash: 17418dab87792c27104fa52b00f2c5e9
+processedLineage: false
+entityStatus: Approved
