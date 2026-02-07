@@ -1,0 +1,46 @@
+name: testing_new
+fullyQualifiedName: testing_new
+serviceType: Cockroach
+description: ""
+connection:
+  config:
+    type: Cockroach
+    scheme: cockroachdb+psycopg2
+    sslMode: disable
+    authType:
+      password: fernet:gAAAAABpht4uSVJFWzz6a0a5XzpXiykoq3H8-iib1UwogTBGh_1Q3SVFRGWY1LzEUQm7Btptbr0Zri1mB7ahq1-C5_zWQPN3xQ==
+    database: test
+    hostPort: https://app.powerbi.com
+    username: jhaugland
+    supportsProfiler: true
+    ingestAllDatabases: false
+    tableFilterPattern:
+      excludes: []
+      includes: []
+    schemaFilterPattern:
+      excludes: []
+      includes: []
+    databaseFilterPattern:
+      excludes: []
+      includes: []
+    supportsMetadataExtraction: true
+pipelines:
+  - id: 976703fb-d56d-44fd-9f62-d608126b720a
+    type: ingestionPipeline
+    name: ee632fbb-72bd-4097-9f36-693f863f84f6
+    fullyQualifiedName: testing_new.ee632fbb-72bd-4097-9f36-693f863f84f6
+    displayName: Metadata Agent
+    deleted: false
+tags: []
+owners:
+  - id: d8cd184a-ca4d-4312-b8a3-a3e009cd3686
+    type: user
+    name: sweta.agarwalla
+    fullyQualifiedName: '"sweta.agarwalla"'
+    description: ""
+    displayName: sweta.agarwalla
+    deleted: false
+dataProducts: []
+ingestionRunner:
+  id: 6742f0ef-68bf-4a65-878d-31cb3919c6d5
+  type: ingestionRunner
