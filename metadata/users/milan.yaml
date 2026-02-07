@@ -1,0 +1,120 @@
+name: milan
+fullyQualifiedName: milan
+email: milan@getcollate.io
+isBot: false
+isAdmin: true
+allowImpersonation: false
+authenticationMechanism: {}
+teams:
+  - id: 9efbccd7-3d0b-485d-89c4-ac0f8fc80da5
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: <p>Organization under which all the other team hierarchy is created
+      Organization under which all the other team hierarchy is createdOrganization
+      under which all the other team hierarchy is createdOrganization under which
+      all the other team hierarchy is createdOrganization under which all the other
+      team hierarchy is createdOrganization under which all the other team hierarchy
+      is createdOrganization under which all the other team hierarchy is createdOrganization
+      under which all the other team hierarchy is createdOrganization under which
+      all the other team hierarchy is createdOrganization under which all the other
+      team hierarchy is createdOrganization under which all the other team hierarchy
+      is createdOrganization under which all the other team hierarchy is createdOrganization
+      under which all the other team hierarchy is createdOrganization under which
+      all the other team hierarchy is createdOrganization under which all the other
+      team hierarchy is createdOrganization under which all the other team hierarchy
+      is createdOrganization under which all the other team hierarchy is created</p>
+    displayName: Organization
+    deleted: false
+    href: https://sandbox-beta.open-metadata.org/api/v1/teams/9efbccd7-3d0b-485d-89c4-ac0f8fc80da5
+defaultPersona:
+  id: 0fe6c565-1705-42cf-a2e6-89d340d30039
+  type: persona
+  name: Data Engineer
+  fullyQualifiedName: Data Engineer
+  description: <p>Data Steward</p>
+  displayName: Data Steward
+personas: []
+owns: []
+follows: []
+incrementalChangeDescription:
+  fieldsAdded:
+    - name: defaultPersona
+      newValue: "{\"id\":\"0fe6c565-1705-42cf-a2e6-89d340d30039\",\"type\":\"persona\"\
+        ,\"name\":\"Data Engineer\",\"fullyQualifiedName\":\"Data Engineer\",\"description\"\
+        :\"<p>Data Steward</p>\",\"displayName\":\"Data Steward\"}"
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.5
+  changeSummary: {}
+roles: []
+inheritedRoles: []
+isEmailVerified: true
+domains:
+  - id: 85e932a2-e842-4a68-8db7-abf5f78bbcbd
+    type: domain
+    name: Domain Test
+    fullyQualifiedName: Domain Test
+    description: <p>Domain Test</p>
+    displayName: Domain Test
+  - id: 9545569e-9b4e-4be0-8142-ce5d502fbab7
+    type: domain
+    name: Product
+    fullyQualifiedName: Product
+    description: A Domain producing  and serving Product Master Data.
+    displayName: Product Name
+  - id: c5953260-03a0-47dc-a602-7431689b0a3e
+    type: domain
+    name: testing-rbac-sub-domain
+    fullyQualifiedName: Design.testing-rbac-sub-domain
+    description: Testing RBAC SUB DOMAIN
+    displayName: Testing RBAC SUB DOMAIN
+  - id: e0c57bf5-9e9c-4757-9a2b-3303af44361e
+    type: domain
+    name: Sub Domain Pere
+    fullyQualifiedName: Domain Pere.Sub Domain Pere
+    description: asd
+    displayName: Sub Domain Pere
+  - id: e12664a5-8bbe-4aa7-acc2-9ce686fe09e6
+    type: domain
+    name: Sales
+    fullyQualifiedName: Sales
+    description: Sales
+    displayName: Sales
+  - id: 31c2b84e-b87a-4e47-934f-9c5309fbb7c3
+    type: domain
+    name: Engineering
+    fullyQualifiedName: Engineering
+    description: Domain related engineering development.
+    displayName: Engineering
+  - id: 46a38dc6-805a-42bf-90ce-bbf641e75f35
+    type: domain
+    name: Domain Pere
+    fullyQualifiedName: Domain Pere
+    description: asd
+    displayName: Domain Pere
+  - id: 52fc9c67-78b7-42bf-8147-69278853c230
+    type: domain
+    name: Design
+    fullyQualifiedName: Design
+    description: <p>Here' the description for Product Design</p>
+    displayName: 'Product Design '
+  - id: 635cf2af-5175-44e4-91f1-030beab290d5
+    type: domain
+    name: Marketing
+    fullyQualifiedName: Marketing
+    description: Marketing
+    displayName: Marketing
+  - id: 6dec5ead-5cdd-4f43-b085-54de6b3f8107
+    type: domain
+    name: Finance
+    fullyQualifiedName: Finance
+    description: "Finance, this is a test"
+    displayName: Finance
+  - id: 761f0a12-7b08-4889-acc3-b8d4d11a7865
+    type: domain
+    name: domain.with.dot
+    fullyQualifiedName: '"domain.with.dot"'
+    description: domain.with.dot
+    displayName: domain.with.dot
+personaPreferences: []
