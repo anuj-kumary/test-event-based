@@ -1,0 +1,945 @@
+name: sachin
+fullyQualifiedName: sachin
+displayName: Sachin Chaurasiya
+email: sachin@getcollate.io
+isBot: false
+isAdmin: true
+allowImpersonation: false
+authenticationMechanism: {}
+profile:
+  images:
+    image: https://lh3.googleusercontent.com/a/ACg8ocIgDZGYc6jpP9ioMKv_iUSLQtD4XwOsO032rFBjh31dpQ=s96-c
+    image24: https://lh3.googleusercontent.com/a/ACg8ocIgDZGYc6jpP9ioMKv_iUSLQtD4XwOsO032rFBjh31dpQ=s24-c
+    image32: https://lh3.googleusercontent.com/a/ACg8ocIgDZGYc6jpP9ioMKv_iUSLQtD4XwOsO032rFBjh31dpQ=s32-c
+    image48: https://lh3.googleusercontent.com/a/ACg8ocIgDZGYc6jpP9ioMKv_iUSLQtD4XwOsO032rFBjh31dpQ=s48-c
+    image72: https://lh3.googleusercontent.com/a/ACg8ocIgDZGYc6jpP9ioMKv_iUSLQtD4XwOsO032rFBjh31dpQ=s72-c
+    image192: https://lh3.googleusercontent.com/a/ACg8ocIgDZGYc6jpP9ioMKv_iUSLQtD4XwOsO032rFBjh31dpQ=s192-c
+    image512: https://lh3.googleusercontent.com/a/ACg8ocIgDZGYc6jpP9ioMKv_iUSLQtD4XwOsO032rFBjh31dpQ=s512-c
+teams:
+  - id: 9efbccd7-3d0b-485d-89c4-ac0f8fc80da5
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: <p>Organization under which all the other team hierarchy is created
+      Organization under which all the other team hierarchy is createdOrganization
+      under which all the other team hierarchy is createdOrganization under which
+      all the other team hierarchy is createdOrganization under which all the other
+      team hierarchy is createdOrganization under which all the other team hierarchy
+      is createdOrganization under which all the other team hierarchy is createdOrganization
+      under which all the other team hierarchy is createdOrganization under which
+      all the other team hierarchy is createdOrganization under which all the other
+      team hierarchy is createdOrganization under which all the other team hierarchy
+      is createdOrganization under which all the other team hierarchy is createdOrganization
+      under which all the other team hierarchy is createdOrganization under which
+      all the other team hierarchy is createdOrganization under which all the other
+      team hierarchy is createdOrganization under which all the other team hierarchy
+      is createdOrganization under which all the other team hierarchy is created</p>
+    displayName: Organization
+    deleted: false
+    href: https://sandbox-beta.open-metadata.org/api/v1/teams/9efbccd7-3d0b-485d-89c4-ac0f8fc80da5
+defaultPersona:
+  id: 0fe6c565-1705-42cf-a2e6-89d340d30039
+  type: persona
+  name: Data Engineer
+  fullyQualifiedName: Data Engineer
+  description: <p>Data Steward</p>
+  displayName: Data Steward
+personas:
+  - id: 0fe6c565-1705-42cf-a2e6-89d340d30039
+    type: persona
+    name: Data Engineer
+    fullyQualifiedName: Data Engineer
+    description: <p>Data Steward</p>
+    displayName: Data Steward
+  - id: db3628b1-0482-42a8-90e0-e073a6c93e22
+    type: persona
+    name: Data Scientist
+    fullyQualifiedName: Data Scientist
+    description: Data Scientist Persona
+    displayName: Data Scientists
+  - id: 2dc6ccb1-bf50-4352-a9e3-106272c7407e
+    type: persona
+    name: MyDataPersona
+    fullyQualifiedName: MyDataPersona
+    displayName: MyDataPersona
+  - id: 34613d43-abfe-4b40-b850-c01761a8b84b
+    type: persona
+    name: New-data
+    fullyQualifiedName: New-data
+    displayName: New-data
+  - id: 76ade560-e24e-44c4-9250-2a86ab13bfd7
+    type: persona
+    name: Test
+    fullyQualifiedName: Test
+    description: Test has bare minimum functionality
+    displayName: Testing
+  - id: 3f51c659-e78b-48a7-97a8-b7fe629c90db
+    type: persona
+    name: 'Test '
+    fullyQualifiedName: 'Test '
+    description: Test name Description
+    displayName: Test name
+owns:
+  - id: cb4a0835-3677-4ac1-bc7b-9db4255deb1d
+    type: query
+    name: 3dbe871eac09659c6a327a800b3ab043
+    fullyQualifiedName: sample_data.3dbe871eac09659c6a327a800b3ab043
+    description: |-
+      Select all columns from the dim_customer table.
+      Filter rows where total_order_count is greater than 5319.
+      Add an additional filter to include only rows where average_order_size is less than 1569.
+    displayName: 3dbe871eac09659c6a327a800b3ab043
+  - id: 7dd92787-e6d3-4bc5-9e91-4b5bcccec23a
+    type: query
+    name: 485f5625c931ee07215c785c4b653557
+    fullyQualifiedName: sample_data.485f5625c931ee07215c785c4b653557
+    description: SELECT * from table_entity;
+    displayName: 485f5625c931ee07215c785c4b653557
+  - id: 0e18992c-68fb-4b3b-a7c5-9916d0a00bde
+    type: page
+    name: Article_RJPnHxns
+    fullyQualifiedName: Article_RJPnHxns
+    description: <p></p><p>This is a question we get from people being new to metadata
+      platforms or users that are considering a migration from another data catalog
+      to our Metadata Management Platform.</p><p>We believe that the best answer you
+      can get to this question is in our blog:</p><p><a target="_blank" rel="noopener
+      noreferrer nofollow" href="https://blog.open-metadata.org/why-openmetadata-is-the-right-choice-for-you-59e329163cac">Read
+      Here</a> </p>
+    displayName: Why Open Metadata is the Right Choice for you?
+  - id: 7802bd51-bb60-4e92-95b4-b6fbc81c0fe9
+    type: page
+    name: Article_icTEdO3j
+    fullyQualifiedName: Article_dv9Zrd1T.Article_vtt9ilAs.Article_icTEdO3j
+    description: "<p>OpenMetadata simplifies data discovery with the following strategies.</p><h2><strong>Search</strong></h2><p>Search\
+      \ is at the front and center of OpenMetadata and is available in the top Menu\
+      \ bar across all the different pages. Users can also start searching by invoking\
+      \ the Keyboard shortcut Ctrl + K in Windows or Cmd + K in Mac OS.</p><p>The\
+      \ Search APIs are backed by Elasticsearch.</p><h2>Keyword Search</h2><p>A simple\
+      \ yet powerful way to find assets by typing the name or description from the\
+      \ search interface. The search suggest will display matching data assets in\
+      \ several categories. Your query will retrieve all matching tables, topics,\
+      \ dashboards, pipelines, ML models, containers, glossaries, and tags. Your queries\
+      \ will match names for data assets and their components, such as column names\
+      \ for tables and chart names for dashboards. The queries will also match the\
+      \ descriptions used.</p><p><img src=\"https://docs.open-metadata.org/images/v1.5/how-to-guides/discovery/kw.png\"\
+      \ alt=\"Keyword Search\"></p><p>Keyword Search</p><h2>Quick Filters</h2><p>Multiple\
+      \ quick filter options further help to narrow down the search by <strong>Owner,\
+      \ Tag, Tier, Service, Service Type</strong>, and other filters relevant to the\
+      \ type of data asset like <strong>Database, Schema, Columns</strong>. You can\
+      \ also search by deleted data assets.</p><p><img src=\"https://docs.open-metadata.org/images/v1.5/how-to-guides/discovery/kw2.png\"\
+      \ alt=\"Filter using Multiple Parameters\"></p><p>Filter using Multiple Parameters</p><h2>Filter\
+      \ by the Type of Data Asset</h2><p>The search results can be narrowed down by\
+      \ data assets such as Table, Topic, Dashboard, Pipeline, ML Model, Container,\
+      \ Glossary, or Tag.</p><p><img src=\"https://docs.open-metadata.org/images/v1.5/how-to-guides/discovery/da1.png\"\
+      \ alt=\"Filter by the Type of Data Asset\"></p><p>Filter by the Type of Data\
+      \ Asset</p><p>Users can navigate to the Explore page for specific type of data\
+      \ assets and use the filter options relevant to that data asset to narrow down\
+      \ the search.</p><h2>Filter by Asset Owner</h2><p>A team or a user can own the\
+      \ data asset in OpenMetadata. Users can filter data assets by the asset owner.\
+      \ With information on the data asset owners, you can direct your questions to\
+      \ the right person or team.</p><p><img src=\"https://docs.open-metadata.org/images/v1.5/how-to-guides/discovery/owner.png\"\
+      \ alt=\"Filter by Asset Owner\"></p><p>Filter by Asset Owner</p><h2>Filter by\
+      \ Database</h2><p>When searching while you are in a database page, you can narrow\
+      \ down your search to within the database or to include the overall search results\
+      \ within OpenMetadata.</p><p><img src=\"https://docs.open-metadata.org/images/v1.5/how-to-guides/discovery/db.png\"\
+      \ alt=\"Filter by Database\"></p><p>Filter by Database</p><h2>Filter based on\
+      \ Importance: Tiers</h2><p>Using tiers, you can search for data based on importance.</p><p><img\
+      \ src=\"https://docs.open-metadata.org/images/v1.5/how-to-guides/discovery/tier.png\"\
+      \ alt=\"Filter based on Importance using Tiers\"></p><p>Filter based on Importance\
+      \ using Tiers</p><h2>Filter based on Importance: Usage</h2><p>OpenMetadata captures\
+      \ usage profiles for tables during metadata/profiler ingestion. This helps to\
+      \ learn how other data consumers are using the tables. You can use the quick\
+      \ filter to narrow down the search results by relevance by clicking on the down\
+      \ arrow on the top right of the Explore page. You can search for data by:</p><ul\
+      \ class=\"om-list-disc\"><li class=\"om-leading-normal\"><p><strong>Last Updated</strong>\
+      \ - Filter data by the recent updates and changes.</p></li><li class=\"om-leading-normal\"\
+      ><p><strong>Weekly Usage</strong> - Based on the data asset usage metrics.</p></li><li\
+      \ class=\"om-leading-normal\"><p><strong>Relevance</strong></p></li></ul><p>These\
+      \ details are based on the usage summary computations. Further, you can <strong>sort</strong>\
+      \ the results by ascending and descending order.</p><p><img src=\"https://docs.open-metadata.org/images/v1.5/how-to-guides/discovery/usage.png\"\
+      \ alt=\"Filter based on Importance: Usage\"></p><p>Filter based on Importance:\
+      \ Usage</p><h2>Discover Data through Association</h2><p>OpenMetadata provides\
+      \ the links to the frequently joined tables and columns as measured by the data\
+      \ profiler. You can also discover assets through relationships based on data\
+      \ lineage.</p><p><img src=\"https://docs.open-metadata.org/images/v1.5/how-to-guides/discovery/fjt.png\"\
+      \ alt=\"Frequently Joined Tables\"></p><p>Frequently Joined Tables</p><h2>Discover\
+      \ Assets through Relationships</h2><p>OpenMetadata helps to locate assets of\
+      \ interest by tracing data lineage. You can view the upstream and downstream\
+      \ nodes to discover the sources of data and learn about the tables, pipelines,\
+      \ and more. The table and column descriptions help to decide if the data is\
+      \ helpful for your use case. Similarly, the pipeline description helps to uncover\
+      \ the transformation and more data of interest.</p><p><img src=\"https://docs.open-metadata.org/images/v1.5/how-to-guides/discovery/lineage.png\"\
+      \ alt=\"Discover Assets through Relationships: Lineage\"></p><p>Discover Assets\
+      \ through Relationships: Lineage</p><h2>Advanced Search</h2><p>Users can find\
+      \ data assets matching strict criteria by multiple parameters on metadata properties,\
+      \ using the <strong>syntax editor</strong> with and/or conditions. Advanced\
+      \ search in OpenMetadata supports Boolean operators and faceted queries to search\
+      \ for specific facets of your data. Separate advanced search options are available\
+      \ for Tables, Topics, Dashboards, Pipelines, ML Models, Containers, Glossary,\
+      \ and Tags.</p><p><img src=\"https://docs.open-metadata.org/images/v1.5/how-to-guides/discovery/data-discovery.gif\"\
+      ></p><h2>Discover Data Evolution</h2><p>By viewing lineage and metadata versioning,\
+      \ users can discover the data evolution of data assets.</p><p><img src=\"https://docs.open-metadata.org/images/v1.5/how-to-guides/discovery/version.png\"\
+      \ alt=\"Discover Data Evolution: Version History\"></p><p>Discover Data Evolution:\
+      \ Version History</p><h2>Filter by Deleted Data Assets</h2><p>Users can also\
+      \ search for the soft-deleted data assets in OpenMetadata. Use the toggle bar\
+      \ to search for deleted assets. The deleted data assets are read-only.</p><p><img\
+      \ src=\"https://docs.open-metadata.org/images/v1.5/how-to-guides/discovery/deleted.png\"\
+      \ alt=\"Filter by Deleted Data Assets\"></p><p>Filter by Deleted Data Assets</p><p>Users\
+      \ can click on <strong>Clear</strong> to unselect all the filter options.</p><p><img\
+      \ src=\"https://docs.open-metadata.org/images/v1.5/how-to-guides/discovery/clear.png\"\
+      \ alt=\"Clear the Filters\"></p><p></p>"
+    displayName: How to Discover Assets of Interest
+  - id: e0b481cd-8951-4df3-929f-e89ae95b7a51
+    type: page
+    name: Article_vtt9ilAs
+    fullyQualifiedName: Article_dv9Zrd1T.Article_vtt9ilAs
+    description: "<p>Discovering data among thousands of datasets is hard without\
+      \ rich metadata and faceted search. OpenMetadata with a single catalog aggregates\
+      \ metadata about all data assets, and presents the right information to users\
+      \ depending on their needs. OpenMetadata aims to help <strong>data producers</strong>\
+      \ make smart decisions to evolve data and prioritize bug fixes; and help <strong>data\
+      \ consumers</strong> make timely decisions with the right data.</p><p>OpenMetadata\
+      \ provides a user-friendly interface for <strong>data discovery</strong>. OpenMetadata\
+      \ enables you to discover your data using a variety of strategies, including:\
+      \ keyword search, data associations (e.g., frequently joined tables, lineage),\
+      \ and complex queries. Using OpenMetadata you can search across tables, topics,\
+      \ dashboards, pipelines, ML models, containers, glossaries, and tags. OpenMetadata\
+      \ supports detailed metadata for assets and their components (e.g., columns,\
+      \ charts), including support for complex data types such as arrays and structs.\
+      \ Users can get a complete picture of their data by viewing the <strong>data\
+      \ evolution</strong> tracked using lineage and metadata versioning.</p>"
+    displayName: Overview of Data Discovery
+  - id: 177a517c-7b99-4f97-9240-a87f845ea3e5
+    type: dataProduct
+    name: Customer
+    fullyQualifiedName: Customer
+    description: Customer Data product gives all the customer related tables and dashboards
+    displayName: Customer
+  - id: 6a64c528-b917-4d98-a6eb-b6b902079aef
+    type: glossaryTerm
+    name: FooBazz
+    fullyQualifiedName: TeddyNewName New.FooBazz
+    description: àâäéèêëîïôöùûüÿçœæ
+    displayName: fooBarTeddy
+    deleted: false
+  - id: 2754a2aa-7e64-49c2-a1db-07dc786be3d8
+    type: apiService
+    name: Json#Schema/Value
+    fullyQualifiedName: Json#Schema/Value
+    description: "<p>این ماژول مربوط به تراکنش ها و حسابداری می باشد. در این ماژول\
+      \ ما میفهمیم که این تراکنش را چه مودی در چه سالی برای چه منبع مالیاتی پرداخت\
+      \ کرده است.</p><p>&nbsp;</p><p>مهمترین جدول این ماژول جدول TT01_TRANSACTIONS\
+      \ است:</p><p>فیلد CT01_TRANSACTION_ID که کلید اصلی و داخلی جدول است.<br>فیلد\
+      \ CSTD_TRAN_TYPE که نوع تراکنش را نشان می دهد. که چک برگشتی یا سفته یا موارد\
+      \ دیگری بوده است.<br>فیلد CSTD_DC که بدهی یا پرداختی را نشان می دهد.<br>فیلد\
+      \ CT01_AMOUNT که مبلغ تراکنش را نشان می دهد.<br>فیلد CT01_REVERSED_FLAG که م\
+      یگه آیا بدهی REVERSE یا معکوس شده؟<br>فیلد CT01_CLEARED_FLAG که میگه آیا بده\
+      ی CLEARE &nbsp;یا تسویه شده است؟<br>فیلد CSTD_LIABILITY_TYPE که نوع بدهی یا\
+      \ پرداخت را نشان می دهد.<br>فیلد CSTD_ENTITY که موجودی تراکنش را بیان می کند\
+      . یعنی این رکورد چه موجودی دارد مثلا این رکورد برای پرداخت است (PAY) یا بدهی\
+      \ تشخیصی یا قطعی (RET) و غیره.</p><p>جداول دیگر:</p><p>جداول های JOURNAL که\
+      \ مربوط به اسنادی است که فرد به وسیله آن مالیات خود را کسر می کند. جداول RPP\
+      \ که مربوط به اطلاعات اقساط پرداخت مالیات هاست.</p><p>درک مفهوم:</p><p>نکته\
+      \ ای که باید به آن توجه شود این است که در این ماژول هم تراکنش های پرداختی و\
+      \ هم تراکنش های بدهی موجود است. در حقیقت تمام تراکنش هایی که باید صورت بگیرد\
+      \ اینجا می آید. برای فهم بهتر به مثال زیر دقت کنید:<br>فرض کنید برای یک پرون\
+      ده حقیقی انفرادی در سال مشخصی مالیات بر درامد مشاغل (tax_type_code = ITXB) ب\
+      رایش مالیات (CSTD_LIABILITY_TYPE = TAXLB و CSTD_ENTITY = RET) تعیین شده. تا\
+      \ این جا یک رکورد در این جدول میاید با CSTD_DC = DT و CSTD_TRAN_TYPE = ASSESS(ا\
+      رزیابی). ← ردیف 1 جدول پایین<br>حال فرض کنید این فرد&nbsp; بدلیل دیر کرد در\
+      \ پرداخت مالیات سازمان برایش جریمه (CSTD_TRAN_TYPE = INTRST و CSTD_LIABILITY_TYPE\
+      \ = INTRESE و CSTD_ENTITY = INT) میزند. پس برای این جریمه هم یک رکورد میاندا\
+      زد. ← ردیف 2 جدول پایین<br>اکنون فرد میاید و مالیات خود را پرداخت می کند. پس\
+      \ یک رکورد برای پرداخت (CSTD_DC = CT و CSTD_LIABILITY_TYPE = TAXLB و CSTD_ENTITY\
+      \ = PAY) میاندازد.( فرد از طریق بانک پرداخت کرده است. CSTD_TRAN_TYPE = BNKTSF)\
+      \ ← ردیف 3 جدول پایین<br>حال فرد میخواهد جریمه اش را پرداخت کند. پس یک رکورد\
+      \ هم برای پرداخت جریمه میاید.(CSTD_DC = CT و CSTD_LIABILITY_TYPE = INTRES و\
+      \ CSTD_ENTITY = PAY و CSTD_TRAN_TYPE = BNKTSF) ← ردیف 4 جدول پایین<br>پس برا\
+      ی این مورد کلا 4 رکورد میاید با TRANSACTION_ID&nbsp; های مختلف. دو تا برای م\
+      قداری که باید پرداخت شود و دو عدد برای مقداری که پرداخت شده است.</p><p>&nbsp;</p><table\
+      \ class=\"om-table\" data-om-table=\"om-table\" style=\"minWidth: 225px\"><colgroup><col><col><col><col><col><col><col><col><col></colgroup><tbody><tr\
+      \ class=\"om-table-row\" data-om-table-row=\"om-table-row\"><td class=\"om-table-cell\"\
+      \ data-om-table-cell=\"om-table-cell\" colspan=\"1\" rowspan=\"1\"><p><strong>CSTD_ENTITY</strong></p></td><td\
+      \ class=\"om-table-cell\" data-om-table-cell=\"om-table-cell\" colspan=\"1\"\
+      \ rowspan=\"1\"><p><strong>CSTD_LIABILITY_TYPE</strong></p></td><td class=\"\
+      om-table-cell\" data-om-table-cell=\"om-table-cell\" colspan=\"1\" rowspan=\"\
+      1\"><p><strong>CSTD_TAX_TYPE</strong></p></td><td class=\"om-table-cell\" data-om-table-cell=\"\
+      om-table-cell\" colspan=\"1\" rowspan=\"1\"><p><strong>CSTD_TRAN_TYPE</strong></p></td><td\
+      \ class=\"om-table-cell\" data-om-table-cell=\"om-table-cell\" colspan=\"1\"\
+      \ rowspan=\"1\"><p><strong>CSTD_DC</strong></p></td><td class=\"om-table-cell\"\
+      \ data-om-table-cell=\"om-table-cell\" colspan=\"1\" rowspan=\"1\"><p><strong>TRANSACTION_ID</strong></p></td><td\
+      \ class=\"om-table-cell\" data-om-table-cell=\"om-table-cell\" colspan=\"1\"\
+      \ rowspan=\"1\"><p><strong>TAX_YEAR</strong></p></td><td class=\"om-table-cell\"\
+      \ data-om-table-cell=\"om-table-cell\" colspan=\"1\" rowspan=\"1\"><p><strong>FOLLOWCODE</strong></p></td><td\
+      \ class=\"om-table-cell\" data-om-table-cell=\"om-table-cell\" colspan=\"1\"\
+      \ rowspan=\"1\"><p><strong>ردیف</strong></p></td></tr><tr class=\"om-table-row\"\
+      \ data-om-table-row=\"om-table-row\"><td class=\"om-table-cell\" data-om-table-cell=\"\
+      om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>RET</p></td><td class=\"om-table-cell\"\
+      \ data-om-table-cell=\"om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>TAXLB</p></td><td\
+      \ class=\"om-table-cell\" data-om-table-cell=\"om-table-cell\" colspan=\"1\"\
+      \ rowspan=\"1\"><p>ITXB</p></td><td class=\"om-table-cell\" data-om-table-cell=\"\
+      om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>ASSESS</p></td><td class=\"om-table-cell\"\
+      \ data-om-table-cell=\"om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>DT</p></td><td\
+      \ class=\"om-table-cell\" data-om-table-cell=\"om-table-cell\" colspan=\"1\"\
+      \ rowspan=\"1\"><p>21456</p></td><td class=\"om-table-cell\" data-om-table-cell=\"\
+      om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>1400</p></td><td class=\"om-table-cell\"\
+      \ data-om-table-cell=\"om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>A</p></td><td\
+      \ class=\"om-table-cell\" data-om-table-cell=\"om-table-cell\" colspan=\"1\"\
+      \ rowspan=\"1\"><p>1</p></td></tr><tr class=\"om-table-row\" data-om-table-row=\"\
+      om-table-row\"><td class=\"om-table-cell\" data-om-table-cell=\"om-table-cell\"\
+      \ colspan=\"1\" rowspan=\"1\"><p>INT</p></td><td class=\"om-table-cell\" data-om-table-cell=\"\
+      om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>INTRES</p></td><td class=\"om-table-cell\"\
+      \ data-om-table-cell=\"om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>ITXB</p></td><td\
+      \ class=\"om-table-cell\" data-om-table-cell=\"om-table-cell\" colspan=\"1\"\
+      \ rowspan=\"1\"><p>INTRST</p></td><td class=\"om-table-cell\" data-om-table-cell=\"\
+      om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>DT</p></td><td class=\"om-table-cell\"\
+      \ data-om-table-cell=\"om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>34578</p></td><td\
+      \ class=\"om-table-cell\" data-om-table-cell=\"om-table-cell\" colspan=\"1\"\
+      \ rowspan=\"1\"><p>1400</p></td><td class=\"om-table-cell\" data-om-table-cell=\"\
+      om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>A</p></td><td class=\"om-table-cell\"\
+      \ data-om-table-cell=\"om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>2</p></td></tr><tr\
+      \ class=\"om-table-row\" data-om-table-row=\"om-table-row\"><td class=\"om-table-cell\"\
+      \ data-om-table-cell=\"om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>PAY</p></td><td\
+      \ class=\"om-table-cell\" data-om-table-cell=\"om-table-cell\" colspan=\"1\"\
+      \ rowspan=\"1\"><p>TAXLB</p></td><td class=\"om-table-cell\" data-om-table-cell=\"\
+      om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>ITXB</p></td><td class=\"om-table-cell\"\
+      \ data-om-table-cell=\"om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>BNKTSF</p></td><td\
+      \ class=\"om-table-cell\" data-om-table-cell=\"om-table-cell\" colspan=\"1\"\
+      \ rowspan=\"1\"><p>CT</p></td><td class=\"om-table-cell\" data-om-table-cell=\"\
+      om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>39145</p></td><td class=\"om-table-cell\"\
+      \ data-om-table-cell=\"om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>1400</p></td><td\
+      \ class=\"om-table-cell\" data-om-table-cell=\"om-table-cell\" colspan=\"1\"\
+      \ rowspan=\"1\"><p>A</p></td><td class=\"om-table-cell\" data-om-table-cell=\"\
+      om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>3</p></td></tr><tr class=\"om-table-row\"\
+      \ data-om-table-row=\"om-table-row\"><td class=\"om-table-cell\" data-om-table-cell=\"\
+      om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>PAY</p></td><td class=\"om-table-cell\"\
+      \ data-om-table-cell=\"om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>INTRES</p></td><td\
+      \ class=\"om-table-cell\" data-om-table-cell=\"om-table-cell\" colspan=\"1\"\
+      \ rowspan=\"1\"><p>ITXB</p></td><td class=\"om-table-cell\" data-om-table-cell=\"\
+      om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>BNKTSF</p></td><td class=\"om-table-cell\"\
+      \ data-om-table-cell=\"om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>CT</p></td><td\
+      \ class=\"om-table-cell\" data-om-table-cell=\"om-table-cell\" colspan=\"1\"\
+      \ rowspan=\"1\"><p>41655</p></td><td class=\"om-table-cell\" data-om-table-cell=\"\
+      om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>1400</p></td><td class=\"om-table-cell\"\
+      \ data-om-table-cell=\"om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>A</p></td><td\
+      \ class=\"om-table-cell\" data-om-table-cell=\"om-table-cell\" colspan=\"1\"\
+      \ rowspan=\"1\"><p>4</p></td></tr></tbody></table><p>&nbsp;</p><p>نکات :</p><p>CSTD_ENTITY:\
+      \ تگ های &nbsp;PAY, RPP, LGS تراکنش های پرداخت شده را نشان میدهد. در غیر این\
+      صورت بدهی را نمایش می دهد. پس ما نباید تمام CSTD_DC = CT &nbsp;را پرداخت در\
+      \ نظر بگیریم.<br>چون برخی از رکورد هایی که CT خوردند واقعا مودی وجهی پرداخت\
+      \ نکرده است فقط به خاطر این که مثلا فردی مالیاتش تغییر می کند رکوردش آپدیت ن\
+      می شود یک رکوردی اضافه می شود به عنوان CT تا اصلاح شود.</p><p>CSTD_TRAN_TYPE:\
+      \ ما برای یافتن پرداختی ها تگ های سفته و تضامن و چک برگشتی نباشد.( RTNCQU, MRTNCQU,\
+      \ GARPAY, PMNPAY, PMNRTN, RPMNPAY)</p><p>گاهی از لحاظ تاریخی که بررسی می کنی\
+      م می بینیم رکورد پرداخت زود تر از تعیین مبلغ مالیات است. این به این دلیل است\
+      \ که اظهارنامه دیرتر بر روی سامانه می نشیند.</p><p>&nbsp;</p><p>&nbsp;</p><p>MAPPING:</p><p>د\
+      ر این جداول تمامی مپینگ ها نیامده است.</p><table class=\"om-table\" data-om-table=\"\
+      om-table\" style=\"minWidth: 75px\"><colgroup><col><col><col></colgroup><tbody><tr\
+      \ class=\"om-table-row\" data-om-table-row=\"om-table-row\"><td class=\"om-table-cell\"\
+      \ data-om-table-cell=\"om-table-cell\" colspan=\"2\" rowspan=\"1\"><p><strong>CSTD_DC</strong></p></td><td\
+      \ class=\"om-table-cell\" data-om-table-cell=\"om-table-cell\" colspan=\"1\"\
+      \ rowspan=\"1\"><p></p></td></tr><tr class=\"om-table-row\" data-om-table-row=\"\
+      om-table-row\"><td class=\"om-table-cell\" data-om-table-cell=\"om-table-cell\"\
+      \ colspan=\"1\" rowspan=\"1\"><p>پرداختی</p></td><td class=\"om-table-cell\"\
+      \ data-om-table-cell=\"om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>CT</p></td><td\
+      \ class=\"om-table-cell\" data-om-table-cell=\"om-table-cell\" colspan=\"1\"\
+      \ rowspan=\"1\"><p></p></td></tr><tr class=\"om-table-row\" data-om-table-row=\"\
+      om-table-row\"><td class=\"om-table-cell\" data-om-table-cell=\"om-table-cell\"\
+      \ colspan=\"1\" rowspan=\"1\"><p>بدهی</p></td><td class=\"om-table-cell\" data-om-table-cell=\"\
+      om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>DT</p></td><td class=\"om-table-cell\"\
+      \ data-om-table-cell=\"om-table-cell\" colspan=\"1\" rowspan=\"1\"><p></p></td></tr><tr\
+      \ class=\"om-table-row\" data-om-table-row=\"om-table-row\"><td class=\"om-table-cell\"\
+      \ data-om-table-cell=\"om-table-cell\" colspan=\"3\" rowspan=\"1\"><p><strong>CSTD_LIABILITY_TYPE</strong></p></td></tr><tr\
+      \ class=\"om-table-row\" data-om-table-row=\"om-table-row\"><td class=\"om-table-cell\"\
+      \ data-om-table-cell=\"om-table-cell\" colspan=\"2\" rowspan=\"1\"><p>مالیات\
+      </p></td><td class=\"om-table-cell\" data-om-table-cell=\"om-table-cell\" colspan=\"\
+      1\" rowspan=\"1\"><p>TAXLB</p></td></tr><tr class=\"om-table-row\" data-om-table-row=\"\
+      om-table-row\"><td class=\"om-table-cell\" data-om-table-cell=\"om-table-cell\"\
+      \ colspan=\"2\" rowspan=\"1\"><p>جریمه / خوش حسابی</p></td><td class=\"om-table-cell\"\
+      \ data-om-table-cell=\"om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>INTRES</p></td></tr><tr\
+      \ class=\"om-table-row\" data-om-table-row=\"om-table-row\"><td class=\"om-table-cell\"\
+      \ data-om-table-cell=\"om-table-cell\" colspan=\"2\" rowspan=\"1\"><p>قانون\
+      \ مالیاتهای مستقیم: جریمه درخصوص ماده 169 اصلاحی</p></td><td class=\"om-table-cell\"\
+      \ data-om-table-cell=\"om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>AUD169R</p></td></tr></tbody></table><p>&nbsp;</p><table\
+      \ class=\"om-table\" data-om-table=\"om-table\" style=\"minWidth: 50px\"><colgroup><col><col></colgroup><tbody><tr\
+      \ class=\"om-table-row\" data-om-table-row=\"om-table-row\"><td class=\"om-table-cell\"\
+      \ data-om-table-cell=\"om-table-cell\" colspan=\"2\" rowspan=\"1\"><p><strong>CSTD_ENTITY</strong></p></td></tr><tr\
+      \ class=\"om-table-row\" data-om-table-row=\"om-table-row\"><td class=\"om-table-cell\"\
+      \ data-om-table-cell=\"om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>پرداخت\
+      </p></td><td class=\"om-table-cell\" data-om-table-cell=\"om-table-cell\" colspan=\"\
+      1\" rowspan=\"1\"><p>PAY</p></td></tr><tr class=\"om-table-row\" data-om-table-row=\"\
+      om-table-row\"><td class=\"om-table-cell\" data-om-table-cell=\"om-table-cell\"\
+      \ colspan=\"1\" rowspan=\"1\"><p>اظهارنامه</p></td><td class=\"om-table-cell\"\
+      \ data-om-table-cell=\"om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>RET</p></td></tr><tr\
+      \ class=\"om-table-row\" data-om-table-row=\"om-table-row\"><td class=\"om-table-cell\"\
+      \ data-om-table-cell=\"om-table-cell\" colspan=\"1\" rowspan=\"1\"><p>ترتیب\
+      \ پرداخت</p></td><td class=\"om-table-cell\" data-om-table-cell=\"om-table-cell\"\
+      \ colspan=\"1\" rowspan=\"1\"><p>RP</p></td></tr></tbody></table><p></p>"
+    displayName: Json#Schema/Value
+    deleted: false
+  - id: dd464129-e87a-4a78-b106-70eb6f234dc6
+    type: apiService
+    name: OpenMetadata_dataInsight_01
+    fullyQualifiedName: OpenMetadata_dataInsight_01
+    description: ""
+    displayName: OpenMetadata_dataInsight_01
+    deleted: false
+  - id: 28dc9dcc-7cb7-432a-b717-46f10fef091d
+    type: glossaryTerm
+    name: OpenMetadata_dataInsight_01
+    fullyQualifiedName: TestNewGlossary.OpenMetadata_dataInsight_01
+    description: sss
+    displayName: displayname
+    deleted: false
+  - id: d1af3926-256e-4b1a-903d-a6b3fc813ab0
+    type: dataInsightDashboard
+    name: SC_CUSTOM_DASHBOARD
+    fullyQualifiedName: SC_CUSTOM_DASHBOARD
+    description: SC_CUSTOM_DASHBOARD
+    displayName: SC_CUSTOM_DASHBOARD
+    deleted: false
+  - id: feaac17b-db67-4eb5-953e-8f30eb43a76c
+    type: glossary
+    name: Testing Edit Role
+    fullyQualifiedName: Testing Edit Role
+    description: Testing Edit Role
+    displayName: Testing Edit Role
+    deleted: false
+  - id: de24fbda-0279-40a1-bb7b-e2094472a529
+    type: glossaryTerm
+    name: Testing Edit Role Term  2
+    fullyQualifiedName: Testing Edit Role.Testing Edit Role Term  2
+    description: Testing Edit Role Term  2
+    displayName: Testing Edit Role Term  2
+    deleted: false
+  - id: 27eb56a8-103c-4879-b1b5-0fdd71b02b82
+    type: databaseService
+    name: athena_prod
+    fullyQualifiedName: athena_prod
+    description: ""
+    displayName: athena_prod_display_name
+    deleted: false
+  - id: a2c40d94-8d29-4943-9a42-8d2b6fd51123
+    type: table
+    name: cloudfront_logs
+    fullyQualifiedName: athena_prod.default.default.cloudfront_logs
+    displayName: cloudfront_logs_display_name
+    deleted: false
+  - id: 27e20082-42ec-4976-bfe0-1c23904d3283
+    type: table
+    name: cloudfront_logs2
+    fullyQualifiedName: athena_prod.default.default.cloudfront_logs2
+    displayName: cloudfront_logs2
+    deleted: false
+  - id: 7f2bbf69-0928-438e-aa14-2799a246d08b
+    type: apiEndpoint
+    name: createTable
+    fullyQualifiedName: ometa_api_service.tables.createTable
+    description: Create a new table under an existing database
+    displayName: Create a table
+    deleted: false
+  - id: 19ffb86b-19cb-448f-bfb2-e1a7ad3d4eca
+    type: table
+    name: customers
+    fullyQualifiedName: athena_prod.default.newschema.customers
+    description: Customers Table
+    displayName: Customer
+    deleted: false
+  - id: b77cdf4c-cc88-410c-bb54-20cca5f64dae
+    type: table
+    name: customers
+    fullyQualifiedName: athena_prod.default.testdatalake_db.customers
+    displayName: customers
+    deleted: false
+  - id: 8964b4e4-1534-427c-9080-4dc97a5bbe7a
+    type: databaseSchema
+    name: default
+    fullyQualifiedName: athena_prod.default.default
+    description: <p>test update description test</p>
+    displayName: default
+    deleted: false
+  - id: 6488250e-b45c-4c34-bad8-6be286cb3463
+    type: database
+    name: default
+    fullyQualifiedName: athena_prod.default
+    description: ""
+    displayName: default_display_name
+    deleted: false
+  - id: 697c7b5a-184d-452d-8f31-9c310ef68a47
+    type: table
+    name: iceberg_table
+    fullyQualifiedName: athena_prod.default.mydatabase.iceberg_table
+    displayName: iceberg_table
+    deleted: false
+  - id: 782eea47-566c-454c-b54d-f78f41c48615
+    type: table
+    name: iceberg_table_three
+    fullyQualifiedName: athena_prod.default.mydatabase.iceberg_table_three
+    displayName: iceberg_table_three
+    deleted: false
+  - id: 9f5becee-f5e9-4872-9a2d-ba7920ed6670
+    type: table
+    name: iceberg_table_two
+    fullyQualifiedName: athena_prod.default.mydatabase.iceberg_table_two
+    displayName: iceberg_table_two
+    deleted: false
+  - id: 0bd1e137-b024-40cc-b64f-65a8adb1c412
+    type: table
+    name: map_table
+    fullyQualifiedName: athena_prod.default.default.map_table
+    displayName: map_table
+    deleted: false
+  - id: 0ec65dfe-075b-4df0-8504-3eae3b6f77c0
+    type: databaseSchema
+    name: mydatabase
+    fullyQualifiedName: athena_prod.default.mydatabase
+    description: ""
+    displayName: mydatabase
+    deleted: false
+  - id: d15d1fdc-17b7-4ec3-87d5-34212c04ff09
+    type: table
+    name: mynewtable
+    fullyQualifiedName: athena_prod.default.default.mynewtable
+    displayName: mynewtable
+    deleted: false
+  - id: 800c2de7-7d98-4e62-b166-b393afcaea6d
+    type: table
+    name: mynewtable1
+    fullyQualifiedName: athena_prod.default.default.mynewtable1
+    displayName: mynewtable1
+    deleted: false
+  - id: 16d681bf-3e09-4d64-b34d-7c14c13d25a7
+    type: table
+    name: mynewtable2
+    fullyQualifiedName: athena_prod.default.default.mynewtable2
+    displayName: mynewtable2
+    deleted: false
+  - id: d0cb6afc-add7-4039-bcd1-83200ff7b1fe
+    type: table
+    name: mynewtable3
+    fullyQualifiedName: athena_prod.default.default.mynewtable3
+    displayName: mynewtable3
+    deleted: false
+  - id: fa91cf0e-f415-4714-be0e-1360392427d9
+    type: table
+    name: mytable
+    fullyQualifiedName: athena_prod.default.default.mytable
+    displayName: mytable
+    deleted: false
+  - id: 8f60fa09-6c0a-431d-b3c9-cb10b425d7bc
+    type: table
+    name: mytable4
+    fullyQualifiedName: athena_prod.default.default.mytable4
+    displayName: mytable4
+    deleted: false
+  - id: 80014318-b632-46a1-be19-e8022065a3a2
+    type: table
+    name: mytable5
+    fullyQualifiedName: athena_prod.default.default.mytable5
+    displayName: mytable5
+    deleted: false
+  - id: bf3d0193-cefd-4397-9c55-09b7cf0324d7
+    type: table
+    name: mytable6
+    fullyQualifiedName: athena_prod.default.default.mytable6
+    displayName: mytable6
+    deleted: false
+  - id: 2b1e2b5c-8d52-4c4e-be56-6096c115d451
+    type: table
+    name: mytablecopy
+    fullyQualifiedName: athena_prod.default.default.mytablecopy
+    displayName: mytablecopy
+    deleted: false
+  - id: d6222956-4579-4c96-858d-9bd4c4b3221f
+    type: table
+    name: myview
+    fullyQualifiedName: athena_prod.default.default.myview
+    description: Presto View
+    displayName: myview
+    deleted: false
+  - id: 4f74f0c3-5214-472d-a21d-72d5c03abc86
+    type: table
+    name: myview1
+    fullyQualifiedName: athena_prod.default.default.myview1
+    description: Presto View
+    displayName: myview1
+    deleted: false
+  - id: 4f7dbb79-ef3a-4baf-a446-1efcb3ad667f
+    type: table
+    name: new_customers
+    fullyQualifiedName: athena_prod.default.newschema.new_customers
+    description: New customers table
+    displayName: New Customers
+    deleted: false
+  - id: 9797094d-7eb7-4168-9caa-e40e6f253e16
+    type: table
+    name: new_customers
+    fullyQualifiedName: athena_prod.default.testdatalake_db.new_customers
+    displayName: new_customers
+    deleted: false
+  - id: 8ad34b96-118e-4073-bcba-dc2ecb3c869b
+    type: table
+    name: new_view
+    fullyQualifiedName: athena_prod.default.mydatabase.new_view
+    description: Presto View
+    displayName: new_view
+    deleted: false
+  - id: ab0f82ed-6d58-45a9-b4e2-d94f668fba87
+    type: databaseSchema
+    name: newschema
+    fullyQualifiedName: athena_prod.default.newschema
+    description: Some description here updated
+    displayName: New Schema1
+    deleted: false
+  - id: df052017-98da-4e70-a110-f6cc586e4afc
+    type: table
+    name: om_glue_test
+    fullyQualifiedName: athena_prod.default.mydatabase.om_glue_test
+    displayName: om_glue_test
+    deleted: false
+  - id: 6f930d0b-6c9b-434a-b1fb-8ec5fc11c7bd
+    type: table
+    name: om_view_test
+    fullyQualifiedName: athena_prod.default.mydatabase.om_view_test
+    description: Presto View
+    displayName: om_view_test
+    deleted: false
+  - id: 76a27435-9cac-429f-853f-83e32da4d916
+    type: databaseSchema
+    name: raw-zone
+    fullyQualifiedName: athena_prod.default.raw-zone
+    description: ""
+    displayName: raw-zone
+    deleted: false
+  - id: 7de1572e-e66a-47b4-aec0-67366f1c56fb
+    type: table
+    name: raw_customer
+    fullyQualifiedName: sample_data.ecommerce_db.shopify.raw_customer
+    description: "This is a raw customers table as represented in our online DB. This\
+      \ contains personal, shipping and billing addresses and details of the customer\
+      \ store and customer profile. This table is used to build our dimensional and\
+      \ fact tables"
+    displayName: raw_customer
+    deleted: false
+  - id: 2bd8fe4f-28e7-4df6-bfff-2941b8c5909d
+    type: table
+    name: sales_new
+    fullyQualifiedName: athena_prod.default.testdatalake_db.sales_new
+    displayName: sales_new
+    deleted: false
+  - id: 301db876-0ea7-4468-8749-e354d9945379
+    type: table
+    name: sales_new
+    fullyQualifiedName: athena_prod.default.newschema.sales_new
+    description: ""
+    displayName: sales_new
+    deleted: false
+  - id: 8c2762de-226e-483a-9ae4-188a2c8b9015
+    type: databaseSchema
+    name: sys
+    fullyQualifiedName: Druid.default.sys
+    displayName: sys
+    deleted: false
+  - id: c512e3aa-20be-4344-8351-71850fa123e7
+    type: table
+    name: table_with_partition
+    fullyQualifiedName: athena_prod.default.mydatabase.table_with_partition
+    displayName: table_with_partition
+    deleted: false
+  - id: ca9f28cd-0cb3-47c3-98db-eb2657f38605
+    type: table
+    name: test-table
+    fullyQualifiedName: athena_prod.default.raw-zone.test-table
+    displayName: test-table
+    deleted: false
+  - id: 0618d565-7230-494b-b8d3-ecb0e1f8eff6
+    type: apiEndpoint
+    name: test16
+    fullyQualifiedName: ometa_api_service.tables.test16
+    displayName: test16
+    deleted: false
+  - id: c811a688-f6ef-4355-82be-8ca4065fcdd3
+    type: storedProcedure
+    name: test2
+    fullyQualifiedName: athena_prod.default.default.test2
+    description: <p>new description</p>
+    displayName: test2
+    deleted: false
+  - id: 4dbf21ea-3d48-4851-8d65-93905841baf8
+    type: table
+    name: test_data_types
+    fullyQualifiedName: athena_prod.default.mydatabase.test_data_types
+    displayName: test_data_types
+    deleted: false
+  - id: abb91390-f1da-4d50-aa91-87e519bcfac6
+    type: table
+    name: test_s3
+    fullyQualifiedName: athena_prod.default.mydatabase.test_s3
+    displayName: test_s3
+    deleted: false
+  - id: bf20d460-046b-43b5-8b38-e4f180bf2794
+    type: table
+    name: test_table_comment
+    fullyQualifiedName: athena_prod.default.mydatabase.test_table_comment
+    description: TEST COMMENT
+    displayName: test_table_comment
+    deleted: false
+  - id: 89b24c0f-9f94-484d-8406-1068231a698b
+    type: databaseSchema
+    name: testdatalake_db
+    fullyQualifiedName: athena_prod.default.testdatalake_db
+    description: ""
+    displayName: testdatalake_db
+    deleted: false
+  - id: 55c77746-e63b-4a8d-a81b-b731fcef7db5
+    type: dashboardService
+    name: testing
+    fullyQualifiedName: testing
+    description: ""
+    displayName: testing
+    deleted: false
+  - id: c0cc2800-e6ff-41f2-b293-06b817d4430f
+    type: dataInsightDashboard
+    name: 'testing / custom dashboard again '
+    fullyQualifiedName: 'testing / custom dashboard again '
+    description: 'testing / custom dashboard again '
+    displayName: 'testing / custom dashboard again '
+    deleted: false
+  - id: 8dbcc3b5-6c48-4cb5-bb68-ffb008014fc3
+    type: dataInsightDashboard
+    name: testing / custom dashboard do not use it
+    fullyQualifiedName: testing / custom dashboard do not use it
+    description: testing / custom dashboard do not use it
+    displayName: testing / custom dashboard do not use it
+    deleted: false
+  - id: 9e297226-5807-4064-b93a-40308091310d
+    type: glossary
+    name: testing / glossary do not use it
+    fullyQualifiedName: testing / glossary do not use it
+    description: testing / glossary do not use it
+    displayName: testing / glossary do not use it
+    deleted: false
+  - id: 395e6074-b3f7-492f-bc1d-487d2263c51f
+    type: glossaryTerm
+    name: testing / glossary term do not use it
+    fullyQualifiedName: testing / glossary do not use it.testing / glossary term do
+      not use it
+    description: testing / glossary term do not use it
+    displayName: testing / glossary term do not use it
+    deleted: false
+  - id: 5295804a-6431-4ae2-9fd5-828f11003228
+    type: apiService
+    name: testing / service do not use it
+    fullyQualifiedName: testing / service do not use it
+    description: testing / service do not use it
+    displayName: testing / service do not use it
+    deleted: false
+  - id: 86fec57c-2d3e-4f19-9930-e116947cf73d
+    type: testSuite
+    name: testing / test suite do not use it
+    fullyQualifiedName: testing / test suite do not use it
+    description: testing / test suite do not use it
+    displayName: testing / test suite do not use it
+    deleted: false
+  - id: c5953260-03a0-47dc-a602-7431689b0a3e
+    type: domain
+    name: testing-rbac-sub-domain
+    fullyQualifiedName: Design.testing-rbac-sub-domain
+    description: Testing RBAC SUB DOMAIN
+    displayName: Testing RBAC SUB DOMAIN
+  - id: 4724fd92-2192-45c8-b24f-b6de6e8ba5a1
+    type: glossary
+    name: testing2
+    fullyQualifiedName: testing2
+    description: Testing
+    displayName: testing2
+    deleted: false
+  - id: 0ad27a4a-a182-4015-80d4-ccb2b03d4d85
+    type: glossaryTerm
+    name: testing_term_1
+    fullyQualifiedName: testing2.testing_term.testing_term_1
+    description: testing_term_1
+    displayName: testing_term_1
+    deleted: false
+  - id: 9ad274d5-b76d-4605-8a3a-e9798c4ae645
+    type: glossaryTerm
+    name: testing_term_2
+    fullyQualifiedName: testing2.testing_term_2
+    description: testing_term_2
+    displayName: testing_term_2
+    deleted: false
+  - id: ecb0f293-95f1-48cb-b730-75f664a73771
+    type: glossaryTerm
+    name: testing_term_3
+    fullyQualifiedName: testing2.testing_term_3
+    description: testing_term_3
+    displayName: testing_term_3
+    deleted: false
+  - id: 33c6d33b-0401-4494-b0d3-6ba82d7ebc1e
+    type: glossaryTerm
+    name: testing_term_4
+    fullyQualifiedName: testing2.testing_term_3.testing_term_4
+    description: testing_term_4
+    displayName: testing_term_4
+    deleted: false
+  - id: 0ca9dbef-29fc-4cfe-bef7-ba6826959dfe
+    type: glossary
+    name: tetsing
+    fullyQualifiedName: tetsing
+    description: dd
+    displayName: tetsing
+    deleted: false
+  - id: 0d41fb72-8965-4b08-b52d-d9f1fc7cda01
+    type: glossaryTerm
+    name: tetsingtersm
+    fullyQualifiedName: tetsing.tetsingtersm
+    description: tetsingtersm
+    displayName: tetsingtersm
+    deleted: false
+  - id: 0bbd6329-caeb-4548-8697-1384f29c9cfc
+    type: glossaryTerm
+    name: unique testing two
+    fullyQualifiedName: 管理.unique testing two
+    description: testing
+    displayName: testing
+    deleted: false
+  - id: 866b8661-0998-488a-963b-7c979dccbfad
+    type: glossaryTerm
+    name: unique testing two
+    fullyQualifiedName: testing2.unique testing two
+    description: testing
+    displayName: testing
+    deleted: false
+  - id: a249d3cf-22ce-4ff5-ab3f-f15fb6c79ec1
+    type: glossaryTerm
+    name: unique testing two
+    fullyQualifiedName: '"Bug.Test".unique testing two'
+    description: testing
+    displayName: testing
+    deleted: false
+  - id: 775f7729-4df1-4369-a8b5-a41e8c78c480
+    type: databaseSchema
+    name: zipcode-db
+    fullyQualifiedName: athena_prod.default.zipcode-db
+    description: "<p>description testing s simply dummy text of the printing and typesetting\
+      \ industry. Lorem Ipsum has been the industry's standard dummy text ever since\
+      \ the 1500s, when an unknown printer took a galley of type and scrambled it\
+      \ to make a type specimen book. It has survived not only five centuries, but\
+      \ also the leap into electronic typesetting, remaining essentially unchanged.\
+      \ It was popularised in the 1960s with the release of Letraset sheets containing\
+      \ Lorem Ipsum passages, and more recently with desktop publishing software like\
+      \ Aldus PageMaker including versions of Lorem Ipsum.<br>s simply dummy text\
+      \ of the printing and typesetting industry. Lorem Ipsum has been the industry's\
+      \ standard dummy text ever since the 1500s, when an unknown printer took a galley\
+      \ of type and scrambled it to make a type specimen book. It has survived not\
+      \ only five centuries, but also the leap into electronic typesetting, remaining\
+      \ essentially unchanged. It was popularised in the 1960s with the release of\
+      \ Letraset sheets containing Lorem Ipsum passages, and more recently with desktop\
+      \ publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>"
+    displayName: zipcode-db
+    deleted: false
+  - id: 588012bc-a359-438d-ad55-c91871466058
+    type: glossaryTerm
+    name: Привет мир
+    fullyQualifiedName: พยัญชนะ - Thai DisplayName.Привет мир
+    description: Привет мир
+    displayName: Привет мир
+    deleted: false
+  - id: f8c8f38d-b636-4686-a5b6-938678d19b1f
+    type: glossaryTerm
+    name: พยัญชนะ - Thai DisplayName
+    fullyQualifiedName: พยัญชนะ - Thai DisplayName.พยัญชนะ - Thai DisplayName
+    description: |
+      พยัญชนะ - Thai DisplayName
+    displayName: พยัญชนะ - Thai DisplayName
+    deleted: false
+  - id: 7279987f-b162-404f-a22f-ab14718ddab9
+    type: glossary
+    name: พยัญชนะ - Thai DisplayName
+    fullyQualifiedName: พยัญชนะ - Thai DisplayName
+    description: |
+      พยัญชนะ - Thai DisplayName
+    displayName: พยัญชนะ - Thai DisplayName
+    deleted: false
+follows: []
+incrementalChangeDescription:
+  fieldsAdded:
+    - name: defaultPersona
+      newValue: "{\"id\":\"0fe6c565-1705-42cf-a2e6-89d340d30039\",\"type\":\"persona\"\
+        ,\"name\":\"Data Engineer\",\"fullyQualifiedName\":\"Data Engineer\",\"description\"\
+        :\"<p>Data Steward</p>\",\"displayName\":\"Data Steward\"}"
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 1.4
+  changeSummary: {}
+roles: []
+inheritedRoles: []
+isEmailVerified: true
+domains:
+  - id: 85e932a2-e842-4a68-8db7-abf5f78bbcbd
+    type: domain
+    name: Domain Test
+    fullyQualifiedName: Domain Test
+    description: <p>Domain Test</p>
+    displayName: Domain Test
+  - id: 9545569e-9b4e-4be0-8142-ce5d502fbab7
+    type: domain
+    name: Product
+    fullyQualifiedName: Product
+    description: A Domain producing  and serving Product Master Data.
+    displayName: Product Name
+  - id: c5953260-03a0-47dc-a602-7431689b0a3e
+    type: domain
+    name: testing-rbac-sub-domain
+    fullyQualifiedName: Design.testing-rbac-sub-domain
+    description: Testing RBAC SUB DOMAIN
+    displayName: Testing RBAC SUB DOMAIN
+  - id: e0c57bf5-9e9c-4757-9a2b-3303af44361e
+    type: domain
+    name: Sub Domain Pere
+    fullyQualifiedName: Domain Pere.Sub Domain Pere
+    description: asd
+    displayName: Sub Domain Pere
+  - id: e12664a5-8bbe-4aa7-acc2-9ce686fe09e6
+    type: domain
+    name: Sales
+    fullyQualifiedName: Sales
+    description: Sales
+    displayName: Sales
+  - id: 31c2b84e-b87a-4e47-934f-9c5309fbb7c3
+    type: domain
+    name: Engineering
+    fullyQualifiedName: Engineering
+    description: Domain related engineering development.
+    displayName: Engineering
+  - id: 46a38dc6-805a-42bf-90ce-bbf641e75f35
+    type: domain
+    name: Domain Pere
+    fullyQualifiedName: Domain Pere
+    description: asd
+    displayName: Domain Pere
+  - id: 52fc9c67-78b7-42bf-8147-69278853c230
+    type: domain
+    name: Design
+    fullyQualifiedName: Design
+    description: <p>Here' the description for Product Design</p>
+    displayName: 'Product Design '
+  - id: 635cf2af-5175-44e4-91f1-030beab290d5
+    type: domain
+    name: Marketing
+    fullyQualifiedName: Marketing
+    description: Marketing
+    displayName: Marketing
+  - id: 6dec5ead-5cdd-4f43-b085-54de6b3f8107
+    type: domain
+    name: Finance
+    fullyQualifiedName: Finance
+    description: "Finance, this is a test"
+    displayName: Finance
+  - id: 761f0a12-7b08-4889-acc3-b8d4d11a7865
+    type: domain
+    name: domain.with.dot
+    fullyQualifiedName: '"domain.with.dot"'
+    description: domain.with.dot
+    displayName: domain.with.dot
+personaPreferences: []
