@@ -1,0 +1,79 @@
+name: mohit
+fullyQualifiedName: mohit
+displayName: Mohit Yadav
+email: mohit@getcollate.io
+isBot: false
+isAdmin: true
+allowImpersonation: false
+authenticationMechanism: {}
+profile:
+  images:
+    image: https://lh3.googleusercontent.com/a/ACg8ocJPXyrtKDyv67PZfWKmGMCmvj7YJO2yVas9XNB6dTP3=s96-c
+    image24: https://lh3.googleusercontent.com/a/ACg8ocJPXyrtKDyv67PZfWKmGMCmvj7YJO2yVas9XNB6dTP3=s24-c
+    image32: https://lh3.googleusercontent.com/a/ACg8ocJPXyrtKDyv67PZfWKmGMCmvj7YJO2yVas9XNB6dTP3=s32-c
+    image48: https://lh3.googleusercontent.com/a/ACg8ocJPXyrtKDyv67PZfWKmGMCmvj7YJO2yVas9XNB6dTP3=s48-c
+    image72: https://lh3.googleusercontent.com/a/ACg8ocJPXyrtKDyv67PZfWKmGMCmvj7YJO2yVas9XNB6dTP3=s72-c
+    image192: https://lh3.googleusercontent.com/a/ACg8ocJPXyrtKDyv67PZfWKmGMCmvj7YJO2yVas9XNB6dTP3=s192-c
+    image512: https://lh3.googleusercontent.com/a/ACg8ocJPXyrtKDyv67PZfWKmGMCmvj7YJO2yVas9XNB6dTP3=s512-c
+teams:
+  - id: 9efbccd7-3d0b-485d-89c4-ac0f8fc80da5
+    type: team
+    name: Organization
+    fullyQualifiedName: Organization
+    description: <p>Organization under which all the other team hierarchy is created
+      Organization under which all the other team hierarchy is createdOrganization
+      under which all the other team hierarchy is createdOrganization under which
+      all the other team hierarchy is createdOrganization under which all the other
+      team hierarchy is createdOrganization under which all the other team hierarchy
+      is createdOrganization under which all the other team hierarchy is createdOrganization
+      under which all the other team hierarchy is createdOrganization under which
+      all the other team hierarchy is createdOrganization under which all the other
+      team hierarchy is createdOrganization under which all the other team hierarchy
+      is createdOrganization under which all the other team hierarchy is createdOrganization
+      under which all the other team hierarchy is createdOrganization under which
+      all the other team hierarchy is createdOrganization under which all the other
+      team hierarchy is createdOrganization under which all the other team hierarchy
+      is createdOrganization under which all the other team hierarchy is created</p>
+    displayName: Organization
+    deleted: false
+    href: https://sandbox-beta.open-metadata.org/api/v1/teams/9efbccd7-3d0b-485d-89c4-ac0f8fc80da5
+personas: []
+owns:
+  - id: 379ad910-0673-4a24-8cd3-7744784a76dc
+    type: ingestionPipeline
+    name: 95bfef21-5c9d-457f-b11c-fb11bcfd11b0
+    fullyQualifiedName: sample_data.95bfef21-5c9d-457f-b11c-fb11bcfd11b0
+    displayName: Metadata Agent
+    deleted: false
+  - id: 3f860987-3da0-4d35-953b-e31cd000cbac
+    type: table
+    name: dim.product
+    fullyQualifiedName: sample_data.ecommerce_db.shopify."dim.product"
+    description: This dimension table contains information about each of the products
+      in your store. This table contains one row per product. This table reflects
+      the current state of products in your Shopify admin.
+    displayName: dim.product
+    deleted: false
+  - id: 18642b24-d542-403a-8551-a815f475c815
+    type: userQueryRunnerConfig
+    name: mohit
+    fullyQualifiedName: qr_bq.queryRunner.user.ed8a779f-c6af-4e65-85ca-4e4e018c7027
+    displayName: mohit
+    deleted: false
+  - id: 75199480-3d06-4b6f-89d2-e8805ebe8d01
+    type: databaseService
+    name: sample_data
+    fullyQualifiedName: sample_data
+    displayName: sample_data
+    deleted: false
+follows: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 5.0
+roles: []
+inheritedRoles: []
+isEmailVerified: true
+domains: []
+personaPreferences: []
