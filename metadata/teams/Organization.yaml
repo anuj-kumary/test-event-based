@@ -1,0 +1,231 @@
+teamType: Organization
+name: Organization
+email: rupesh@getcollate.io
+fullyQualifiedName: Organization
+displayName: Organization
+description: <p>Organization under which all the other team hierarchy is created Organization
+  under which all the other team hierarchy is createdOrganization under which all
+  the other team hierarchy is createdOrganization under which all the other team hierarchy
+  is createdOrganization under which all the other team hierarchy is createdOrganization
+  under which all the other team hierarchy is createdOrganization under which all
+  the other team hierarchy is createdOrganization under which all the other team hierarchy
+  is createdOrganization under which all the other team hierarchy is createdOrganization
+  under which all the other team hierarchy is createdOrganization under which all
+  the other team hierarchy is createdOrganization under which all the other team hierarchy
+  is createdOrganization under which all the other team hierarchy is createdOrganization
+  under which all the other team hierarchy is createdOrganization under which all
+  the other team hierarchy is createdOrganization under which all the other team hierarchy
+  is createdOrganization under which all the other team hierarchy is created</p>
+parents: []
+children:
+  - id: b1fd1fd6-ff2e-4ef3-a40c-363e106b32d7
+    type: team
+    name: Ajith Test
+    fullyQualifiedName: Ajith Test
+    displayName: Ajith Test
+    deleted: false
+  - id: 13b1a4af-9bb8-43f1-8796-be7263095227
+    type: team
+    name: AyushDomainSpecific
+    fullyQualifiedName: AyushDomainSpecific
+    displayName: AyushDomainSpecific
+    deleted: false
+  - id: 0bf1afff-0177-4fd6-92d3-f08569efb4db
+    type: team
+    name: Business
+    fullyQualifiedName: Business
+    displayName: Business
+    deleted: false
+  - id: 745102d1-e52c-468f-90cc-3331933ddefd
+    type: team
+    name: Business-type
+    fullyQualifiedName: Business-type
+    displayName: Business-type
+    deleted: false
+  - id: 4def77a4-5d29-4665-96fa-3b7a873a2330
+    type: team
+    name: Customer
+    fullyQualifiedName: Customer
+    displayName: Customer
+    deleted: false
+  - id: a106fda8-aa40-47a5-85c1-d71ed26f52ee
+    type: team
+    name: Department_View
+    fullyQualifiedName: Department_View
+    displayName: Department_View
+    deleted: false
+  - id: 326414e1-ed63-4a59-92e3-a9c9354087b4
+    type: team
+    name: Design
+    fullyQualifiedName: Design
+    displayName: PD
+    deleted: false
+  - id: 7d4bb1b8-9a2e-456f-a4b9-a34366801ceb
+    type: team
+    name: Engineering
+    fullyQualifiedName: Engineering
+    displayName: Engineering
+    deleted: false
+  - id: be5daa5e-a083-4ee2-b84f-1d3d8701ace4
+    type: team
+    name: Finance
+    fullyQualifiedName: Finance
+    displayName: Finance
+    deleted: false
+  - id: 8608d38f-8942-418a-a4fb-ba44a024d6ee
+    type: team
+    name: Legal
+    fullyQualifiedName: Legal
+    displayName: Legal
+    deleted: false
+  - id: 41d16e9f-2e37-44c3-94e8-8baaaade4d1b
+    type: team
+    name: New Team
+    fullyQualifiedName: New Team
+    displayName: New Team
+    deleted: false
+  - id: 2138822a-2653-4845-a10b-c83ab2a1ee4a
+    type: team
+    name: OnboardingTeam
+    fullyQualifiedName: OnboardingTeam
+    displayName: OnboardingTeam
+    deleted: false
+  - id: b956c45d-0bf0-4dbd-98d7-234911f3f4fa
+    type: team
+    name: PW%team-23d3be62
+    fullyQualifiedName: PW%team-23d3be62
+    displayName: PW%team-23d3be62
+    deleted: false
+  - id: 908a82ad-e618-4f2e-8a66-c890f964df74
+    type: team
+    name: RestrictGlossary
+    fullyQualifiedName: RestrictGlossary
+    displayName: RestrictGlossary
+    deleted: false
+  - id: 6384ffa0-8dca-4479-9997-5abb19233428
+    type: team
+    name: Team A
+    fullyQualifiedName: Team A
+    displayName: TeamA
+    deleted: false
+  - id: 6777dc5a-a898-486c-a17d-38887645e9e6
+    type: team
+    name: Team B
+    fullyQualifiedName: Team B
+    displayName: TeamB
+    deleted: false
+  - id: 8ef5ca04-28cb-40bb-865b-d3a1198fc10a
+    type: team
+    name: TeamA
+    fullyQualifiedName: TeamA
+    displayName: TeamA
+    deleted: false
+  - id: be310680-896e-4a34-b560-3ebc233366fa
+    type: team
+    name: Test Group Ajith
+    fullyQualifiedName: Test Group Ajith
+    displayName: Test Group Ajith
+    deleted: false
+  - id: 118e091a-0fee-47a8-9929-05c1f10d8c36
+    type: team
+    name: Test Team 1
+    fullyQualifiedName: Test Team 1
+    displayName: test team1
+    deleted: false
+  - id: 02572492-b9af-4e28-8231-b6d311e81d51
+    type: team
+    name: abc.def.ghi
+    fullyQualifiedName: '"abc.def.ghi"'
+    displayName: abc.def.ghi
+    deleted: false
+  - id: 69c2879c-6343-4974-9b61-5d40e49c39e5
+    type: team
+    name: abc.def.ghiabc.def.ghi
+    fullyQualifiedName: '"abc.def.ghiabc.def.ghi"'
+    displayName: abc.def.ghiabc.def.ghi
+    deleted: false
+  - id: bb4ceaf4-e13b-4caa-818a-dbfaacfe31e7
+    type: team
+    name: department
+    fullyQualifiedName: department
+    displayName: Departments
+    deleted: false
+  - id: ce543950-2d4b-4ff0-ba49-9b03e01e31da
+    type: team
+    name: division
+    fullyQualifiedName: division
+    displayName: division
+    deleted: false
+  - id: c622e0c3-46ed-45d0-9d4f-81f4884efe0d
+    type: team
+    name: team%.with%.stuff
+    fullyQualifiedName: '"team%.with%.stuff"'
+    displayName: team%.with%.stuff
+    deleted: false
+  - id: 6e2bbd23-a41b-4c5a-bb1f-7d606b302cc6
+    type: team
+    name: team.with.dot
+    fullyQualifiedName: '"team.with.dot"'
+    displayName: Team.with.dot
+    deleted: false
+  - id: fb50848d-badf-4f4a-bd27-a1919d9d3d87
+    type: team
+    name: testing
+    fullyQualifiedName: testing
+    displayName: Testing Team
+    deleted: true
+  - id: 65214772-5915-4d87-b1c2-defa1c03abc2
+    type: team
+    name: testing / team do not use it
+    fullyQualifiedName: testing / team do not use it
+    displayName: testing / team do not use it
+    deleted: false
+  - id: c1bb7530-716f-4361-9b44-b7166571b35b
+    type: team
+    name: testing team 101
+    fullyQualifiedName: testing team 101
+    displayName: testing team 101
+    deleted: false
+  - id: d0b6f19e-0ab9-4a91-b74f-a16c8a2ba3c1
+    type: team
+    name: testing-domain-team
+    fullyQualifiedName: testing-domain-team
+    displayName: Testing Domain Team
+    deleted: false
+  - id: 80bc6621-b08c-4445-b74a-e04b4b2e8082
+    type: team
+    name: testing-team 123
+    fullyQualifiedName: testing-team 123
+    displayName: Testing Team-123
+    deleted: true
+  - id: 8fcdb39e-d0cd-4cd6-9615-31997b297e6c
+    type: team
+    name: พยัญชนะ - Thai DisplayName
+    fullyQualifiedName: พยัญชนะ - Thai DisplayName
+    displayName: พยัญชนะ - Thai DisplayName
+    deleted: false
+users: []
+childrenCount: 31
+userCount: 4
+owns: []
+owners: []
+isJoinable: true
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated: []
+  fieldsDeleted:
+    - name: children
+      oldValue: "[{\"id\":\"fb50848d-badf-4f4a-bd27-a1919d9d3d87\",\"type\":\"team\"\
+        ,\"name\":\"testing\",\"fullyQualifiedName\":\"testing\",\"displayName\":\"\
+        Testing Team\",\"deleted\":true}]"
+    - name: policies
+      oldValue: "[{\"id\":\"3801dac0-1494-479b-88f9-d9a9dd90851e\",\"type\":\"policy\"\
+        ,\"name\":\"CollateSupportPolicy\",\"fullyQualifiedName\":\"CollateSupportPolicy\"\
+        ,\"description\":\"Policy that allows Collate Support Agent to view all metadata\
+        \ entities.\",\"displayName\":\"Collate Support Policy\",\"deleted\":false}]"
+  previousVersion: 3.8
+  changeSummary: {}
+defaultRoles: []
+inheritedRoles: []
+policies: []
+domains: []
