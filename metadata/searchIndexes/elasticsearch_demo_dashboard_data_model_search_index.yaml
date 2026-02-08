@@ -1,0 +1,443 @@
+name: dashboard_data_model_search_index
+fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index
+displayName: dashboard_data_model_search_index
+service:
+  id: c26c2be6-d6d7-4a87-a7fe-ee908dbfed90
+  type: searchService
+  name: elasticsearch_demo
+  fullyQualifiedName: elasticsearch_demo
+  description: Show me in the community meeting!
+  displayName: elasticsearch_demo
+  deleted: false
+serviceType: ElasticSearch
+fields:
+  - name: columnNames
+    dataType: KEYWORD
+    fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.columnNames
+    tags: []
+  - name: column_suggest
+    dataType: COMPLETION
+    fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.column_suggest
+    tags: []
+  - name: columns
+    dataType: OBJECT
+    fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.columns
+    tags: []
+    children:
+      - name: dataType
+        dataType: TEXT
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.columns.dataType
+        tags: []
+      - name: dataTypeDisplay
+        dataType: TEXT
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.columns.dataTypeDisplay
+        tags: []
+      - name: description
+        dataType: TEXT
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.columns.description
+        tags: []
+      - name: fullyQualifiedName
+        dataType: TEXT
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.columns.fullyQualifiedName
+        tags: []
+      - name: name
+        dataType: KEYWORD
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.columns.name
+        tags: []
+      - name: ordinalPosition
+        dataType: UNKNOWN
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.columns.ordinalPosition
+        tags: []
+      - name: tags
+        dataType: OBJECT
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.columns.tags
+        tags: []
+        children:
+          - name: description
+            dataType: TEXT
+            fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.columns.tags.description
+            tags: []
+          - name: labelType
+            dataType: KEYWORD
+            fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.columns.tags.labelType
+            tags: []
+          - name: source
+            dataType: KEYWORD
+            fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.columns.tags.source
+            tags: []
+          - name: state
+            dataType: KEYWORD
+            fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.columns.tags.state
+            tags: []
+          - name: tagFQN
+            dataType: KEYWORD
+            fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.columns.tags.tagFQN
+            tags: []
+  - name: dataModelType
+    dataType: KEYWORD
+    fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.dataModelType
+    tags: []
+  - name: deleted
+    dataType: TEXT
+    fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.deleted
+    tags: []
+  - name: description
+    dataType: TEXT
+    fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.description
+    tags: []
+  - name: displayName
+    dataType: TEXT
+    fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.displayName
+    tags: []
+  - name: domain
+    dataType: OBJECT
+    fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.domain
+    tags: []
+    children:
+      - name: deleted
+        dataType: TEXT
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.domain.deleted
+        tags: []
+      - name: description
+        dataType: TEXT
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.domain.description
+        tags: []
+      - name: fullyQualifiedName
+        dataType: KEYWORD
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.domain.fullyQualifiedName
+        tags: []
+      - name: href
+        dataType: TEXT
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.domain.href
+        tags: []
+      - name: id
+        dataType: KEYWORD
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.domain.id
+        tags: []
+      - name: name
+        dataType: KEYWORD
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.domain.name
+        tags: []
+      - name: type
+        dataType: KEYWORD
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.domain.type
+        tags: []
+  - name: entityType
+    dataType: KEYWORD
+    fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.entityType
+    tags: []
+  - name: followers
+    dataType: KEYWORD
+    fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.followers
+    tags: []
+  - name: fqnParts
+    dataType: KEYWORD
+    fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.fqnParts
+    tags: []
+  - name: fullyQualifiedName
+    dataType: KEYWORD
+    fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.fullyQualifiedName
+    tags: []
+  - name: href
+    dataType: TEXT
+    fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.href
+    tags: []
+  - name: id
+    dataType: TEXT
+    fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.id
+    tags: []
+  - name: lifeCycle
+    dataType: OBJECT
+    fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.lifeCycle
+    tags: []
+  - name: name
+    dataType: TEXT
+    fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.name
+    tags: []
+  - name: owner
+    dataType: OBJECT
+    fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.owner
+    tags: []
+    children:
+      - name: deleted
+        dataType: TEXT
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.owner.deleted
+        tags: []
+      - name: description
+        dataType: TEXT
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.owner.description
+        tags: []
+      - name: displayName
+        dataType: KEYWORD
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.owner.displayName
+        tags: []
+      - name: fullyQualifiedName
+        dataType: TEXT
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.owner.fullyQualifiedName
+        tags: []
+      - name: href
+        dataType: TEXT
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.owner.href
+        tags: []
+      - name: id
+        dataType: KEYWORD
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.owner.id
+        tags: []
+      - name: name
+        dataType: KEYWORD
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.owner.name
+        tags: []
+      - name: type
+        dataType: KEYWORD
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.owner.type
+        tags: []
+  - name: project
+    dataType: TEXT
+    fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.project
+    tags: []
+  - name: service
+    dataType: OBJECT
+    fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.service
+    tags: []
+    children:
+      - name: deleted
+        dataType: TEXT
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.service.deleted
+        tags: []
+      - name: description
+        dataType: TEXT
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.service.description
+        tags: []
+      - name: fullyQualifiedName
+        dataType: TEXT
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.service.fullyQualifiedName
+        tags: []
+      - name: href
+        dataType: TEXT
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.service.href
+        tags: []
+      - name: id
+        dataType: KEYWORD
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.service.id
+        tags: []
+      - name: name
+        dataType: KEYWORD
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.service.name
+        tags: []
+      - name: type
+        dataType: KEYWORD
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.service.type
+        tags: []
+  - name: serviceType
+    dataType: KEYWORD
+    fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.serviceType
+    tags: []
+  - name: suggest
+    dataType: COMPLETION
+    fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.suggest
+    tags: []
+  - name: tags
+    dataType: OBJECT
+    fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.tags
+    tags: []
+    children:
+      - name: description
+        dataType: TEXT
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.tags.description
+        tags: []
+      - name: labelType
+        dataType: KEYWORD
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.tags.labelType
+        tags: []
+      - name: source
+        dataType: KEYWORD
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.tags.source
+        tags: []
+      - name: state
+        dataType: KEYWORD
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.tags.state
+        tags: []
+      - name: tagFQN
+        dataType: KEYWORD
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.tags.tagFQN
+        tags: []
+  - name: tier
+    dataType: OBJECT
+    fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.tier
+    tags: []
+    children:
+      - name: description
+        dataType: TEXT
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.tier.description
+        tags: []
+      - name: labelType
+        dataType: KEYWORD
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.tier.labelType
+        tags: []
+      - name: source
+        dataType: KEYWORD
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.tier.source
+        tags: []
+      - name: state
+        dataType: KEYWORD
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.tier.state
+        tags: []
+      - name: tagFQN
+        dataType: KEYWORD
+        fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.tier.tagFQN
+        tags: []
+  - name: updatedAt
+    dataType: DATE
+    fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.updatedAt
+    tags: []
+  - name: updatedBy
+    dataType: TEXT
+    fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.updatedBy
+    tags: []
+  - name: version
+    dataType: UNKNOWN
+    fullyQualifiedName: elasticsearch_demo.dashboard_data_model_search_index.version
+    tags: []
+searchIndexSettings:
+  index:
+    uuid: m5-HVyFkSV2ZBdOa8x7Rug
+    routing:
+      allocation:
+        include:
+          _tier_preference: data_content
+    version:
+      created: 8100299
+    analysis:
+      filter:
+        om_stemmer:
+          name: english
+          type: stemmer
+      analyzer:
+        om_ngram:
+          filter:
+            - lowercase
+          max_gram: 10
+          min_gram: 3
+          tokenizer: ngram
+        om_analyzer:
+          filter:
+            - lowercase
+            - om_stemmer
+          tokenizer: letter
+      normalizer:
+        lowercase_normalizer:
+          type: custom
+          filter:
+            - lowercase
+          char_filter: []
+    creation_date: 1697617640257
+    provided_name: dashboard_data_model_search_index
+    number_of_shards: 1
+    number_of_replicas: 1
+indexType: Index
+owners: []
+tags:
+  - tagFQN: General.NationalID
+    name: NationalID
+    description: "Region specific identifiers, such as [ABN](https://en.wikipedia.org/wiki/Australian_Business_Number),\
+      \ [NIF](https://es.wikipedia.org/wiki/N%C3%BAmero_de_identificaci%C3%B3n_fiscal)\
+      \ or [NHS](https://en.wikipedia.org/wiki/National_Health_Service)."
+    source: Classification
+    labelType: Derived
+    state: Confirmed
+    appliedAt: 1767969396000
+    appliedBy: admin
+  - tagFQN: New Foo.Annual Percentage Yield
+    name: Annual Percentage Yield
+    displayName: ""
+    description: "The annual yield earned on a deposit account, such as a savings,\
+      \ money market or CD account. Savers can use APY as one of several factors to\
+      \ help determine which savings options are the best."
+    source: Glossary
+    labelType: Manual
+    state: Confirmed
+    appliedAt: 1767969396000
+    appliedBy: admin
+  - tagFQN: PII.None
+    name: None
+    description: Non PII
+    style: {}
+    source: Classification
+    labelType: Derived
+    state: Confirmed
+    appliedAt: 1767969396000
+    appliedBy: admin
+  - tagFQN: Tier.Tier4
+    name: Tier4
+    description: |-
+      **Team level datasets that are typically non-business and general internal system**
+
+      - Used in product metrics, and dashboards to drive team decisions
+
+      - Used to track operational metrics of internal systems owned by the team
+
+      - Source used to derive other critical Tier-4 datasets
+    source: Classification
+    labelType: Manual
+    state: Confirmed
+    appliedAt: 1770016192589
+    appliedBy: anujkumar.yadav
+  - tagFQN: UPDATED_new_add_glossary.sample_terma.sample_term_b
+    name: sample_term_b
+    displayName: sample_term_b
+    description: sample_term_b
+    style: {}
+    source: Glossary
+    labelType: Manual
+    state: Confirmed
+    appliedAt: 1767969396000
+    appliedBy: admin
+  - tagFQN: label_1.value_1
+    name: value_1
+    description: Bigquery Dataset Label
+    source: Classification
+    labelType: Derived
+    state: Confirmed
+    appliedAt: 1767969396000
+    appliedBy: admin
+incrementalChangeDescription:
+  fieldsAdded:
+    - name: certification
+      newValue: "{\"tagLabel\":{\"tagFQN\":\"Certification.Silver\",\"name\":\"Silver\"\
+        ,\"description\":\"Silver certified Data Asset.\",\"style\":{\"color\":\"\
+        #ADADAD\",\"iconURL\":\"SilverCertification.svg\"},\"source\":\"Classification\"\
+        ,\"labelType\":\"Manual\",\"state\":\"Confirmed\"},\"appliedDate\":1770541077825,\"\
+        expiryDate\":1773133077825}"
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.6
+  changeSummary: {}
+domains:
+  - id: 761f0a12-7b08-4889-acc3-b8d4d11a7865
+    type: domain
+    name: domain.with.dot
+    fullyQualifiedName: '"domain.with.dot"'
+    description: domain.with.dot
+    displayName: domain.with.dot
+    inherited: true
+dataProducts:
+  - id: f5548c8d-db3c-4614-8b33-f2169f1ae521
+    type: dataProduct
+    name: testdp
+    fullyQualifiedName: testdp
+    description: sfgh
+    displayName: testdp
+certification:
+  tagLabel:
+    tagFQN: Certification.Silver
+    name: Silver
+    description: Silver certified Data Asset.
+    style:
+      color: "#ADADAD"
+      iconURL: SilverCertification.svg
+    source: Classification
+    labelType: Manual
+    state: Confirmed
+  appliedDate: 1770541077834
+  expiryDate: 1773133077834
+entityStatus: Approved
