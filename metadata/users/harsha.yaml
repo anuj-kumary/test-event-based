@@ -36,7 +36,6 @@ teams:
       is createdOrganization under which all the other team hierarchy is created</p>
     displayName: Organization
     deleted: false
-    href: https://sandbox-beta.open-metadata.org/api/v1/teams/9efbccd7-3d0b-485d-89c4-ac0f8fc80da5
 personas:
   - id: 0fe6c565-1705-42cf-a2e6-89d340d30039
     type: persona
@@ -565,12 +564,19 @@ follows:
 incrementalChangeDescription:
   fieldsAdded: []
   fieldsUpdated: []
-  fieldsDeleted: []
-  previousVersion: 19.5
+  fieldsDeleted:
+    - name: domains
+      oldValue: "[{\"id\":\"9ebbbfe5-af46-4bc1-a1ff-50c5bc8ea53b\",\"type\":\"domain\"\
+        ,\"name\":\"Ajith Test\",\"fullyQualifiedName\":\"Ajith Test\",\"description\"\
+        :\"<p>Ajith Test</p>\",\"displayName\":\"Ajith Test\"}]"
+  previousVersion: 19.6
+  changeSummary: {}
 roles: []
 inheritedRoles: []
 isEmailVerified: true
 domains: []
+lastLoginTime: 1770532131971
+lastActivityTime: 1770535351881
 personaPreferences:
   - personaId: 0fe6c565-1705-42cf-a2e6-89d340d30039
     personaName: Data Engineer
