@@ -1,0 +1,178 @@
+name: B
+fullyQualifiedName: hk_table_view_bug_test.HK_DB.HK_SCHEMA.B
+description: "This table stores transactional data, capturing details such as creation\
+  \ date, item identification, pricing, and quantities, enabling users to analyze\
+  \ sales performance and inventory management effectively."
+tableType: Regular
+columns:
+  - name: ID
+    dataType: DECIMAL
+    dataLength: 1
+    precision: 38
+    scale: 0
+    dataTypeDisplay: "number(38,0)"
+    description: This column serves as a unique identifier for each record in the
+      table. It is crucial for distinguishing between different entries.
+    fullyQualifiedName: hk_table_view_bug_test.HK_DB.HK_SCHEMA.B.ID
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: NAME
+    dataType: VARCHAR
+    dataLength: 16777216
+    dataTypeDisplay: text(16777216)
+    description: This column contains the name associated with the record. It is used
+      to identify the item or entity represented in the entry.
+    fullyQualifiedName: hk_table_view_bug_test.HK_DB.HK_SCHEMA.B.NAME
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: QUANTITY
+    dataType: DECIMAL
+    dataLength: 1
+    precision: 38
+    scale: 0
+    dataTypeDisplay: "number(38,0)"
+    description: This column represents the number of items or units associated with
+      the record. It is important for inventory and sales analysis.
+    fullyQualifiedName: hk_table_view_bug_test.HK_DB.HK_SCHEMA.B.QUANTITY
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: PRICE
+    dataType: FLOAT
+    dataLength: 1
+    dataTypeDisplay: float
+    description: This column indicates the price of the item or entity represented
+      in the record. It is a key measure for financial analysis.
+    fullyQualifiedName: hk_table_view_bug_test.HK_DB.HK_SCHEMA.B.PRICE
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: TOTAL_VALUE
+    dataType: FLOAT
+    dataLength: 1
+    dataTypeDisplay: float
+    description: This column reflects the total monetary value calculated from the
+      price and quantity of the item. It is vital for financial reporting.
+    fullyQualifiedName: hk_table_view_bug_test.HK_DB.HK_SCHEMA.B.TOTAL_VALUE
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: CREATED_AT
+    dataType: DATE
+    dataLength: 1
+    dataTypeDisplay: date
+    description: This column represents the date when the record was created. It is
+      essential for tracking the timeline of entries in the database.
+    fullyQualifiedName: hk_table_view_bug_test.HK_DB.HK_SCHEMA.B.CREATED_AT
+    tags:
+      - tagFQN: General.DateTime
+        name: DateTime
+        description: Absolute or relative dates or periods or times smaller than a
+          day.
+        source: Classification
+        labelType: Generated
+        state: Suggested
+        appliedAt: 1767969396000
+        appliedBy: admin
+      - tagFQN: PII.NonSensitive
+        name: NonSensitive
+        description: "PII which is easily accessible from public sources and can include\
+          \ zip code, race, gender, and date of birth."
+        style: {}
+        source: Classification
+        labelType: Generated
+        state: Suggested
+        appliedAt: 1767969396000
+        appliedBy: admin
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+tableConstraints: []
+owners: []
+databaseSchema:
+  id: 4b247e10-18be-446e-97e8-ba9fdc9c31e1
+  type: databaseSchema
+  name: HK_SCHEMA
+  fullyQualifiedName: hk_table_view_bug_test.HK_DB.HK_SCHEMA
+  displayName: HK_SCHEMA
+  deleted: false
+database:
+  id: e8fe5ca8-d77c-4919-993b-13a7ebe1e6ad
+  type: database
+  name: HK_DB
+  fullyQualifiedName: hk_table_view_bug_test.HK_DB
+  displayName: HK_DB
+  deleted: false
+service:
+  id: 0864e26e-4866-4214-880d-b141a3e5dd37
+  type: databaseService
+  name: hk_table_view_bug_test
+  fullyQualifiedName: hk_table_view_bug_test
+  description: ""
+  displayName: hk_table_view_bug_test
+  deleted: false
+serviceType: Snowflake
+tags: []
+joins:
+  startDate: 2026-01-09
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+customMetrics: []
+testSuite:
+  id: 138ca685-a5d1-46ee-972f-7330bc55cf79
+  type: testSuite
+  name: hk_table_view_bug_test.HK_DB.HK_SCHEMA.B.testSuite
+  fullyQualifiedName: hk_table_view_bug_test.HK_DB.HK_SCHEMA.B.testSuite
+  displayName: hk_table_view_bug_test.HK_DB.HK_SCHEMA.B.testSuite
+  deleted: false
+incrementalChangeDescription:
+  fieldsAdded:
+    - name: domains
+      newValue: "[{\"id\":\"060bcc29-d788-4065-bb60-0745526aa6b2\",\"type\":\"domain\"\
+        ,\"name\":\"hk dom 1\",\"fullyQualifiedName\":\"hk dom 1\",\"description\"\
+        :\"<p>hk dom 1</p>\",\"displayName\":\"hk dom 1\"}]"
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.2
+  changeSummary:
+    description:
+      changedBy: ingestion-bot
+      changedAt: 1757057323932
+    columns.ID.description:
+      changedBy: ingestion-bot
+      changedAt: 1757057323932
+    columns.NAME.description:
+      changedBy: ingestion-bot
+      changedAt: 1757057323932
+    columns.PRICE.description:
+      changedBy: ingestion-bot
+      changedAt: 1757057323932
+    columns.QUANTITY.description:
+      changedBy: ingestion-bot
+      changedAt: 1757057323932
+    columns.CREATED_AT.description:
+      changedBy: ingestion-bot
+      changedAt: 1757057323932
+    columns.TOTAL_VALUE.description:
+      changedBy: ingestion-bot
+      changedAt: 1757057323932
+sourceUrl: https://app.snowflake.com/tshirvw/ve46548/#/data/databases/HK_DB/schemas/HK_SCHEMA/table/B
+domains:
+  - id: 060bcc29-d788-4065-bb60-0745526aa6b2
+    type: domain
+    name: hk dom 1
+    fullyQualifiedName: hk dom 1
+    description: <p>hk dom 1</p>
+    displayName: hk dom 1
+dataProducts: []
+sourceHash: 266b5c840e4ec667e972b62a647cbaf7
+processedLineage: false
+entityStatus: Approved
