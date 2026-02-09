@@ -1,0 +1,25 @@
+name: Helloworld
+fullyQualifiedName: Helloworld
+displayName: Helloworld
+description: <p>Helloworld</p>
+style: {}
+owners:
+  - id: 4614b5b7-7acc-4b93-96a5-3913903851f8
+    type: user
+    name: aanqueti18
+    fullyQualifiedName: aanqueti18
+    displayName: aanqueti18
+    deleted: false
+    inherited: true
+experts: []
+reviewers: []
+domains:
+  - id: bc00e114-04a8-4f2c-acca-127cdcdb0832
+    type: domain
+    name: test1
+    fullyQualifiedName: Customer Domain.test1
+    description: <p>gh</p>
+    displayName: test1
+lifecycleStage: DEVELOPMENT
+tags: []
+entityStatus: Unprocessed
