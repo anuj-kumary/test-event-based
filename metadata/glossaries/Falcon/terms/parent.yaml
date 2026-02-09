@@ -1,6 +1,6 @@
 name: parent
 displayName: ""
-description: <p>parent</p>
+description: <p>parentcWFWEV</p>
 style: {}
 fullyQualifiedName: Falcon.parent
 synonyms: []
@@ -12,7 +12,14 @@ glossary:
   description: <p>Fac</p>
   displayName: Falcon
   deleted: false
-children: []
+children:
+  - id: 30987121-4e3e-48a6-9340-9792d3639c0e
+    type: glossaryTerm
+    name: childddddd
+    fullyQualifiedName: Falcon.parent.childddddd
+    description: <p>childddddd</p>
+    displayName: childddddd
+    deleted: false
 relatedTerms: []
 references: []
 impersonatedBy: governance-bot
@@ -51,13 +58,13 @@ incrementalChangeDescription:
   fieldsAdded: []
   fieldsUpdated:
     - name: entityStatus
-      oldValue: Draft
+      oldValue: Approved
       newValue: In Review
   fieldsDeleted: []
-  previousVersion: 0.1
+  previousVersion: 0.4
   changeSummary: {}
 entityStatus: In Review
 mutuallyExclusive: false
 domains: []
 dataProducts: []
-childrenCount: 0
+childrenCount: 1
