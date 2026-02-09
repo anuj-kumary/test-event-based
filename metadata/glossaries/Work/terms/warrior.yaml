@@ -1,0 +1,63 @@
+name: warrior
+displayName: warrior
+description: <p>warrior</p>
+style: {}
+fullyQualifiedName: Work.warrior
+synonyms: []
+glossary:
+  id: c31d30e6-1aba-4ae4-bee5-fe2a7d214d5c
+  type: glossary
+  name: Work
+  fullyQualifiedName: Work
+  description: <p>Work</p>
+  displayName: Work
+  deleted: false
+children: []
+relatedTerms: []
+references: []
+impersonatedBy: governance-bot
+reviewers:
+  - id: c460f290-444c-45f9-8c1c-1e077882827f
+    type: user
+    name: ramnarayan.b
+    fullyQualifiedName: '"ramnarayan.b"'
+    displayName: Ram Narayan Balaji
+    deleted: false
+    inherited: true
+  - id: 0fe10121-536f-4310-b759-352bbcd631af
+    type: user
+    name: ram.balaji
+    fullyQualifiedName: '"ram.balaji"'
+    displayName: Ram Narayan Balaji
+    deleted: false
+    inherited: true
+  - id: 563197bb-e544-4582-8da4-4c152f931302
+    type: user
+    name: ramnarayanb3005
+    fullyQualifiedName: ramnarayanb3005
+    displayName: ramnarayanb3005
+    deleted: false
+    inherited: true
+owners:
+  - id: fb842a1d-2115-41d1-9bfe-c50444a9eab9
+    type: user
+    name: sonika
+    fullyQualifiedName: sonika
+    displayName: SONIKA
+    deleted: false
+usageCount: 0
+tags: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated:
+    - name: entityStatus
+      oldValue: Draft
+      newValue: In Review
+  fieldsDeleted: []
+  previousVersion: 0.1
+  changeSummary: {}
+entityStatus: In Review
+mutuallyExclusive: false
+domains: []
+dataProducts: []
+childrenCount: 0
