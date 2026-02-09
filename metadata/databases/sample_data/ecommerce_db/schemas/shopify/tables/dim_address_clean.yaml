@@ -416,36 +416,13 @@ columns:
       \ < Impact < 800K€\r\n\r\nImpact > 800K€\r\n\r\n"
     fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address_clean.address
     tags:
-      - tagFQN: Business Department.Finance
-        name: Finance
-        displayName: Finance
-        description: A finance department is the unit of a business responsible for
-          obtaining and handling any monies on behalf of the organization
-        style:
-          color: "#a80000"
-          iconURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJUAAACUCAMAAACtIJvYAAAAA1BMVEX/AAAZ4gk3AAAALElEQVR4nO3BMQEAAADCoPVP7WkJoAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAGVrgAAQdwvSEAAAAASUVORK5CYII="
-        source: Glossary
-        labelType: Manual
-        state: Confirmed
-        appliedAt: 1770619171049
-        appliedBy: harsh.v
-      - tagFQN: Business Department.test_business_term
-        name: test_business_term
-        displayName: Test Business Term
-        description: this is test_business_term
-        style: {}
-        source: Glossary
-        labelType: Manual
-        state: Confirmed
-        appliedAt: 1770626484121
-        appliedBy: harsh.v
       - tagFQN: MY_TAG.1
         name: 1
         description: SNOWFLAKE TAG VALUE
         source: Classification
         labelType: Manual
         state: Confirmed
-        appliedAt: 1770626485287
+        appliedAt: 1770626528872
         appliedBy: harsh.v
       - tagFQN: PII.Sensitive
         name: Sensitive
@@ -844,14 +821,22 @@ tableProfilerConfig:
   computeColumnMetrics: true
 customMetrics: []
 incrementalChangeDescription:
-  fieldsAdded:
-    - name: columns.address.tags
-      newValue: "[{\"tagFQN\":\"Business Department.test_business_term\",\"name\"\
-        :\"test_business_term\",\"displayName\":\"Test Business Term\",\"description\"\
-        :\"this is test_business_term\",\"style\":{},\"source\":\"Glossary\",\"labelType\"\
-        :\"Manual\",\"state\":\"Confirmed\",\"appliedBy\":\"harsh.v\"}]"
+  fieldsAdded: []
   fieldsUpdated: []
-  fieldsDeleted: []
+  fieldsDeleted:
+    - name: columns.address.tags
+      oldValue: "[{\"tagFQN\":\"Business Department.Finance\",\"name\":\"Finance\"\
+        ,\"displayName\":\"Finance\",\"description\":\"A finance department is the\
+        \ unit of a business responsible for obtaining and handling any monies on\
+        \ behalf of the organization\",\"style\":{\"color\":\"#a80000\",\"iconURL\"\
+        :\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJUAAACUCAMAAACtIJvYAAAAA1BMVEX/AAAZ4gk3AAAALElEQVR4nO3BMQEAAADCoPVP7WkJoAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAGVrgAAQdwvSEAAAAASUVORK5CYII=\"\
+        },\"source\":\"Glossary\",\"labelType\":\"Manual\",\"state\":\"Confirmed\"\
+        ,\"appliedAt\":\"2026-02-09T06:39:31.000049Z\",\"appliedBy\":\"harsh.v\"},{\"\
+        tagFQN\":\"Business Department.test_business_term\",\"name\":\"test_business_term\"\
+        ,\"displayName\":\"Test Business Term\",\"description\":\"this is test_business_term\"\
+        ,\"style\":{},\"source\":\"Glossary\",\"labelType\":\"Manual\",\"state\":\"\
+        Confirmed\",\"appliedAt\":\"2026-02-09T08:41:24.000121Z\",\"appliedBy\":\"\
+        harsh.v\"}]"
   previousVersion: 24.7
   changeSummary:
     owners:
@@ -859,7 +844,7 @@ incrementalChangeDescription:
       changedAt: 1764216182535
     description:
       changedBy: harsh.v
-      changedAt: 1770626442029
+      changedAt: 1770626482728
     columns.address.description:
       changedBy: prajwal
       changedAt: 1768559104789
