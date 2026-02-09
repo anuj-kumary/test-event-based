@@ -36,7 +36,12 @@ teams:
       is createdOrganization under which all the other team hierarchy is created</p>
     displayName: Organization
     deleted: false
-    href: https://sandbox-beta.open-metadata.org/api/v1/teams/9efbccd7-3d0b-485d-89c4-ac0f8fc80da5
+defaultPersona:
+  id: d8ac9ead-c9d7-4f0f-a250-7b5482c551c8
+  type: persona
+  name: Data Engineers
+  fullyQualifiedName: Data Engineers
+  displayName: Data Engineers
 personas:
   - id: 0fe6c565-1705-42cf-a2e6-89d340d30039
     type: persona
@@ -339,18 +344,28 @@ follows:
     description: "<p>Query the database's metadata (like&nbsp;INFORMATION_SCHEMA.TABLES&nbsp;or\
       \ system tables) to find the most recently created table whose name or schema\
       \ indicates it contains customer infoOnce you have the table name, use a standard&nbsp;SELECT&nbsp;statement\
-      \ to fetch the data1.</p><p></p>"
+      \ to fetch the data1.<br></p><div data-type=\"file-attachment\" data-url=\"\
+      https://cdn-ds.com/blogs-media/sites/540/2019/06/19204149/2020-Porsche-911-Carrera-S-A_o.jpg\"\
+      \ data-filename=\"\" data-mimetype=\"image\" data-uploading=\"false\" data-upload-progress=\"\
+      0\" data-is-image=\"true\"></div><p></p>"
     displayName: dim_address_clean
     deleted: false
 incrementalChangeDescription:
   fieldsAdded: []
   fieldsUpdated: []
-  fieldsDeleted: []
-  previousVersion: 12.1
+  fieldsDeleted:
+    - name: defaultPersona
+      oldValue: "{\"id\":\"0fe6c565-1705-42cf-a2e6-89d340d30039\",\"type\":\"persona\"\
+        ,\"name\":\"Data Engineer\",\"fullyQualifiedName\":\"Data Engineer\",\"description\"\
+        :\"<p>Data Steward</p>\",\"displayName\":\"Data Steward\"}"
+  previousVersion: 12.2
+  changeSummary: {}
 roles: []
 inheritedRoles: []
 isEmailVerified: true
 domains: []
+lastLoginTime: 1770618688899
+lastActivityTime: 1770630477859
 personaPreferences:
   - personaId: 2eaa7092-d961-4d07-87e0-9ad4ac6a00c3
     personaName: asfd
