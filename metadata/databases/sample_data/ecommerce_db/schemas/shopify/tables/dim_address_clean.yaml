@@ -429,23 +429,13 @@ columns:
         state: Confirmed
         appliedAt: 1770619171049
         appliedBy: harsh.v
-      - tagFQN: Business Department.test_business_term
-        name: test_business_term
-        displayName: Test Business Term
-        description: this is test_business_term
-        style: {}
-        source: Glossary
-        labelType: Manual
-        state: Confirmed
-        appliedAt: 1770624906149
-        appliedBy: harsh.v
       - tagFQN: NONSENSITIVE.NonSensitive
         name: NonSensitive
         description: SNOWFLAKE TAG VALUE
         source: Classification
         labelType: Manual
         state: Confirmed
-        appliedAt: 1770624904974
+        appliedAt: 1770625454634
         appliedBy: harsh.v
       - tagFQN: PII.Sensitive
         name: Sensitive
@@ -844,13 +834,15 @@ tableProfilerConfig:
   computeColumnMetrics: true
 customMetrics: []
 incrementalChangeDescription:
-  fieldsAdded:
-    - name: columns.address.tags
-      newValue: "[{\"tagFQN\":\"NONSENSITIVE.NonSensitive\",\"name\":\"NonSensitive\"\
-        ,\"description\":\"SNOWFLAKE TAG VALUE\",\"source\":\"Classification\",\"\
-        labelType\":\"Manual\",\"state\":\"Confirmed\",\"appliedBy\":\"harsh.v\"}]"
+  fieldsAdded: []
   fieldsUpdated: []
-  fieldsDeleted: []
+  fieldsDeleted:
+    - name: columns.address.tags
+      oldValue: "[{\"tagFQN\":\"Business Department.test_business_term\",\"name\"\
+        :\"test_business_term\",\"displayName\":\"Test Business Term\",\"description\"\
+        :\"this is test_business_term\",\"style\":{},\"source\":\"Glossary\",\"labelType\"\
+        :\"Manual\",\"state\":\"Confirmed\",\"appliedAt\":\"2026-02-09T08:15:06.000149Z\"\
+        ,\"appliedBy\":\"harsh.v\"}]"
   previousVersion: 24.7
   changeSummary:
     owners:
@@ -858,7 +850,7 @@ incrementalChangeDescription:
       changedAt: 1764216182535
     description:
       changedBy: harsh.v
-      changedAt: 1770624878448
+      changedAt: 1770624903660
     columns.address.description:
       changedBy: prajwal
       changedAt: 1768559104789
