@@ -1,0 +1,63 @@
+name: root
+displayName: ""
+description: <p>root</p>
+style: {}
+fullyQualifiedName: Falcon.root
+synonyms: []
+glossary:
+  id: 0c9f5be8-82a3-42d0-bcf9-5021e250e811
+  type: glossary
+  name: Falcon
+  fullyQualifiedName: Falcon
+  description: <p>Fac</p>
+  displayName: Falcon
+  deleted: false
+children: []
+relatedTerms: []
+references: []
+impersonatedBy: governance-bot
+reviewers:
+  - id: d8e41632-29ac-46b2-908f-c55e0431655e
+    type: user
+    name: sonikashah94
+    fullyQualifiedName: sonikashah94
+    displayName: sonikashah94
+    deleted: false
+    inherited: true
+  - id: fb842a1d-2115-41d1-9bfe-c50444a9eab9
+    type: user
+    name: sonika
+    fullyQualifiedName: sonika
+    displayName: SONIKA
+    deleted: false
+    inherited: true
+  - id: 1fec0260-5ad5-4d56-9d2c-48104368bc10
+    type: user
+    name: sonika.s
+    fullyQualifiedName: '"sonika.s"'
+    displayName: sonika.s
+    deleted: false
+    inherited: true
+owners:
+  - id: 0fe10121-536f-4310-b759-352bbcd631af
+    type: user
+    name: ram.balaji
+    fullyQualifiedName: '"ram.balaji"'
+    displayName: Ram Narayan Balaji
+    deleted: false
+usageCount: 0
+tags: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated:
+    - name: entityStatus
+      oldValue: Draft
+      newValue: In Review
+  fieldsDeleted: []
+  previousVersion: 0.1
+  changeSummary: {}
+entityStatus: In Review
+mutuallyExclusive: false
+domains: []
+dataProducts: []
+childrenCount: 0
