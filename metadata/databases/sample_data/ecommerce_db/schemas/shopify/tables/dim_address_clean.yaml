@@ -435,15 +435,7 @@ columns:
         source: Classification
         labelType: Manual
         state: Confirmed
-        appliedAt: 1770625913980
-        appliedBy: harsh.v
-      - tagFQN: NONSENSITIVE.NonSensitive
-        name: NonSensitive
-        description: SNOWFLAKE TAG VALUE
-        source: Classification
-        labelType: Manual
-        state: Confirmed
-        appliedAt: 1770625915526
+        appliedAt: 1770626444669
         appliedBy: harsh.v
       - tagFQN: PII.Sensitive
         name: Sensitive
@@ -842,13 +834,14 @@ tableProfilerConfig:
   computeColumnMetrics: true
 customMetrics: []
 incrementalChangeDescription:
-  fieldsAdded:
-    - name: columns.address.tags
-      newValue: "[{\"tagFQN\":\"MY_TAG.1\",\"name\":\"1\",\"description\":\"SNOWFLAKE\
-        \ TAG VALUE\",\"source\":\"Classification\",\"labelType\":\"Manual\",\"state\"\
-        :\"Confirmed\",\"appliedBy\":\"harsh.v\"}]"
+  fieldsAdded: []
   fieldsUpdated: []
-  fieldsDeleted: []
+  fieldsDeleted:
+    - name: columns.address.tags
+      oldValue: "[{\"tagFQN\":\"NONSENSITIVE.NonSensitive\",\"name\":\"NonSensitive\"\
+        ,\"description\":\"SNOWFLAKE TAG VALUE\",\"source\":\"Classification\",\"\
+        labelType\":\"Manual\",\"state\":\"Confirmed\",\"appliedAt\":\"2026-02-09T08:31:55.000526Z\"\
+        ,\"appliedBy\":\"harsh.v\"}]"
   previousVersion: 24.7
   changeSummary:
     owners:
@@ -856,7 +849,7 @@ incrementalChangeDescription:
       changedAt: 1764216182535
     description:
       changedBy: harsh.v
-      changedAt: 1770625453240
+      changedAt: 1770625911004
     columns.address.description:
       changedBy: prajwal
       changedAt: 1768559104789
