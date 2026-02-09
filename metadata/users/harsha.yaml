@@ -36,6 +36,12 @@ teams:
       is createdOrganization under which all the other team hierarchy is created</p>
     displayName: Organization
     deleted: false
+defaultPersona:
+  id: d8ac9ead-c9d7-4f0f-a250-7b5482c551c8
+  type: persona
+  name: Data Engineers
+  fullyQualifiedName: Data Engineers
+  displayName: Data Engineers
 personas:
   - id: 0fe6c565-1705-42cf-a2e6-89d340d30039
     type: persona
@@ -523,7 +529,10 @@ follows:
     description: "<p>Query the database's metadata (like&nbsp;INFORMATION_SCHEMA.TABLES&nbsp;or\
       \ system tables) to find the most recently created table whose name or schema\
       \ indicates it contains customer infoOnce you have the table name, use a standard&nbsp;SELECT&nbsp;statement\
-      \ to fetch the data1.</p><p></p>"
+      \ to fetch the data1.<br></p><div data-type=\"file-attachment\" data-url=\"\
+      https://cdn-ds.com/blogs-media/sites/540/2019/06/19204149/2020-Porsche-911-Carrera-S-A_o.jpg\"\
+      \ data-filename=\"\" data-mimetype=\"image\" data-uploading=\"false\" data-upload-progress=\"\
+      0\" data-is-image=\"true\"></div><p></p>"
     displayName: dim_address_clean
     deleted: false
   - id: 5e0b9271-2abf-479c-8305-8e1f192f831a
@@ -564,19 +573,12 @@ follows:
 incrementalChangeDescription:
   fieldsAdded: []
   fieldsUpdated: []
-  fieldsDeleted:
-    - name: domains
-      oldValue: "[{\"id\":\"9ebbbfe5-af46-4bc1-a1ff-50c5bc8ea53b\",\"type\":\"domain\"\
-        ,\"name\":\"Ajith Test\",\"fullyQualifiedName\":\"Ajith Test\",\"description\"\
-        :\"<p>Ajith Test</p>\",\"displayName\":\"Ajith Test\"}]"
-  previousVersion: 19.6
-  changeSummary: {}
+  fieldsDeleted: []
+  previousVersion: 19.5
 roles: []
 inheritedRoles: []
 isEmailVerified: true
 domains: []
-lastLoginTime: 1770532131971
-lastActivityTime: 1770535351881
 personaPreferences:
   - personaId: 0fe6c565-1705-42cf-a2e6-89d340d30039
     personaName: Data Engineer
