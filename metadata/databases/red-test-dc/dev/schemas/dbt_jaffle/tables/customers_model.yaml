@@ -96,7 +96,28 @@ service:
   displayName: red-test-dc
   deleted: false
 serviceType: Redshift
-tags: []
+tags:
+  - tagFQN: Tier.Tier1
+    name: Tier1
+    description: |-
+      **Critical Source of Truth business data assets of an organization**
+
+      - Used in critical metrics and dashboards to drive business and product decisions
+
+      - Used in critical compliance reporting to regulators, govt entities, and third party
+
+      - Used in brand or revenue impacting online user-facing experiences (search results, advertisement, promotions, and experimentation)
+
+      - Other high impact use, such as ML models and fraud detection
+
+      - Source used to derive other critical Tier-1 datasets
+    style:
+      color: "#ec1313"
+    source: Classification
+    labelType: Manual
+    state: Confirmed
+    appliedAt: 1770811667943
+    appliedBy: prajwal
 joins:
   startDate: 2026-01-12
   dayCount: 30
@@ -105,13 +126,20 @@ joins:
 customMetrics: []
 incrementalChangeDescription:
   fieldsAdded:
-    - name: owners
-      newValue: "[{\"id\":\"f7971c49-bca7-48fb-bb1a-821a1e2c5802\",\"type\":\"user\"\
-        ,\"name\":\"prajwal161998\",\"fullyQualifiedName\":\"prajwal161998\",\"displayName\"\
-        :\"prajwal161998\",\"deleted\":false}]"
+    - name: tags
+      newValue: "[{\"tagFQN\":\"Tier.Tier1\",\"name\":\"Tier1\",\"description\":\"\
+        **Critical Source of Truth business data assets of an organization**\\n\\\
+        n- Used in critical metrics and dashboards to drive business and product decisions\\\
+        n\\n- Used in critical compliance reporting to regulators, govt entities,\
+        \ and third party\\n\\n- Used in brand or revenue impacting online user-facing\
+        \ experiences (search results, advertisement, promotions, and experimentation)\\\
+        n\\n- Other high impact use, such as ML models and fraud detection\\n\\n-\
+        \ Source used to derive other critical Tier-1 datasets\",\"style\":{\"color\"\
+        :\"#ec1313\"},\"source\":\"Classification\",\"labelType\":\"Manual\",\"state\"\
+        :\"Confirmed\",\"appliedBy\":\"prajwal\"}]"
   fieldsUpdated: []
   fieldsDeleted: []
-  previousVersion: 0.2
+  previousVersion: 0.3
   changeSummary:
     owners:
       changedBy: prajwal
