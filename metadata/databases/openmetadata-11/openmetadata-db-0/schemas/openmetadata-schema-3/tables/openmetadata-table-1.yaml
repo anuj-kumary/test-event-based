@@ -1,0 +1,542 @@
+name: openmetadata-table-1
+displayName: ""
+fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1
+description: ""
+impersonatedBy: teddy
+columns:
+  - name: column_0
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_0
+    tags: []
+    ordinalPosition: 1944
+    children: []
+    customMetrics: []
+  - name: column_1
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_1
+    tags: []
+    ordinalPosition: 1945
+    children: []
+    customMetrics: []
+  - name: column_2
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_2
+    tags: []
+    ordinalPosition: 1946
+    children: []
+    customMetrics: []
+  - name: column_3
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_3
+    tags: []
+    ordinalPosition: 1947
+    children: []
+    customMetrics: []
+  - name: column_4
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_4
+    tags: []
+    ordinalPosition: 1948
+    children: []
+    customMetrics: []
+  - name: column_5
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_5
+    tags: []
+    ordinalPosition: 1949
+    children: []
+    customMetrics: []
+  - name: column_6
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_6
+    tags: []
+    ordinalPosition: 1950
+    children: []
+    customMetrics: []
+  - name: column_7
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_7
+    tags: []
+    ordinalPosition: 1951
+    children: []
+    customMetrics: []
+  - name: column_8
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_8
+    tags: []
+    ordinalPosition: 1952
+    children: []
+    customMetrics: []
+  - name: column_9
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_9
+    tags: []
+    ordinalPosition: 1953
+    children: []
+    customMetrics: []
+  - name: column_10
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_10
+    tags: []
+    ordinalPosition: 1954
+    children: []
+    customMetrics: []
+  - name: column_11
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_11
+    tags: []
+    ordinalPosition: 1955
+    children: []
+    customMetrics: []
+  - name: column_12
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_12
+    tags: []
+    ordinalPosition: 1956
+    children: []
+    customMetrics: []
+  - name: column_13
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_13
+    tags: []
+    ordinalPosition: 1957
+    children: []
+    customMetrics: []
+  - name: column_14
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_14
+    tags: []
+    ordinalPosition: 1958
+    children: []
+    customMetrics: []
+  - name: column_15
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_15
+    tags: []
+    ordinalPosition: 1959
+    children: []
+    customMetrics: []
+  - name: column_16
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_16
+    tags: []
+    ordinalPosition: 1960
+    children: []
+    customMetrics: []
+  - name: column_17
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_17
+    tags: []
+    ordinalPosition: 1961
+    children: []
+    customMetrics: []
+  - name: column_18
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_18
+    tags: []
+    ordinalPosition: 1962
+    children: []
+    customMetrics: []
+  - name: column_19
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_19
+    tags: []
+    ordinalPosition: 1963
+    children: []
+    customMetrics: []
+  - name: column_20
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_20
+    tags: []
+    ordinalPosition: 1964
+    children: []
+    customMetrics: []
+  - name: column_21
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_21
+    tags: []
+    ordinalPosition: 1965
+    children: []
+    customMetrics: []
+  - name: column_22
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_22
+    tags: []
+    ordinalPosition: 1966
+    children: []
+    customMetrics: []
+  - name: column_23
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_23
+    tags: []
+    ordinalPosition: 1967
+    children: []
+    customMetrics: []
+  - name: column_24
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_24
+    tags: []
+    ordinalPosition: 1968
+    children: []
+    customMetrics: []
+  - name: column_25
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_25
+    tags: []
+    ordinalPosition: 1969
+    children: []
+    customMetrics: []
+  - name: column_26
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_26
+    tags: []
+    ordinalPosition: 1970
+    children: []
+    customMetrics: []
+  - name: column_27
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_27
+    tags: []
+    ordinalPosition: 1971
+    children: []
+    customMetrics: []
+  - name: column_28
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_28
+    tags: []
+    ordinalPosition: 1972
+    children: []
+    customMetrics: []
+  - name: column_29
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_29
+    tags: []
+    ordinalPosition: 1973
+    children: []
+    customMetrics: []
+  - name: column_30
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_30
+    tags: []
+    ordinalPosition: 1974
+    children: []
+    customMetrics: []
+  - name: column_31
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_31
+    tags: []
+    ordinalPosition: 1975
+    children: []
+    customMetrics: []
+  - name: column_32
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_32
+    tags: []
+    ordinalPosition: 1976
+    children: []
+    customMetrics: []
+  - name: column_33
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_33
+    tags: []
+    ordinalPosition: 1977
+    children: []
+    customMetrics: []
+  - name: column_34
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_34
+    tags: []
+    ordinalPosition: 1978
+    children: []
+    customMetrics: []
+  - name: column_35
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_35
+    tags: []
+    ordinalPosition: 1979
+    children: []
+    customMetrics: []
+  - name: column_36
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_36
+    tags: []
+    ordinalPosition: 1980
+    children: []
+    customMetrics: []
+  - name: column_37
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_37
+    tags: []
+    ordinalPosition: 1981
+    children: []
+    customMetrics: []
+  - name: column_38
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_38
+    tags: []
+    ordinalPosition: 1982
+    children: []
+    customMetrics: []
+  - name: column_39
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_39
+    tags: []
+    ordinalPosition: 1983
+    children: []
+    customMetrics: []
+  - name: column_40
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_40
+    tags: []
+    ordinalPosition: 1984
+    children: []
+    customMetrics: []
+  - name: column_41
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_41
+    tags: []
+    ordinalPosition: 1985
+    children: []
+    customMetrics: []
+  - name: column_42
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_42
+    tags: []
+    ordinalPosition: 1986
+    children: []
+    customMetrics: []
+  - name: column_43
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_43
+    tags: []
+    ordinalPosition: 1987
+    children: []
+    customMetrics: []
+  - name: column_44
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_44
+    tags: []
+    ordinalPosition: 1988
+    children: []
+    customMetrics: []
+  - name: column_45
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_45
+    tags: []
+    ordinalPosition: 1989
+    children: []
+    customMetrics: []
+  - name: column_46
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_46
+    tags: []
+    ordinalPosition: 1990
+    children: []
+    customMetrics: []
+  - name: column_47
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_47
+    tags: []
+    ordinalPosition: 1991
+    children: []
+    customMetrics: []
+  - name: column_48
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_48
+    tags: []
+    ordinalPosition: 1992
+    children: []
+    customMetrics: []
+  - name: column_49
+    displayName: ""
+    dataType: STRING
+    dataTypeDisplay: string
+    description: Once energy us nation reach window. Alone former assume very.
+    fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3.openmetadata-table-1.column_49
+    tags: []
+    ordinalPosition: 1993
+    children: []
+    customMetrics: []
+owners: []
+databaseSchema:
+  id: e67c1889-abcd-439a-9c06-4e4a26a4437a
+  type: databaseSchema
+  name: openmetadata-schema-3
+  fullyQualifiedName: openmetadata-11.openmetadata-db-0.openmetadata-schema-3
+  displayName: openmetadata-schema-3
+  deleted: false
+database:
+  id: a5d0cf84-788c-47c0-94b7-9cb164e0ca1c
+  type: database
+  name: openmetadata-db-0
+  fullyQualifiedName: openmetadata-11.openmetadata-db-0
+  displayName: openmetadata-db-0
+  deleted: false
+service:
+  id: e4783318-e4cd-4b04-87ab-2db4ff096a20
+  type: databaseService
+  name: openmetadata-11
+  fullyQualifiedName: openmetadata-11
+  displayName: openmetadata-11
+  deleted: false
+serviceType: Snowflake
+tags: []
+joins:
+  startDate: 2026-01-12
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+customMetrics: []
+retentionPeriod: ""
+sourceUrl: ""
+domains: []
+dataProducts: []
+processedLineage: false
+entityStatus: Approved
