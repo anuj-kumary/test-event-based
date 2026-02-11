@@ -1,0 +1,96 @@
+name: tableDiff_customers_model_automation
+fullyQualifiedName: red-test-dc.dev.dbt_jaffle.customers_model.tableDiff_customers_model_automation
+testDefinition:
+  id: 941be371-61ba-46ec-99e8-f2fc617b89a8
+  type: testDefinition
+  name: tableDiff
+  fullyQualifiedName: tableDiff
+  description: Test if 2 tables have less that <threshold> diff rows.
+  displayName: Compare 2 tables for differences
+  deleted: false
+entityLink: <#E::table::red-test-dc.dev.dbt_jaffle.customers_model>
+entityFQN: red-test-dc.dev.dbt_jaffle.customers_model
+testSuite:
+  id: 767005b3-2b4e-4122-a963-20c7bd7c51b0
+  type: testSuite
+  name: red-test-dc.dev.dbt_jaffle.customers_model.testSuite
+  fullyQualifiedName: red-test-dc.dev.dbt_jaffle.customers_model.testSuite
+  displayName: red-test-dc.dev.dbt_jaffle.customers_model.testSuite
+  deleted: false
+testSuites:
+  - id: 767005b3-2b4e-4122-a963-20c7bd7c51b0
+    name: red-test-dc.dev.dbt_jaffle.customers_model.testSuite
+    fullyQualifiedName: red-test-dc.dev.dbt_jaffle.customers_model.testSuite
+    serviceType: TestSuite
+    owners:
+      - id: f7971c49-bca7-48fb-bb1a-821a1e2c5802
+        type: user
+        name: prajwal161998
+        fullyQualifiedName: prajwal161998
+        displayName: prajwal161998
+        deleted: false
+        inherited: true
+    version: 0.1
+    updatedAt: 1770811695578
+    updatedBy: ingestion-bot
+    deleted: false
+    basic: true
+    basicEntityReference:
+      id: c362393e-22a2-48fa-87f3-7d92379325f3
+      type: table
+      name: customers_model
+      fullyQualifiedName: red-test-dc.dev.dbt_jaffle.customers_model
+    testCaseResultSummary: []
+    domains: []
+    tags: []
+    inherited: true
+    reviewers: []
+parameterValues:
+  - name: keyColumns
+    value: "[\"customer_id\"]"
+  - name: table2
+    value: red-test-dc.dev.dbt_jaffle.stg_customers
+  - name: table2.keyColumns
+    value: "[\"customer_id\"]"
+  - name: threshold
+  - name: useColumns
+    value: "[\"\"]"
+  - name: where
+  - name: caseSensitiveColumns
+owners:
+  - id: f7971c49-bca7-48fb-bb1a-821a1e2c5802
+    type: user
+    name: prajwal161998
+    fullyQualifiedName: prajwal161998
+    displayName: prajwal161998
+    deleted: false
+    inherited: true
+createdBy: automatorapplicationbot
+computePassedFailedRowCount: false
+domains: []
+useDynamicAssertion: false
+tags:
+  - tagFQN: Tier.Tier1
+    name: Tier1
+    description: |-
+      **Critical Source of Truth business data assets of an organization**
+
+      - Used in critical metrics and dashboards to drive business and product decisions
+
+      - Used in critical compliance reporting to regulators, govt entities, and third party
+
+      - Used in brand or revenue impacting online user-facing experiences (search results, advertisement, promotions, and experimentation)
+
+      - Other high impact use, such as ML models and fraud detection
+
+      - Source used to derive other critical Tier-1 datasets
+    style:
+      color: "#ec1313"
+    source: Classification
+    labelType: Manual
+    state: Confirmed
+    appliedAt: 1770811667943
+    appliedBy: prajwal
+dimensionColumns: []
+entityStatus: Unprocessed
+reviewers: []
