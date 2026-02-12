@@ -1,0 +1,68 @@
+name: ctx_objects
+fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_objects
+tableType: View
+columns:
+  - name: obj_class
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_objects.obj_class
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: obj_name
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_objects.obj_name
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: obj_description
+    dataType: VARCHAR
+    dataLength: 80
+    dataTypeDisplay: varchar2(80)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_objects.obj_description
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+tableConstraints: []
+owners: []
+databaseSchema:
+  id: 9c93807b-1325-46a6-ba84-f17ec47afa86
+  type: databaseSchema
+  name: ctxsys
+  fullyQualifiedName: local_oracle_keshav.default.ctxsys
+  displayName: ctxsys
+  deleted: false
+database:
+  id: 514d5dca-5711-487a-b827-729bc2738341
+  type: database
+  name: default
+  fullyQualifiedName: local_oracle_keshav.default
+  displayName: default
+  deleted: false
+service:
+  id: 9f99e604-d130-4dd9-9f61-6fc1f2e49a8d
+  type: databaseService
+  name: local_oracle_keshav
+  fullyQualifiedName: local_oracle_keshav
+  displayName: local_oracle_keshav
+  deleted: false
+serviceType: Oracle
+schemaDefinition: ""
+tags: []
+joins:
+  startDate: 2026-01-13
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+customMetrics: []
+domains: []
+dataProducts: []
+sourceHash: 3a14aa70740b4ce8bce0132a65b5f130
+processedLineage: false
+entityStatus: Unprocessed
