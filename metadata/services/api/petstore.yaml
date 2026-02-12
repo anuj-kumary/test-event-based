@@ -1,0 +1,28 @@
+name: petstore
+fullyQualifiedName: petstore
+serviceType: Rest
+description: ""
+connection:
+  config:
+    type: Rest
+    openAPISchemaURL: https://petstore3.swagger.io/api/v3/openapi.json
+    apiEndpointFilterPattern:
+      excludes: []
+      includes: []
+    apiCollectionFilterPattern:
+      excludes: []
+      includes: []
+    supportsMetadataExtraction: true
+pipelines: []
+tags: []
+owners:
+  - id: 2deef982-ed00-48f4-9640-986c01418124
+    type: user
+    name: harsh.soni
+    fullyQualifiedName: '"harsh.soni"'
+    displayName: harsh.soni
+    deleted: false
+dataProducts: []
+ingestionRunner:
+  id: 6742f0ef-68bf-4a65-878d-31cb3919c6d5
+  type: ingestionRunner
