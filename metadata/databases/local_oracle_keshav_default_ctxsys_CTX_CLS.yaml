@@ -1,0 +1,230 @@
+name: CTX_CLS
+fullyQualifiedName: local_oracle_keshav.default.ctxsys.CTX_CLS
+storedProcedureCode:
+  language: SQL
+  code: "PACKAGE body ctx_cls wrapped\na000000\n1\nabcd\nabcd\nabcd\nabcd\nabcd\n\
+    abcd\nabcd\nabcd\nabcd\nabcd\nabcd\nabcd\nabcd\nabcd\nabcd\nb\n5689 15fd\n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\n\
+    bYm1kPACKAGE ctx_cls AUTHID current_user AS\n5Yr4O+Br5mOBeMY70TO2MQG1N3pR2dRNr4rA8s+U39j9s5rS9izzAGtpBNlS73uLqSc\n\
+    U96hmqZgCtogjP7+Xfb1cMzb7+shIRAXpIk7u+DxY/qDLBrigEIXlJxC+4PRkwRm1sF3KWki\nscw9aqxXu1t7oDYXIeTXSkWFPOF1HOMZHyrtcpGeLwvL0g+qgOs6ztaPkA/FLaOQG55U0uUR\n\
+    Vb+uQOjtkl18B/7Q+KbuY1VxA5z45tziVzVbNO7uC0b4Jnbbr7tCXXWcQuubX8FagHdp2Xt9\nQdn5C/JrvoMk4o5FVaGGMA8ay6vewx1FpoC+Cxr64wGhfGE5Q7wM1v0NlDYRvLOV01YmRaSh\n\
+    edzA6XleeUZJriXIbjmX+CO8POnfdpJmmbSNHYTUcdHlVKTiOPDKwyZ75u1KDYpNQt57LU2H\n8ydxYibMoGElehoWbrcp6Z4VgGp2DA3KaFeirVykc3kymquIVeyeZcOpx5qJXjzpxbeHYPxg\n\
+    i6Ktup3tQrQ7xBKgQrQkBtgkqytpaxwU3h1+2xiiSCCfHifHwVEF+K6YcyMMP/lTEM+qTj/H\nnTGqYGF75y2sLyEwI6GR0aU0Xz+Fpz0SSmvHl06Buo8r/0NpXcaz8tpYD3lw5vlGN3csDxZX\n\
+    9Kx2WKmFfRjtFN6yOCXT4PB3ruqxBEDWxDmCnlPgE7xaEetOV52CSCmyDKUSdXWV4Z3rU2PM\nCSC8/zn6JYhpRpkjQyMVZdazXM1/CWK3mpSI9Jk3/91ak9wXAp0J+q7lGsPMUCzFS+u2d9rA\n\
+    JNfsHxTzZc3IHG/HgDkze1yX1CW/0p45T70BXJ4bfab0f78WCglBYtu+3kYCBR0vnVajlKuU\nNR0BHO/vORjtkwTE8eyP+rUxzmqeGnM7cfc8vJulT0azg9C+ajq1lEqbtfadr61Xb8/0JGS4\n\
+    MAg63f2eHjr7AWJRovCbux3HtaNUMR/qy5c6ThOE3pW4VXRuplYfx7tmRhsTRF8RRkEenZ2i\n202OiWFAXzkEC0dNJC1Q6jwO4Z0zf5Vfiw4tCPJbb7ZigvwOwloYJ2ApkS6p3jg1HcOVWAbX\n\
+    8bbbGoYyl3uf0UOurmFtYdCdfrmiAZKFBLY8IazwPzpC7UyxaWsDsUn1/nC1f9ndIDYjyUJr\nd0+EnJueQDwOundmVGICLkv5zOv4Nnjayq639Exix4r+BoiQfSdfiSVwWcZ2LOm4XFjwuI33\n\
+    zpvIZhTGHbwQv2VsYu8MOTYaN1ObofK15PsmEhee3VHPoOZxvSA+E66lD1rWgX1jsZuJ3ag3\nva5yVABTjQLpWGzoF7pqtr2WbqFXG40Oi9PnfJ3jJ8m9RiIphfOFFDVigKVxbOsr8urQAYBi\n\
+    30skcT9SXYMzOstm/BLrD4n+1azaM1CKRlqAX6OytQ5UmPloGk4mvZ1hw2646jAZHSxBFhiz\n9NS2zb4sT1GyVEX5igg2te15qfUyKaYQa0b9s79Jl+tsCAYGY0RRoTDeTX3qVjnzy/GuG7bo\n\
+    svQL5r+iTxcKaLM4TdSKI43vFZwiytN10vvz8kqYvhgNyk/1LwyVilXkkcieglw8Pp6+AhpH\n5/YUPZjaJj6seL+RDfVOBOIdHfSPg39n0jwZoYRTMz+rl/CwIzPoNUgt8x0O4+aIdrVVpvIL\n\
+    zDmAP3+m7hGJN93QOabAERge8ktUSHem16xcOWCqhkewrMriVOy5MeoPpQ5sb6EdELh4c+uq\npmiTtoI=\n\
+    \n/*------------------------------- TYPE DEFINITIONS ----------------------------*/\n\
+    /* in-memory table for document assignment */\nTYPE doc_rec IS RECORD (\n\tdocid\
+    \     number,   -- document ID to identify the document\n\tclusterid number, \
+    \  -- the ID of the cluster the document is assigned to\n\tscore     number  \
+    \  -- the similarity score between document and cluster\n);\nTYPE doc_tab is TABLE\
+    \ OF doc_rec INDEX BY BINARY_INTEGER;\n\n/* in-memory table for cluster information\
+    \ */\nTYPE cluster_rec IS RECORD (\n\tclusterid number,         -- cluster ID\
+    \ to identify a cluster\n\tdescript  drvutl.dr_extrabuf, --string to describe\
+    \ the cluster\n        label drvutl.dr_longbuf,  -- a suggested label for the\
+    \ cluster\n        sze number,     -- number of documents assigned to the cluster\n\
+    \tquality_score number,     -- the quality score of the cluster\n\tparent    number\
+    \          -- parent cluster id. negative means no parent\n);\nTYPE cluster_tab\
+    \ IS TABLE OF cluster_rec INDEX BY BINARY_INTEGER;\n\nTYPE docid_tab IS TABLE\
+    \ OF number INDEX BY BINARY_INTEGER;\n\n-- Sentiment Constants\n\nSENTIMENT_POS\
+    \ constant number := 1; /* Positive sentiment id */\nSENTIMENT_NEG constant number\
+    \ := 2; /* Negative sentiment id */\nSENTIMENT_NUL constant number := 0; /* Neutral\
+    \ sentiment id */\n\n/*------------------------------- train for ctx-rules --------------------------*/\n\
+    /*\n   NAME\n     train - automatically generate ctx-rules from training examples\n\
+    \n   DESCRIPTION\n     This procedure will generate the ctx-rules for a given\
+    \ set of training\n     examples. The training examples are contained in the following\
+    \ two tables\n\n\ttable1:  doctab must have the following columns:\n\t\t docid\t\
+    \tnumber primary key\n\t\t text\t\tdoc. column which can be indexed by context\
+    \ index\n        table2:  category table must have the following columns:\n\t\t\
+    \ docid\t\tCONSTRAINT fk_id REFERENCES doctab(id)\n\t\t category_id\tnumber\n\n\
+    \tthe foreign key in category table is recommended by not required.\n\n     The\
+    \ rules will be written to the result table specified.\n     The query table must\
+    \ have the following columns:\n\n       category_id\t\tnumber         (the category_id)\n\
+    \       query\t              \tdrvutl.dr_extrabuf (the rule)\n       confidence\
+    \               number         (the confidence level\n\t\t\t\t\t\t(percentage)\
+    \ that a document\n\t\t\t\t\t\tis relevant if this rule is\n\t\t\t\t\t\tsatisfied\
+    \ )\n\n     The names of table and column are not necessary the same as above.\n\
+    \n   ARGUMENTS\n     index_name               - the name of the text index\n \
+    \    docid                    - the name of docid column in document table\n \
+    \    cattab\t\t      - the name of category table\n     catdocid\t\t      - the\
+    \ name of docid column in categroy table\n     catid\t\t      - the name of category\
+    \ ID column in category table\n     restab\t\t      - the name of result table\n\
+    \     rescatid                 - the name of category ID column in result table\n\
+    \     resquery                 - the name of query column in result table\n  \
+    \   resconfid                - the name of confidence column in result table\n\
+    \     pref_name                - the name of preference\n*/\n\nPROCEDURE train\
+    \ (\n  index_name    in varchar2,\n  docid\t \tin varchar2,\n  cattab        in\
+    \ varchar2,\n  catdocid      in varchar2,\n  catid         in varchar2,\n  restab\
+    \        in varchar2,\n  rescatid      in varchar2,\n  resquery      in varchar2,\n\
+    \  resconfid     in varchar2,\n  pref_name     in varchar2 DEFAULT NULL\n);\n\
+    PRAGMA SUPPLEMENTAL_LOG_DATA(train, AUTO);\n\n/*-------------------------------\
+    \ generic train API ---------------------------*/\n/*\n   NAME\n     train - automatically\
+    \ generate predicative model from examples for\n             classification\n\n\
+    \   DESCRIPTION\n     This procedure will generate the predicative model from\
+    \ a given set of\n     training examples. The training examples are contained\
+    \ in the following\n     two tables\n\n\ttable1:  doctab must have the following\
+    \ columns:\n\t\t docid\t  \tnumber primary key\n\t\t text\t \tdoc. column which\
+    \ can be indexed by context index\n        table2:  category table must have the\
+    \ following columns:\n\t\t docid\t\tnumber\n\t\t category_id\tnumber\n\n     The\
+    \ names of table and column are not necessary the same as above.\n\n     The predicative\
+    \ model (classifier) will be written to the result tables.\n     The result table\
+    \ is either created by users before calling this function or\n     created in\
+    \ this program with the specified table name and under the current\n     user\
+    \ (if the specified table does not exist).\n     If user create the result table\
+    \ (which can support table schema for\n     different users), the table should\
+    \ have the following three columns with the\n     exact column names:\n\t\tcat_id\
+    \ number\n\t\ttype number(3) not null\n\t\trule clob\n\n   ARGUMENTS\n     index_name\
+    \               - the name of the text index\n     docid                    -\
+    \ the name of docid column in document table\n     cattab\t\t      - the name\
+    \ of category table\n     catdocid\t\t      - the name of docid column in categroy\
+    \ table\n     catid\t\t      - the name of category ID column in category table\n\
+    \     restab                   - the name of generated result table\n     pref_name\
+    \                - the name of preference\n*/\nPROCEDURE train (\n  index_name\
+    \    \tin varchar2,\n  docid\t \t\tin varchar2,\n  cattab        \tin varchar2,\n\
+    \  catdocid      \tin varchar2,\n  catid         \tin varchar2,\n  restab \t \
+    \   \tin varchar2,\n  pref_name     \tin varchar2\n);\nPRAGMA SUPPLEMENTAL_LOG_DATA(train,\
+    \ AUTO);\n\n/*----------------------------Sentiment Model Train API --------------------*/\n\
+    /*   NAME\n       sa_train_model - generate sentiment model based on provided\
+    \ training\n                        set data.\n\n     DESCRIPTION\n       This\
+    \ procedure generates the sentiment model based on training\n       examples.\
+    \ The training examples and their true labels are provided\n       in the form\
+    \ of two tables:\n\n        table1:  doctab must have the following columns:\n\
+    \                 docid       number primary key\n                 text      \
+    \  doc. column which can be indexed by context index\n        table2:  category\
+    \ table must have the following columns:\n                 docid          number\n\
+    \                 category_id    number (0 , 1 , 2)\n\n        The names of tables\
+    \ and columns are not required to be the same as\n        above but they need\
+    \ to be specified when calling the sa_train_model api.\n        The category id's\
+    \ though should be 0 for neutral 1 for positive and 2\n        for negative. The\
+    \ procedure should also be provided a sentiment classifier\n        preference.\n\
+    \n        The final model generated will be written into the classifier table\n\
+    \        with the as provided by the user. A ctxrule index of the form\n     \
+    \   DR$clsfier_name$RS will also be created on this table. The table will\n  \
+    \      contain the following columns:\n                                      \
+    \ cat_id number\n                                       type number(3) not null\n\
+    \                                       rule clob\n\n     ARGUMENTS\n       clsfier_name\
+    \             - the name of the classifier\n       index_name               -\
+    \ the name of the text index on training set\n       docid                   \
+    \ - the name of docid column in document table\n       cattab                \
+    \   - the name of category table\n       catdocid                 - the name of\
+    \ docid column in categroy table\n       catid                    - the name of\
+    \ category ID column in category table\n       pref_name                - the\
+    \ name of sentiment_classifier preference\n*/\nPROCEDURE sa_train_model (\n  clsfier_name\
+    \          in varchar2,\n  index_name            in varchar2,\n  docid       \
+    \          in varchar2,\n  cattab                in varchar2,\n  catdocid    \
+    \          in varchar2,\n  catid                 in varchar2,\n  pref_name   \
+    \          in varchar2 default NULL\n);\nPRAGMA SUPPLEMENTAL_LOG_DATA(sa_train_model,\
+    \ AUTO);\n\n/*------------------------------Sentiment Model Drop API--------------------*/\n\
+    /*   NAME\n       sa_drop_model - Drop an existing sentiment model\n\n     DESCRIPTION\n\
+    \       This procedure is used to drop an existing sentiment model.\n\n     ARGUMENTS\n\
+    \       model_name               - The name of the sentiment model\n*/\nPROCEDURE\
+    \ sa_drop_model(\n  model_name in varchar2);\nPRAGMA SUPPLEMENTAL_LOG_DATA(sa_drop_model,\
+    \ AUTO);\n\n\n/* ---------- clustering API for permanent table result------------------------*/\n\
+    /*\n  NAME\n    clustering - clustering a collection\n\n  DESCRIPTION\n    This\
+    \ procedure will generate a set of sub-group (clusters) from a provided\n    collection\
+    \ of documents. The collection is given by a table which having a\n    context\
+    \ index built with or without population. The collection table at least\n    has\
+    \ the following two collums, whose name may not be exactly the same.\n\t docid\t\
+    \  \tnumber primary key\n\t text\t \tdoc. column which can be indexed by context\
+    \ index\n\n    The output of clustering is represented by two tables:\n\n\ttable\
+    \ 1: document membership table having the following collums with the\n\t\t exact\
+    \ same names\n\t docid     number -- document ID to identify a document\n\t clusterid\
+    \ number -- the ID of the cluster the document is assigned to\n\t score     number\
+    \ -- the similarity score between document and cluster\n\n\ttable 2: cluster description\
+    \ table having the following collums with the\n\t\t exact same names\n\t clusterid\
+    \ number         -- cluster ID to identify a cluster\n\t descript  drvutl.dr_extrabuf\
+    \ --string to describe the cluster\n         label     drvutl.dr_longbuf  -- a\
+    \ suggested label for the cluster\n         size      number         -- number\
+    \ of documents assigned to the cluster\n\t quality_score number     -- the quality\
+    \ score of the cluster\n\t parent    number         -- parent cluster id. negative\
+    \ means no parent\n\n     The output tables can either be created by users before\
+    \ calling this\n     function or created in this program with the specified table\
+    \ name and\n     under the current user (if the specified table does not exist).\n\
+    \n   ARGUMENTS:\n     index_name               - the name of the text index\n\
+    \     docid                    - the name of docid column in document table\n\
+    \     doctab_name              - the name of document membership table\n     clstab_name\
+    \              - the name of cluster description table\n     pref_name       \
+    \         - the name of the preference\n*/\nPROCEDURE clustering (\n  index_name\
+    \            in varchar2,\n  docid                 in varchar2,\n  doctab_name\
+    \           in varchar2,\n  clstab_name           in varchar2,\n  pref_name  \
+    \           in varchar2 DEFAULT NULL\n);\nPRAGMA SUPPLEMENTAL_LOG_DATA(clustering,\
+    \ AUTO);\n\n/* ---------- clustering API for in-memory table result------------------------*/\n\
+    /*\n  NAME\n    clustering - clustering a collection\n\n  DESCRIPTION\n    This\
+    \ procedure will generate a set of sub-group (clusters) from a provided\n    collection\
+    \ of documents. The collection is given by a table which having a\n    context\
+    \ index built with or without population. The collection table at least\n    has\
+    \ the following two collums, whose name may not be exactly the same.\n\t docid\t\
+    \  \tnumber primary key\n\t text\t \tdoc. column which can be indexed by context\
+    \ index\n\n    The output of clustering is represented by two in-memory tables:\n\
+    \n\ttable 1: document membership table ctx_cls.doc_tab\n\ttable 2: cluster description\
+    \ table ctx_cls.cluster_tab\n\n   ARGUMENTS:\n     index_name               -\
+    \ the name of the text index\n     docid                    - the name of docid\
+    \ column in document table\n     dids                     - docid list to be clustered\n\
+    \     doctab_name              - the name of document membership table\n     clstab_name\
+    \              - the name of cluster description table\n     pref_name       \
+    \         - the name of the preference\n*/\nPROCEDURE clustering (\n  index_name\
+    \            in varchar2,\n  docid                 in varchar2,\n  dids      \
+    \            in docid_tab,\n  doctab_name           in out nocopy doc_tab,\n \
+    \ clstab_name           in out nocopy cluster_tab,\n  pref_name             in\
+    \ varchar2 DEFAULT NULL\n);\n--PRAGMA SUPPLEMENTAL_LOG_DATA(clustering, AUTO);\n\
+    \nEND ctx_cls;"
+dataProducts: []
+storedProcedureType: StoredPackage
+databaseSchema:
+  id: 9c93807b-1325-46a6-ba84-f17ec47afa86
+  type: databaseSchema
+  name: ctxsys
+  fullyQualifiedName: local_oracle_keshav.default.ctxsys
+  displayName: ctxsys
+  deleted: false
+database:
+  id: 514d5dca-5711-487a-b827-729bc2738341
+  type: database
+  name: default
+  fullyQualifiedName: local_oracle_keshav.default
+  displayName: default
+  deleted: false
+service:
+  id: 9f99e604-d130-4dd9-9f61-6fc1f2e49a8d
+  type: databaseService
+  name: local_oracle_keshav
+  fullyQualifiedName: local_oracle_keshav
+  displayName: local_oracle_keshav
+  deleted: false
+serviceType: Oracle
+owners: []
+tags: []
+domains: []
+sourceHash: 4dc9686de6fd121d45c6b3a807c9fbd7
+processedLineage: false
+entityStatus: Unprocessed
