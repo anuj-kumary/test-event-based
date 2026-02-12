@@ -1,0 +1,320 @@
+name: ctx_background_events
+fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events
+tableType: View
+columns:
+  - name: BGE_OWNER#
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.BGE_OWNER#
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: bge_owner_name
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.bge_owner_name
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: BGE_TABLE#
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.BGE_TABLE#
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: bge_table_name
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.bge_table_name
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: BGE_INDEX#
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.BGE_INDEX#
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: bge_index_name
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.bge_index_name
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: BGE_TABLE_PARTITION#
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.BGE_TABLE_PARTITION#
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: bge_table_partition_name
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.bge_table_partition_name
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: BGE_INDEX_PARTITION#
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.BGE_INDEX_PARTITION#
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: bge_index_partition_name
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.bge_index_partition_name
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: bge_event_type
+    dataType: VARCHAR
+    dataLength: 26
+    dataTypeDisplay: varchar2(26)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.bge_event_type
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: bge_event_iteration
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.bge_event_iteration
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: bge_event_wait
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.bge_event_wait
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: bge_worker_number
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.bge_worker_number
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: bge_batch_number
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.bge_batch_number
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: bge_status
+    dataType: VARCHAR
+    dataLength: 11
+    dataTypeDisplay: varchar2(11)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.bge_status
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: bge_start_time
+    dataType: TIMESTAMP
+    dataLength: 1
+    dataTypeDisplay: timestamp(6) with time zone
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.bge_start_time
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: bge_end_time
+    dataType: TIMESTAMP
+    dataLength: 1
+    dataTypeDisplay: timestamp(6) with time zone
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.bge_end_time
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: bge_duration
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.bge_duration
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: bge_error_number
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.bge_error_number
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: bge_error_message
+    dataType: VARCHAR
+    dataLength: 4000
+    dataTypeDisplay: varchar2(4000)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.bge_error_message
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: bge_num_rows
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.bge_num_rows
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: bge_first_docid
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.bge_first_docid
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: bge_current_docid
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.bge_current_docid
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: bge_last_docid
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.bge_last_docid
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: bge_batch_wait
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.bge_batch_wait
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: bge_batch_size
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.bge_batch_size
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: bge_document_size
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.bge_document_size
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: bge_token_count
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.bge_token_count
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: bge_range_count
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.bge_range_count
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: bge_range_type
+    dataType: VARCHAR
+    dataLength: 7
+    dataTypeDisplay: varchar2(7)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_background_events.bge_range_type
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+tableConstraints: []
+owners: []
+databaseSchema:
+  id: 9c93807b-1325-46a6-ba84-f17ec47afa86
+  type: databaseSchema
+  name: ctxsys
+  fullyQualifiedName: local_oracle_keshav.default.ctxsys
+  displayName: ctxsys
+  deleted: false
+database:
+  id: 514d5dca-5711-487a-b827-729bc2738341
+  type: database
+  name: default
+  fullyQualifiedName: local_oracle_keshav.default
+  displayName: default
+  deleted: false
+service:
+  id: 9f99e604-d130-4dd9-9f61-6fc1f2e49a8d
+  type: databaseService
+  name: local_oracle_keshav
+  fullyQualifiedName: local_oracle_keshav
+  displayName: local_oracle_keshav
+  deleted: false
+serviceType: Oracle
+schemaDefinition: ""
+tags: []
+joins:
+  startDate: 2026-01-13
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+customMetrics: []
+domains: []
+dataProducts: []
+sourceHash: 4ce4a5680ce95c353c4467562e2ad6ff
+processedLineage: false
+entityStatus: Unprocessed
