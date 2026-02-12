@@ -1,0 +1,67 @@
+name: CTX_XPCONTAINS
+fullyQualifiedName: local_oracle_keshav.default.ctxsys.CTX_XPCONTAINS
+storedProcedureCode:
+  language: SQL
+  code: |-
+    package ctx_xpcontains authid current_user as
+
+    PRAGMA SUPPLEMENTAL_LOG_DATA(default, NONE);
+
+    function xpcontains(
+      Colval  in     sys.xmltype,
+      Text    in     varchar2,
+      ia      in     sys.odciindexctx,
+      sctx    in out XpathIndexMethods,
+      cflg    in     number
+    )
+      return number parallel_enable is language C
+      name "contains"
+      library dr$lib
+      with context
+      parameters(
+            context,
+            Colval,
+            Colval INDICATOR,
+            Text,
+            Text INDICATOR,
+            Text LENGTH,
+            ia,
+            ia INDICATOR STRUCT,
+            sctx,
+            sctx INDICATOR STRUCT,
+            cflg,
+            cflg INDICATOR,
+            return OCINumber
+          );
+
+    end ctx_xpcontains;
+dataProducts: []
+storedProcedureType: StoredPackage
+databaseSchema:
+  id: 9c93807b-1325-46a6-ba84-f17ec47afa86
+  type: databaseSchema
+  name: ctxsys
+  fullyQualifiedName: local_oracle_keshav.default.ctxsys
+  displayName: ctxsys
+  deleted: false
+database:
+  id: 514d5dca-5711-487a-b827-729bc2738341
+  type: database
+  name: default
+  fullyQualifiedName: local_oracle_keshav.default
+  displayName: default
+  deleted: false
+service:
+  id: 9f99e604-d130-4dd9-9f61-6fc1f2e49a8d
+  type: databaseService
+  name: local_oracle_keshav
+  fullyQualifiedName: local_oracle_keshav
+  displayName: local_oracle_keshav
+  deleted: false
+serviceType: Oracle
+owners: []
+tags: []
+domains: []
+sourceHash: ea5b37ce87eb30bc78049548036a5b44
+processedLineage: false
+entityStatus: Unprocessed
