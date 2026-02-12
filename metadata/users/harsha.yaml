@@ -526,13 +526,9 @@ follows:
     type: table
     name: dim_address_clean
     fullyQualifiedName: sample_data.ecommerce_db.shopify.dim_address_clean
-    description: "<p>Query the database's metadata (like&nbsp;INFORMATION_SCHEMA.TABLES&nbsp;or\
-      \ system tables) to find the most recently created table whose name or schema\
-      \ indicates it contains customer infoOnce you have the table name, use a standard&nbsp;SELECT&nbsp;statement\
-      \ to fetch the data1.<br></p><div data-type=\"file-attachment\" data-url=\"\
-      https://cdn-ds.com/blogs-media/sites/540/2019/06/19204149/2020-Porsche-911-Carrera-S-A_o.jpg\"\
-      \ data-filename=\"\" data-mimetype=\"image\" data-uploading=\"false\" data-upload-progress=\"\
-      0\" data-is-image=\"true\"></div><p></p>"
+    description: |-
+      <p>Query the database's metadata (like&nbsp;INFORMATION_SCHEMA.TABLES&nbsp;or system tables) to find the most recently created table whose name or schema indicates it contains customer infoOnce you have the table name, use a standard&nbsp;SELECT&nbsp;statement to fetch the data1
+      </p><div data-type="file-attachment" data-url="https://cdn-ds.com/blogs-media/sites/540/2019/06/19204149/2020-Porsche-911-Carrera-S-A_o.jpg" data-filename="" data-mimetype="image" data-uploading="false" data-upload-progress="0" data-is-image="true"></div><p></p>
     displayName: dim_address_clean
     deleted: false
   - id: 5e0b9271-2abf-479c-8305-8e1f192f831a
