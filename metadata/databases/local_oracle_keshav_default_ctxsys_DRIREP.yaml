@@ -1,0 +1,150 @@
+name: DRIREP
+fullyQualifiedName: local_oracle_keshav.default.ctxsys.DRIREP
+storedProcedureCode:
+  language: SQL
+  code: |-
+    package drirep as
+    package body drirep wrapped
+    a000000
+    1
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    b
+    13a2 796
+    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
+
+    PRAGMA SUPPLEMENTAL_LOG_DATA(default, NONE);
+
+      s75  constant varchar2(75) :=
+     '                                                                           ';
+      e75  constant varchar2(75) :=
+     '===========================================================================';
+      h75  constant varchar2(75) :=
+     '---------------------------------------------------------------------------';
+
+
+    /*---------------------------- wl (writeln) -------------------------------*/
+    /* write a line to report output.  will automatically append a newline  */
+
+    procedure wl(lline in varchar2);
+
+    /*---------------------------- blankln ------------------------------------*/
+    /* write a blank line to report output.  */
+
+    procedure blankln;
+
+    /*------------------------------- title -----------------------------------*/
+    /* write a title section to the report.  by default, separator is 65 "=" */
+
+    procedure title(
+      title  in varchar2 default null,
+      title2 in varchar2 default null,
+      sep    in varchar2 default null
+    );
+
+    /*---------------------------- initreport ---------------------------------*/
+    /* do pre-report initialization */
+
+    procedure initreport;
+
+    /*---------------------------- endreport ---------------------------------*/
+    /* do end of report cleanup */
+
+    procedure endreport(report in out nocopy clob);
+
+    /*------------------------ load_ttype_names ------------------------------*/
+    /* parse index meta-data and load a table of token type names */
+
+    procedure load_ttype_names (
+      idx in dr_def.idx_rec,
+      tt  in out nocopy dr_def.vc256_tab,
+      fldonly in boolean default FALSE,
+      quote_sec in boolean default TRUE
+    );
+
+    /*---------------------------- bytestr -------------------------------*/
+    /* return a byte amount in readble form */
+
+    function bytestr (a in number) return varchar2;
+
+    /*---------------------------- numstr ---------------------------------*/
+    /* return a large number in readable form */
+
+    function numstr (a in number) return varchar2;
+
+    /*---------------------------- pctstr ---------------------------------*/
+    /* calculate and return a percentage in readable form */
+
+    function pctstr (fig in number, base in number, rnd in number default 2)
+    return varchar2;
+
+    end drirep;
+dataProducts: []
+storedProcedureType: StoredPackage
+databaseSchema:
+  id: 9c93807b-1325-46a6-ba84-f17ec47afa86
+  type: databaseSchema
+  name: ctxsys
+  fullyQualifiedName: local_oracle_keshav.default.ctxsys
+  displayName: ctxsys
+  deleted: false
+database:
+  id: 514d5dca-5711-487a-b827-729bc2738341
+  type: database
+  name: default
+  fullyQualifiedName: local_oracle_keshav.default
+  displayName: default
+  deleted: false
+service:
+  id: 9f99e604-d130-4dd9-9f61-6fc1f2e49a8d
+  type: databaseService
+  name: local_oracle_keshav
+  fullyQualifiedName: local_oracle_keshav
+  displayName: local_oracle_keshav
+  deleted: false
+serviceType: Oracle
+owners: []
+tags: []
+domains: []
+sourceHash: dac63bd91898bfaae8fcf7c7faf21dab
+processedLineage: false
+entityStatus: Unprocessed
