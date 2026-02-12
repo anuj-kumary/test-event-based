@@ -1,0 +1,77 @@
+name: test111
+displayName: ""
+description: <p>dsfg</p>
+style: {}
+fullyQualifiedName: approval rejection test.test111
+synonyms: []
+glossary:
+  id: 32eff16a-e9d6-443f-b164-f7bf9fee8c66
+  type: glossary
+  name: approval rejection test
+  fullyQualifiedName: approval rejection test
+  description: <p>xcsxvb</p>
+  displayName: approval rejection test
+  deleted: false
+children: []
+relatedTerms: []
+references: []
+impersonatedBy: governance-bot
+reviewers:
+  - id: fb8e44c9-b9c5-45bc-9691-b3343b5d5b7c
+    type: user
+    name: 23saints23
+    fullyQualifiedName: 23saints23
+    displayName: 23saints23
+    deleted: false
+    inherited: true
+  - id: 71d900d9-048f-49d2-ac94-8449a5eb0419
+    type: user
+    name: karthick.sharan
+    fullyQualifiedName: '"karthick.sharan"'
+    displayName: karthick.sharan
+    deleted: false
+    inherited: true
+owners:
+  - id: 71d900d9-048f-49d2-ac94-8449a5eb0419
+    type: user
+    name: karthick.sharan
+    fullyQualifiedName: '"karthick.sharan"'
+    displayName: karthick.sharan
+    deleted: false
+usageCount: 0
+tags: []
+incrementalChangeDescription:
+  fieldsAdded: []
+  fieldsUpdated:
+    - name: entityStatus
+      oldValue: Draft
+      newValue: Approved
+  fieldsDeleted: []
+  previousVersion: 0.1
+  changeSummary: {}
+entityStatus: Approved
+mutuallyExclusive: false
+domains:
+  - id: 9ebbbfe5-af46-4bc1-a1ff-50c5bc8ea53b
+    type: domain
+    name: Ajith Test
+    fullyQualifiedName: Ajith Test
+    description: <p>Ajith Test</p>
+    displayName: Ajith Test
+    inherited: true
+  - id: ef10e521-d8c5-4d84-b039-549e8d1d8aaf
+    type: domain
+    name: Customer Domain
+    fullyQualifiedName: Customer Domain
+    description: <p>Customer Domain</p>
+    displayName: Customer
+    inherited: true
+  - id: 607e76d0-fe8a-4cac-aae7-6a4bd0f77d53
+    type: domain
+    name: D1
+    fullyQualifiedName: D1
+    description: <p>Test</p>
+    displayName: D1
+    inherited: true
+dataProducts: []
+childrenCount: 0
