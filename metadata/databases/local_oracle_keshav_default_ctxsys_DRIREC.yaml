@@ -1,0 +1,111 @@
+name: DRIREC
+fullyQualifiedName: local_oracle_keshav.default.ctxsys.DRIREC
+storedProcedureCode:
+  language: SQL
+  code: |-
+    package drirec as
+    package body drirec wrapped
+    a000000
+    1
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    b
+    3fe 260
+    gvTcbNy5j9kzkLZHdm6TIfh8JLQwg/BeLiAFfHRVMZ2stGzffF1LhmiUaRTU8+VkCQnBbs9U
+    ErQNtbV88p/gHy6p00vKDNDQXe+URs/THRWvCoI0vLUSqviZZt8sYsicTWWoL/K1rHffyu2y
+    GWsMDqQ05/FJNSQ17syRt3BJXzEqUDfJ4h3LgyqmuDpvp6HeWJLobnwTPTTGzOBagx/OT7Z7
+    aV8VhiLudaCvvfR6NQYTBkTPO8dlEumIKNJ3ctJOZc5dNQH96HVThfkVfTETBpfMz9W1XVV0
+    eYYD7mdhHhMHB43uCFKVB3auYlssMxXcDK3B4mSm03sG19u+IrDRPf7XAPgUv5Tl1/e/3FTk
+    Ds5kmo/Cf1wpk33ont36RAY2jjp8XLGbbUbc4HG+RT+VsF6J/XrVjukbEP121jFwC5uvfXW5
+    fMaofq8WDG2wN8/Lv3rSBHgcgz52MbsctRFc6ZzZj/Cnq52pX3IPNSbW8PNtaKPwT6WS5wXU
+    orgiYrK+3LRl3+o89CyAeT5tyn1o0YR6cKPlXE64msKn094F7EWHHbW0EJoyMin8L6d/64Dc
+    uIIgnLErSldmTzOa+R1rAP75
+
+    PRAGMA SUPPLEMENTAL_LOG_DATA(default, NONE);
+
+    /*--------------------------------- recover --------------------------------*/
+    /*
+      NAME
+      DESCRIPTION
+
+      ARGUMENTS
+
+
+      NOTES
+
+
+      EXCEPTIONS
+
+      RETURNS
+        none
+    */
+    PROCEDURE recover(component IN varchar2 default 'ALL');
+
+    /*------------------------------ recover_dict ------------------------------*/
+    /*
+      NAME
+        recover_dict - RECOVER textile DICTionary
+      DESCRIPTION
+        Remove policies and indexes that belong to an invalid user (i.e. one
+        that has been dropped)
+
+        Also removes indexes, or any other database objects created that are
+        connected specifically to the policy
+
+        Remove obsolete entries in dr$contains
+
+        Remove thesaurus and sections groups that belongs to an invalid user
+
+        If user_name is null, entries for all dropped users are removed.
+      ARGUMENTS
+
+      RETURNS
+
+      NOTES
+    */
+    PROCEDURE recover_dict(user_name in varchar2 := null);
+
+    end drirec;
+dataProducts: []
+storedProcedureType: StoredPackage
+databaseSchema:
+  id: 9c93807b-1325-46a6-ba84-f17ec47afa86
+  type: databaseSchema
+  name: ctxsys
+  fullyQualifiedName: local_oracle_keshav.default.ctxsys
+  displayName: ctxsys
+  deleted: false
+database:
+  id: 514d5dca-5711-487a-b827-729bc2738341
+  type: database
+  name: default
+  fullyQualifiedName: local_oracle_keshav.default
+  displayName: default
+  deleted: false
+service:
+  id: 9f99e604-d130-4dd9-9f61-6fc1f2e49a8d
+  type: databaseService
+  name: local_oracle_keshav
+  fullyQualifiedName: local_oracle_keshav
+  displayName: local_oracle_keshav
+  deleted: false
+serviceType: Oracle
+owners: []
+tags: []
+domains: []
+sourceHash: 1dac80708481338355b4ee67126b153a
+processedLineage: false
+entityStatus: Unprocessed
