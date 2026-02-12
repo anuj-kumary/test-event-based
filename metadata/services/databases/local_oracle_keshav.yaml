@@ -1,0 +1,31 @@
+name: local_oracle_keshav
+fullyQualifiedName: local_oracle_keshav
+serviceType: Oracle
+connection:
+  config:
+    type: Oracle
+    scheme: oracle+cx_oracle
+    hostPort: localhost:1522
+    password: fernet:gAAAAABpjcjc2eBHsjKU_TRiapEqFzcikrvUuxZRTYuQxZRJMnAYozzmNmuGS4gwWTPfi8uZiMujoai83oYSV2UucTBNMHm65Q==
+    username: system
+    supportsDataDiff: true
+    supportsProfiler: true
+    schemaFilterPattern:
+      excludes:
+        - ^sys$
+        - ^ctxsys$
+        - ^dbsnmp$
+        - ^outln$
+      includes: []
+    oracleConnectionType:
+      oracleServiceName: oracledb
+    supportsQueryComment: true
+    supportsDBTExtraction: true
+    instantClientDirectory: /instantclient
+    supportsUsageExtraction: true
+    supportsLineageExtraction: true
+    supportsMetadataExtraction: true
+pipelines: []
+tags: []
+owners: []
+dataProducts: []
