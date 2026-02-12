@@ -1,0 +1,77 @@
+name: ctx_user_index_sub_lexers
+fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_user_index_sub_lexers
+tableType: View
+columns:
+  - name: isl_index_name
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_user_index_sub_lexers.isl_index_name
+    tags: []
+    constraint: NOT_NULL
+    children: []
+    customMetrics: []
+  - name: isl_language
+    dataType: VARCHAR
+    dataLength: 30
+    dataTypeDisplay: varchar2(30)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_user_index_sub_lexers.isl_language
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: isl_alt_value
+    dataType: VARCHAR
+    dataLength: 30
+    dataTypeDisplay: varchar2(30)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_user_index_sub_lexers.isl_alt_value
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: isl_object
+    dataType: VARCHAR
+    dataLength: 30
+    dataTypeDisplay: varchar2(30)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_user_index_sub_lexers.isl_object
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+tableConstraints: []
+owners: []
+databaseSchema:
+  id: 9c93807b-1325-46a6-ba84-f17ec47afa86
+  type: databaseSchema
+  name: ctxsys
+  fullyQualifiedName: local_oracle_keshav.default.ctxsys
+  displayName: ctxsys
+  deleted: false
+database:
+  id: 514d5dca-5711-487a-b827-729bc2738341
+  type: database
+  name: default
+  fullyQualifiedName: local_oracle_keshav.default
+  displayName: default
+  deleted: false
+service:
+  id: 9f99e604-d130-4dd9-9f61-6fc1f2e49a8d
+  type: databaseService
+  name: local_oracle_keshav
+  fullyQualifiedName: local_oracle_keshav
+  displayName: local_oracle_keshav
+  deleted: false
+serviceType: Oracle
+schemaDefinition: ""
+tags: []
+joins:
+  startDate: 2026-01-13
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+customMetrics: []
+domains: []
+dataProducts: []
+sourceHash: ae0494769694e165511de54dc8b96e89
+processedLineage: false
+entityStatus: Unprocessed
