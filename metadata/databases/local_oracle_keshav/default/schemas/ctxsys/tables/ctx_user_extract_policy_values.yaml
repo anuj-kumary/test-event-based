@@ -1,0 +1,86 @@
+name: ctx_user_extract_policy_values
+fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_user_extract_policy_values
+tableType: View
+columns:
+  - name: epv_policy_name
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_user_extract_policy_values.epv_policy_name
+    tags: []
+    constraint: NOT_NULL
+    children: []
+    customMetrics: []
+  - name: epv_class
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_user_extract_policy_values.epv_class
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: epv_object
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_user_extract_policy_values.epv_object
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: epv_attribute
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_user_extract_policy_values.epv_attribute
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: epv_value
+    dataType: VARCHAR
+    dataLength: 4000
+    dataTypeDisplay: varchar2(4000)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_user_extract_policy_values.epv_value
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+tableConstraints: []
+owners: []
+databaseSchema:
+  id: 9c93807b-1325-46a6-ba84-f17ec47afa86
+  type: databaseSchema
+  name: ctxsys
+  fullyQualifiedName: local_oracle_keshav.default.ctxsys
+  displayName: ctxsys
+  deleted: false
+database:
+  id: 514d5dca-5711-487a-b827-729bc2738341
+  type: database
+  name: default
+  fullyQualifiedName: local_oracle_keshav.default
+  displayName: default
+  deleted: false
+service:
+  id: 9f99e604-d130-4dd9-9f61-6fc1f2e49a8d
+  type: databaseService
+  name: local_oracle_keshav
+  fullyQualifiedName: local_oracle_keshav
+  displayName: local_oracle_keshav
+  deleted: false
+serviceType: Oracle
+schemaDefinition: ""
+tags: []
+joins:
+  startDate: 2026-01-13
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+customMetrics: []
+domains: []
+dataProducts: []
+sourceHash: 8c6136c62070034405792740ac0e8aab
+processedLineage: false
+entityStatus: Unprocessed
