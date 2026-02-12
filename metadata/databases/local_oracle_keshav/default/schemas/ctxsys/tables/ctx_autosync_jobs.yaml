@@ -1,0 +1,131 @@
+name: ctx_autosync_jobs
+fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_autosync_jobs
+tableType: View
+columns:
+  - name: asj_job_name
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_autosync_jobs.asj_job_name
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: asj_index_name
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_autosync_jobs.asj_index_name
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: asj_index_id
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: "number(38,0)"
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_autosync_jobs.asj_index_id
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: asj_index_owner
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_autosync_jobs.asj_index_owner
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: asj_partition_name
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_autosync_jobs.asj_partition_name
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: asj_partition_id
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_autosync_jobs.asj_partition_id
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: asj_start_date
+    dataType: TIMESTAMP
+    dataLength: 1
+    dataTypeDisplay: timestamp(6) with time zone
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_autosync_jobs.asj_start_date
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: asj_repeat_interval
+    dataType: VARCHAR
+    dataLength: 4000
+    dataTypeDisplay: varchar2(4000)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_autosync_jobs.asj_repeat_interval
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: asj_state
+    dataType: VARCHAR
+    dataLength: 15
+    dataTypeDisplay: varchar2(15)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_autosync_jobs.asj_state
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: asj_run_count
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_autosync_jobs.asj_run_count
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+tableConstraints: []
+owners: []
+databaseSchema:
+  id: 9c93807b-1325-46a6-ba84-f17ec47afa86
+  type: databaseSchema
+  name: ctxsys
+  fullyQualifiedName: local_oracle_keshav.default.ctxsys
+  displayName: ctxsys
+  deleted: false
+database:
+  id: 514d5dca-5711-487a-b827-729bc2738341
+  type: database
+  name: default
+  fullyQualifiedName: local_oracle_keshav.default
+  displayName: default
+  deleted: false
+service:
+  id: 9f99e604-d130-4dd9-9f61-6fc1f2e49a8d
+  type: databaseService
+  name: local_oracle_keshav
+  fullyQualifiedName: local_oracle_keshav
+  displayName: local_oracle_keshav
+  deleted: false
+serviceType: Oracle
+schemaDefinition: ""
+tags: []
+joins:
+  startDate: 2026-01-13
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+customMetrics: []
+domains: []
+dataProducts: []
+sourceHash: 6be57df0ebc5c2dee5c6b4faddcdc6e7
+processedLineage: false
+entityStatus: Unprocessed
