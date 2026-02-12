@@ -1,0 +1,24 @@
+name: dip
+fullyQualifiedName: local_oracle_keshav.default.dip
+dataProducts: []
+owners: []
+service:
+  id: 9f99e604-d130-4dd9-9f61-6fc1f2e49a8d
+  type: databaseService
+  name: local_oracle_keshav
+  fullyQualifiedName: local_oracle_keshav
+  displayName: local_oracle_keshav
+  deleted: false
+serviceType: Oracle
+database:
+  id: 514d5dca-5711-487a-b827-729bc2738341
+  type: database
+  name: default
+  fullyQualifiedName: local_oracle_keshav.default
+  displayName: default
+  deleted: false
+tables: []
+tags: []
+domains: []
+sourceHash: 2bd5504d62ae40adef259f615c4ce424
+entityStatus: Unprocessed
