@@ -1,0 +1,185 @@
+name: ctx_user_index_partitions
+fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_user_index_partitions
+tableType: View
+columns:
+  - name: ixp_id
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: "number(38,0)"
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_user_index_partitions.ixp_id
+    tags: []
+    constraint: NOT_NULL
+    children: []
+    customMetrics: []
+  - name: ixp_index_name
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_user_index_partitions.ixp_index_name
+    tags: []
+    constraint: NOT_NULL
+    children: []
+    customMetrics: []
+  - name: ixp_index_partition_name
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_user_index_partitions.ixp_index_partition_name
+    tags: []
+    constraint: NOT_NULL
+    children: []
+    customMetrics: []
+  - name: ixp_table_owner
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_user_index_partitions.ixp_table_owner
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: ixp_table_name
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_user_index_partitions.ixp_table_name
+    tags: []
+    constraint: NOT_NULL
+    children: []
+    customMetrics: []
+  - name: ixp_table_partition_name
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_user_index_partitions.ixp_table_partition_name
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: ixp_docid_count
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: "number(38,0)"
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_user_index_partitions.ixp_docid_count
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: ixp_status
+    dataType: VARCHAR
+    dataLength: 12
+    dataTypeDisplay: varchar2(12)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_user_index_partitions.ixp_status
+    tags: []
+    constraint: NOT_NULL
+    children: []
+    customMetrics: []
+  - name: ixp_sync_type
+    dataType: VARCHAR
+    dataLength: 20
+    dataTypeDisplay: varchar2(20)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_user_index_partitions.ixp_sync_type
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: ixp_sync_memory
+    dataType: VARCHAR
+    dataLength: 100
+    dataTypeDisplay: varchar2(100)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_user_index_partitions.ixp_sync_memory
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: ixp_sync_para_degree
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_user_index_partitions.ixp_sync_para_degree
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: ixp_sync_interval
+    dataType: VARCHAR
+    dataLength: 2000
+    dataTypeDisplay: varchar2(2000)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_user_index_partitions.ixp_sync_interval
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: ixp_sync_jobname
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_user_index_partitions.ixp_sync_jobname
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: ixp_auto_opt_type
+    dataType: VARCHAR
+    dataLength: 20
+    dataTypeDisplay: varchar2(20)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_user_index_partitions.ixp_auto_opt_type
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: ixp_auto_opt_interval
+    dataType: VARCHAR
+    dataLength: 2000
+    dataTypeDisplay: varchar2(2000)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_user_index_partitions.ixp_auto_opt_interval
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: ixp_auto_opt_para_degree
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.ctx_user_index_partitions.ixp_auto_opt_para_degree
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+tableConstraints: []
+owners: []
+databaseSchema:
+  id: 9c93807b-1325-46a6-ba84-f17ec47afa86
+  type: databaseSchema
+  name: ctxsys
+  fullyQualifiedName: local_oracle_keshav.default.ctxsys
+  displayName: ctxsys
+  deleted: false
+database:
+  id: 514d5dca-5711-487a-b827-729bc2738341
+  type: database
+  name: default
+  fullyQualifiedName: local_oracle_keshav.default
+  displayName: default
+  deleted: false
+service:
+  id: 9f99e604-d130-4dd9-9f61-6fc1f2e49a8d
+  type: databaseService
+  name: local_oracle_keshav
+  fullyQualifiedName: local_oracle_keshav
+  displayName: local_oracle_keshav
+  deleted: false
+serviceType: Oracle
+schemaDefinition: ""
+tags: []
+joins:
+  startDate: 2026-01-13
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+customMetrics: []
+domains: []
+dataProducts: []
+sourceHash: d54acf03dea8e79a966afa21ab6df7ce
+processedLineage: false
+entityStatus: Unprocessed
