@@ -1,0 +1,257 @@
+name: dv$configuration_audit
+fullyQualifiedName: local_oracle_keshav.default.audsys.dv$configuration_audit
+tableType: View
+columns:
+  - name: os_user
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.audsys.dv$configuration_audit.os_user
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: userid
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.audsys.dv$configuration_audit.userid
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: host_name
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.audsys.dv$configuration_audit.host_name
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: terminal
+    dataType: VARCHAR
+    dataLength: 30
+    dataTypeDisplay: varchar2(30)
+    fullyQualifiedName: local_oracle_keshav.default.audsys.dv$configuration_audit.terminal
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: event_timestamp
+    dataType: TIMESTAMP
+    dataLength: 1
+    dataTypeDisplay: timestamp(6)
+    fullyQualifiedName: local_oracle_keshav.default.audsys.dv$configuration_audit.event_timestamp
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: obj_owner
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.audsys.dv$configuration_audit.obj_owner
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: obj_name
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.audsys.dv$configuration_audit.obj_name
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: dv_action_code
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.audsys.dv$configuration_audit.dv_action_code
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: dv_action_name
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.audsys.dv$configuration_audit.dv_action_name
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: dv_action_object_name
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.audsys.dv$configuration_audit.dv_action_object_name
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: sql_text
+    dataType: CLOB
+    dataLength: 1
+    dataTypeDisplay: clob
+    fullyQualifiedName: local_oracle_keshav.default.audsys.dv$configuration_audit.sql_text
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: dv_rule_set_name
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.audsys.dv$configuration_audit.dv_rule_set_name
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: dv_factor_context
+    dataType: VARCHAR
+    dataLength: 4000
+    dataTypeDisplay: varchar2(4000)
+    fullyQualifiedName: local_oracle_keshav.default.audsys.dv$configuration_audit.dv_factor_context
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: dv_comment
+    dataType: VARCHAR
+    dataLength: 4000
+    dataTypeDisplay: varchar2(4000)
+    fullyQualifiedName: local_oracle_keshav.default.audsys.dv$configuration_audit.dv_comment
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: sessionid
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.audsys.dv$configuration_audit.sessionid
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: entry_id
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.audsys.dv$configuration_audit.entry_id
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: statement_id
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.audsys.dv$configuration_audit.statement_id
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: dv_return_code
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.audsys.dv$configuration_audit.dv_return_code
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: proxy_userid
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.audsys.dv$configuration_audit.proxy_userid
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: global_userid
+    dataType: VARCHAR
+    dataLength: 32
+    dataTypeDisplay: varchar2(32)
+    fullyQualifiedName: local_oracle_keshav.default.audsys.dv$configuration_audit.global_userid
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: instance_id
+    dataType: NUMBER
+    dataLength: 1
+    dataTypeDisplay: number
+    fullyQualifiedName: local_oracle_keshav.default.audsys.dv$configuration_audit.instance_id
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: os_process
+    dataType: VARCHAR
+    dataLength: 16
+    dataTypeDisplay: varchar2(16)
+    fullyQualifiedName: local_oracle_keshav.default.audsys.dv$configuration_audit.os_process
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: dv_grantee
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.audsys.dv$configuration_audit.dv_grantee
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+  - name: dv_object_status
+    dataType: VARCHAR
+    dataLength: 1
+    dataTypeDisplay: varchar2(1)
+    fullyQualifiedName: local_oracle_keshav.default.audsys.dv$configuration_audit.dv_object_status
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+tableConstraints: []
+owners: []
+databaseSchema:
+  id: cedff493-5bea-4738-9363-62bea54fb4c5
+  type: databaseSchema
+  name: audsys
+  fullyQualifiedName: local_oracle_keshav.default.audsys
+  displayName: audsys
+  deleted: false
+database:
+  id: 514d5dca-5711-487a-b827-729bc2738341
+  type: database
+  name: default
+  fullyQualifiedName: local_oracle_keshav.default
+  displayName: default
+  deleted: false
+service:
+  id: 9f99e604-d130-4dd9-9f61-6fc1f2e49a8d
+  type: databaseService
+  name: local_oracle_keshav
+  fullyQualifiedName: local_oracle_keshav
+  displayName: local_oracle_keshav
+  deleted: false
+serviceType: Oracle
+schemaDefinition: ""
+tags: []
+joins:
+  startDate: 2026-01-13
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+customMetrics: []
+domains: []
+dataProducts: []
+sourceHash: f8881149f758093908545194e1644106
+processedLineage: false
+entityStatus: Unprocessed
