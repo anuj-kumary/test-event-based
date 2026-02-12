@@ -9,12 +9,6 @@ reviewers:
     fullyQualifiedName: 23saints23
     displayName: 23saints23
     deleted: false
-  - id: 71d900d9-048f-49d2-ac94-8449a5eb0419
-    type: user
-    name: karthick.sharan
-    fullyQualifiedName: '"karthick.sharan"'
-    displayName: karthick.sharan
-    deleted: false
 owners:
   - id: 71d900d9-048f-49d2-ac94-8449a5eb0419
     type: user
@@ -41,16 +35,16 @@ tags:
     state: Confirmed
     appliedAt: 1767969396000
     appliedBy: admin
-termCount: 6
+termCount: 8
 incrementalChangeDescription:
-  fieldsAdded:
+  fieldsAdded: []
+  fieldsUpdated: []
+  fieldsDeleted:
     - name: reviewers
-      newValue: "[{\"id\":\"71d900d9-048f-49d2-ac94-8449a5eb0419\",\"type\":\"user\"\
+      oldValue: "[{\"id\":\"71d900d9-048f-49d2-ac94-8449a5eb0419\",\"type\":\"user\"\
         ,\"name\":\"karthick.sharan\",\"fullyQualifiedName\":\"\\\"karthick.sharan\\\
         \"\",\"displayName\":\"karthick.sharan\",\"deleted\":false}]"
-  fieldsUpdated: []
-  fieldsDeleted: []
-  previousVersion: 0.3
+  previousVersion: 0.4
   changeSummary: {}
 mutuallyExclusive: false
 domains:
