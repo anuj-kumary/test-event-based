@@ -1,0 +1,147 @@
+name: DRIENTL
+fullyQualifiedName: local_oracle_keshav.default.ctxsys.DRIENTL
+storedProcedureCode:
+  language: SQL
+  code: |-
+    package drientl AUTHID current_user as
+    package body drientl wrapped
+    a000000
+    1
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    b
+    d29 5e8
+    Anc+85kCZu+jyMvXXsJRN0OUuU4wgz0rcgqG3y+5raoCDmIejguDAOL6HYDsFGbCXY1dNF0U
+    8gMHAiXR0O3SnbtfVtkkhRJjADId+5OMiNdH/tdfRUBPE+9L7fN4n6o65CnQZJ0D1HnfE4Rk
+    vpxgA//mH0ZdvLR8PAL/Fvogfs6h19HwQ7DUvJbM5XQkDBCRt8P+zRyKydlWzhknYZxFLcTK
+    DQfvuQwHowlxWEs13WsVAUvd9sKU0fDxUQhdbsxQEYPpgvrJ7TFqzCdotjMlElytpQkPR1ii
+    X2yYLJ8UvGFRe/FU3ZTXHwuObNo2KUCBuaFUoVsIgvTWs/xgUu352jZbNMQlrpJT80cDOZg7
+    eNbvA2lRJNOgZM4pdOrQH5R9wadxp1srEYYXxsRHT2eAW0bNa/wjv8VptVT7NnqrUKx5U675
+    YNV1jGB7BIL8COPDL92jtrYdo48usw1dfCT78anHuOJavnqLcfLMCWbvZQnb/cBuHGSnH+Pe
+    Ym8H31aVgmXgxj+HNu/pCsXTOXFH9Qyi6ibAUuYTwWCSMCoWW7MVqnyCiFhlyFStPgbRca31
+    28+JJIzGKIK+4wJlYM6Kzb7/4qhx8+MjIQtplUWUUZGO3m92i5txU9CeO8RsEpzyLZKbmykM
+    U6r5zR6YNrlofETxCrYAxg8XsluzunCFlrO/FIjlWURII+3iHGYW+aQWj0GVtpWuuthxIMLU
+    r+ynUqoyeAc4hz99pLRHehqbuBIV2il6O6WHtx9MXqirZs2qgGggWw7jUDbbq1Fg4wQibLMZ
+    CRKN4LNwwChijAQZbwrJ/LwokscfozQY7JIKW+Q71nhiEQsFvrbVKKtDrQZyHEepNwc8ePjM
+    daNrxmCMHbmxJvaum4HDSwMKXmQVhDx6XinT+mJT9a8UHJESQqAu/cvlrYtmcEcHMPiXj4A+
+    GSgJx1dwjO8pcYA3IpLrIx9YhlCDFQnYtxCuNNeUnBWnqzq7XvuU93rztcDdvlkwp7Z+AeFN
+    R1eJrUNqbhVlbN/ueuV8KLy/IRtT3tpWdPdbJcnY+HpmQyeiuSAJjrMTd5uWwg2NyBabV5vP
+    95+j78pxzr0xN0Hblbk++NqxDXWIol43ByHP0eEXIETqj/BqN1gFv3ZBmiRBmG2C65ElLpkm
+    wSTDaqaN9Vf1uthXaltHTKH1I9h80ybbIitJPCuM/lczLa9aBjOWXCrQIBE/l3XRgawWFTRA
+    FujEB1aA/41YhwHow62zEX4YMMeoxIT3L1ShEj4uIfAGOO2JSRVgOkscusWt+KtZKKlkMV+v
+    tN3jmITfbaKHRcD4qvbrnRm7LQxb5CM6Hg04RX6FgScOxYbKXx0yz8/geQ0lsBfz7SojALyA
+    /Cl5lwhzJ04eIdwCfnkAlEYqTHVyeYpISttW7ezBlprnHd7I4UJirz0MYtt2TgjvP4Cf3Ld7
+    T7Rz60voiVDHTqk523h62LuWqrxz7Je+SWlAspdL5Z34/Z0Eoog=
+
+    PRAGMA SUPPLEMENTAL_LOG_DATA(default, NONE);
+
+    /*------------------------- prep_dict -----------------------------------*/
+    /*
+      NAME
+        prep_dict
+
+      DESCRIPTION
+        prepare user dictionary for insertion
+    */
+
+    FUNCTION prep_dict(
+      p_policy IN VARCHAR2,
+      locking  IN NUMBER
+    ) return binary_integer;
+
+    /*------------------------- add_dict_entry-------------------------------*/
+    /*
+      NAME
+        add_dict_entry
+
+      DESCRIPTION
+        add a dictionary entry to the user dictionary
+
+    */
+
+    PROCEDURE add_dict_entry(
+      p_pid           IN NUMBER,
+      p_eid           IN NUMBER,
+      p_lang          IN VARCHAR2,
+      p_mention       IN VARCHAR2,
+      p_type          IN VARCHAR2,
+      p_normid        IN NUMBER,
+      p_altcnt        IN NUMBER
+    );
+
+    /*--------------------------- chkdupdict ------------------------------------*/
+    /*
+      NAME
+        chkdupdict
+      DESCRIPTION
+        Check whether a dictionary has already been loaded                       */
+
+    PROCEDURE chkdupdict;
+
+    /*----------------------- close_dict ----------------------------------*/
+    /*
+      NAME
+        close_dict
+
+      DESCRIPTION
+        run any closing procedures
+    */
+
+    PROCEDURE close_dict;
+
+
+    /*--------------------------- drop_dict -------------------------------------*/
+    /*
+      NAME
+        drop_dict
+
+      DESCRIPTION
+        drop a user-defined dictionary
+    */
+
+    PROCEDURE drop_dict;
+
+    end drientl;
+dataProducts: []
+storedProcedureType: StoredPackage
+databaseSchema:
+  id: 9c93807b-1325-46a6-ba84-f17ec47afa86
+  type: databaseSchema
+  name: ctxsys
+  fullyQualifiedName: local_oracle_keshav.default.ctxsys
+  displayName: ctxsys
+  deleted: false
+database:
+  id: 514d5dca-5711-487a-b827-729bc2738341
+  type: database
+  name: default
+  fullyQualifiedName: local_oracle_keshav.default
+  displayName: default
+  deleted: false
+service:
+  id: 9f99e604-d130-4dd9-9f61-6fc1f2e49a8d
+  type: databaseService
+  name: local_oracle_keshav
+  fullyQualifiedName: local_oracle_keshav
+  displayName: local_oracle_keshav
+  deleted: false
+serviceType: Oracle
+owners: []
+tags: []
+domains: []
+sourceHash: 19739a1d7e90b8f7c7598cd843930b6b
+processedLineage: false
+entityStatus: Unprocessed
