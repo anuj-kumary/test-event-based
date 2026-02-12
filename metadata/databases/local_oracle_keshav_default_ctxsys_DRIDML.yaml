@@ -1,0 +1,135 @@
+name: DRIDML
+fullyQualifiedName: local_oracle_keshav.default.ctxsys.DRIDML
+storedProcedureCode:
+  language: SQL
+  code: "package body dridml wrapped\na000000\n1\nabcd\nabcd\nabcd\nabcd\nabcd\nabcd\n\
+    abcd\nabcd\nabcd\nabcd\nabcd\nabcd\nabcd\nabcd\nabcd\nb\n48f7 10ae\n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\n\
+    rMF20Rpackage dridml\n8yg12vt908DLBVumcggb8D2KmsfOpYqmvTiYccVCUcXEnYOmRi0mJSsOrEBj1ywgu/\n\
+    9veeLzZgQ6HPGdtM28ctRY0BAv4TEzIgA7tl8GppK/docivaEs8WbzAUKSkPmEkbBRNqEe/b\nKyMFkG/LMfCHbRCIzYd4ubkpFl9GfUmL2gpECyC5Trh1C9EYNE3raTroaA8efr3xyWqBJDHF\n\
+    jCQRcBet7UKJ7WUWul3d1zt09aPpaDU93Mab2DuODAWtfVlkhV2XkCaj2JrtnXteODaTqlOK\nzX6ShSp5wdlWRQOhulrlTbDAAelqPRg1s9ysn/oryhre2ALAX5/lA///6fdlhokqvdUxAqQ6\n\
+    gl5lOPQcDKL+axtctthgWFDR1KrkLH9COp4=\nis\nPRAGMA SUPPLEMENTAL_LOG_DATA(default,\
+    \ NONE);\n\n  LOCK_WAIT       constant number  := null;\n  LOCK_NOWAIT     constant\
+    \ number  := 0;\n  IGNORE_ERRORS   constant boolean := TRUE;\n\n/*---------------------------\
+    \ deregister --------------------------------*/\n/*\n  NAME\n    DEREGISTER(cid)\
+    \ - deregister the given column with DML queue,\n\n  DESCRIPTION\n    This procedure\
+    \ discontinues queueing of updates to the DML\n    queue.   It also flushes any\
+    \ pending requests, and waits for any\n    in-progress requests to complete\n\
+    \  ARGUMENTS\n    CID\t\t- the column id to register\n    unlock      - unlock\
+    \ DML afterwards?\n    zap_online_pending -- clear dr$online_pending\n*/\nprocedure\
+    \ DEREGISTER(cid number, unlock in boolean default TRUE,\n                   \
+    \  part_id number default 0,\n                     part_name in varchar2 default\
+    \ null,\n                     zap_online_pending in boolean default TRUE);\n\n\
+    /*------------------------------ lock_dml --------------------------------*/\n\
+    /*\n  NAME\n    lock_dml\n\n  DESCRIPTION\n     lock dml for a column\n\n  ARGUMENTS\n\
+    \     cid        -- cid to lock\n     timeout    -- if non-null, timeout\n   \
+    \  pid        -- partition id\n\n  RETURNS\n     0 on success, 1 on timeout\n\n\
+    \  NOTES\n     This does not block out incoming DML reindex requests.\n*/\nfunction\
+    \ lock_dml_ret(\n  cid        in number,\n  pid        in number,\n  timeout \
+    \   in number\n) return number;\n\nprocedure lock_dml(\n  cid        in number,\n\
+    \  pid        in number,\n  timeout    in number\n);\n\n/*-------------------------\
+    \ lock_dml_all_part ----------------------------*/\n/* NOTE: gets multiple locks.\
+    \  If fails, it's up to calling procedure to  */\n/* release any locks it may\
+    \ have gotten                                   */\nprocedure lock_dml_all_part(\n\
+    \  cid        in number\n);\n\n/*----------------------------- unlock_dml ------------------------------*/\n\
+    /*\n  NAME\n     UNLOCK_DML\n\n  DESCRIPTION\n     Unlock the DML queue\n\n  ARGUMENTS\n\
+    \     ignore_errors\t- don't flag any errors\n*/\nprocedure unlock_dml(\n  ignore_errors\
+    \ in boolean default false\n);\n\n/*------------------------ unlock_dml_all_part\
+    \ ---------------------------*/\n\nprocedure unlock_dml_all_part(\n  ignore_errors\
+    \ in boolean default false\n);\n\n/* 5364449: Removed get_dml */\n\n/*---------------------------\
+    \ ClearOnlinePending ------------------------*/\n\nprocedure ClearOnlinePending(\n\
+    \  p_idxid in number,\n  index_partition in varchar2 default NULL\n);\n\n/*---------------------------\
+    \ ExchangePending ---------------------------*/\n/* exchange all rows in dr$pending,\
+    \ dr$waiting, etc. for exchange partition */\n\nprocedure ExchangePending(\n \
+    \ p_idxid1 in number,\n  p_ixpid1 in number,\n  p_idxid2 in number\n);\n\n/*------------------------\
+    \ ExchangePendingComp --------------------------*/\n/* exchange all rows in dr$pending,\
+    \ dr$waiting, etc. for exchange of\n   composite partition */\n\nprocedure ExchangePendingComp(\n\
+    \  p_idxid1 in number,\n  p_ixpid1 in number,\n  p_idxid2 in number,\n  p_ixpid2\
+    \ in number\n);\n\n/*------------------------- delete_dup_waiting ----------------------------*/\n\
+    /* eliminate duplicate dr$waiting rows */\n\nprocedure delete_dup_waiting(cid\
+    \ in number, pid in number);\n\n/*------------------------- open_waiting_cur ----------------------------*/\n\
+    /* open cursor on dr$waiting */\n\nprocedure open_waiting_cur(cid in number, pid\
+    \ in number);\n\n/*------------------------- fetch_waiting_cur ----------------------------*/\n\
+    /* fetch row from waiting cursor */\n\nfunction fetch_waiting_cur(rid out rowid,\
+    \ wrid out urowid) return number;\n\n/*------------------------- insert_pending\
+    \ -------------------------------*/\n/* insert a row into dr$pending */\n\nprocedure\
+    \ insert_pending(\n  cid  in number,\n  pid  in number,\n  rid  in rowid,\n  wrid\
+    \ in urowid default null\n);\n\n/*-------------------------- DeletePending -------------------------*/\n\
+    \nprocedure DeletePending (\n  p_idxid  in number,\n  p_ixpid  in number,\n  p_rid\
+    \    in rowid\n);\n\n/*-------------------------- DeletePendingArr ----------------------*/\n\
+    \nprocedure DeletePendingArr (\n  p_idxid  in number,\n  p_ixpid  in number,\n\
+    \  p_rid    in dr_def.rowid_tab\n);\n\n/*-------------------------- SetLockFailed\
+    \ -------------------------*/\n\nprocedure SetLockFailed (\n  p_idxid  in number,\n\
+    \  p_ixpid  in number,\n  p_rid    in rowid\n);\n\n/*--------------------------\
+    \ HasPending ----------------------------*/\n\nfunction HasPending (\n  p_idxid\
+    \  in number,\n  p_ixpid  in number\n) return boolean;\n\n/*--------------------------\
+    \ CleanDelete ---------------------------*/\n\nprocedure CleanDelete (\n  p_idxid\
+    \  in number,\n  p_ixpid  in number\n);\n\n/*-------------------------- PopulatePendingRowid\
+    \ ---------------------------*/\n\nprocedure PopulatePendingRowid (\n  p_idxid\
+    \ in number,\n  p_ixpid in number,\n  p_rowid in varchar2\n);\n\n/*--------------------------\
+    \ lock_autosync_ret --------------------------*/\nfunction lock_autosync_ret(\n\
+    \  cid        in number,\n  pid        in number,\n  timeout    in number\n) return\
+    \ number;\n\n/*---------------------------- lock_autosync ----------------------------*/\n\
+    procedure lock_autosync(\n  cid        in number,\n  pid        in number,\n \
+    \ timeout    in number\n);\n\n/*--------------------------- unlock_autosync ---------------------------*/\n\
+    procedure unlock_autosync(\n  ignore_errors in boolean default false\n);\n\nfunction\
+    \ GetPendingCursor(polid   number,\n                          part_id number default\
+    \ null)\n  return sys_refcursor;\n\nfunction GetOnlinePendingCursor(polid   number,\n\
+    \                                part    varchar2 default null)\n  return sys_refcursor;\n\
+    \nprocedure InsertOnlinePendingRowid(\n  p_idxid in number,\n  p_rowid in rowid,\n\
+    \  p_part  in varchar2);\n\nend dridml;"
+dataProducts: []
+storedProcedureType: StoredPackage
+databaseSchema:
+  id: 9c93807b-1325-46a6-ba84-f17ec47afa86
+  type: databaseSchema
+  name: ctxsys
+  fullyQualifiedName: local_oracle_keshav.default.ctxsys
+  displayName: ctxsys
+  deleted: false
+database:
+  id: 514d5dca-5711-487a-b827-729bc2738341
+  type: database
+  name: default
+  fullyQualifiedName: local_oracle_keshav.default
+  displayName: default
+  deleted: false
+service:
+  id: 9f99e604-d130-4dd9-9f61-6fc1f2e49a8d
+  type: databaseService
+  name: local_oracle_keshav
+  fullyQualifiedName: local_oracle_keshav
+  displayName: local_oracle_keshav
+  deleted: false
+serviceType: Oracle
+owners: []
+tags: []
+domains: []
+sourceHash: 2e4158d2c673e2a82198cce0a1bb72c6
+processedLineage: false
+entityStatus: Unprocessed
