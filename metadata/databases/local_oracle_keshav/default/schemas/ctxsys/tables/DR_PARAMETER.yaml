@@ -1,0 +1,58 @@
+name: DR$PARAMETER
+fullyQualifiedName: local_oracle_keshav.default.ctxsys.DR$PARAMETER
+tableType: Regular
+columns:
+  - name: par_name
+    dataType: VARCHAR
+    dataLength: 128
+    dataTypeDisplay: varchar2(128)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.DR$PARAMETER.par_name
+    tags: []
+    constraint: PRIMARY_KEY
+    children: []
+    customMetrics: []
+  - name: par_value
+    dataType: VARCHAR
+    dataLength: 500
+    dataTypeDisplay: varchar2(500)
+    fullyQualifiedName: local_oracle_keshav.default.ctxsys.DR$PARAMETER.par_value
+    tags: []
+    constraint: "NULL"
+    children: []
+    customMetrics: []
+tableConstraints: []
+owners: []
+databaseSchema:
+  id: 9c93807b-1325-46a6-ba84-f17ec47afa86
+  type: databaseSchema
+  name: ctxsys
+  fullyQualifiedName: local_oracle_keshav.default.ctxsys
+  displayName: ctxsys
+  deleted: false
+database:
+  id: 514d5dca-5711-487a-b827-729bc2738341
+  type: database
+  name: default
+  fullyQualifiedName: local_oracle_keshav.default
+  displayName: default
+  deleted: false
+service:
+  id: 9f99e604-d130-4dd9-9f61-6fc1f2e49a8d
+  type: databaseService
+  name: local_oracle_keshav
+  fullyQualifiedName: local_oracle_keshav
+  displayName: local_oracle_keshav
+  deleted: false
+serviceType: Oracle
+tags: []
+joins:
+  startDate: 2026-01-13
+  dayCount: 30
+  columnJoins: []
+  directTableJoins: []
+customMetrics: []
+domains: []
+dataProducts: []
+sourceHash: 00f166834b8e735f91efab27e10639fa
+processedLineage: false
+entityStatus: Unprocessed
