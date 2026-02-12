@@ -1,0 +1,231 @@
+name: DBMS_SEARCH_DEF
+fullyQualifiedName: local_oracle_keshav.default.ctxsys.DBMS_SEARCH_DEF
+storedProcedureCode:
+  language: SQL
+  code: |-
+    package        dbms_search_def authid definer as
+    PACKAGE BODY        DBMS_SEARCH_DEF wrapped
+    a000000
+    1
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    abcd
+    b
+    4633 1217
+    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
+    8KdPbe0PfZQwUGhRgAIILPmZMgyL/Q==
+
+    PRAGMA SUPPLEMENTAL_LOG_DATA(default, NONE);
+
+    function SearchIndexExists(
+      c_index_owner  in varchar2,
+      c_index_name   in varchar2,
+      c_source_owner in varchar2,
+      c_source_name  in varchar2,
+      c_source_type  in varchar2
+    ) return boolean;
+
+    procedure InsertSearchIndexMetadata(
+      c_index_owner  in varchar2,
+      c_index_name   in varchar2,
+      c_source_owner in varchar2 default null,
+      c_source_name  in varchar2 default null,
+      c_source_type  in varchar2 default null,
+      c_source_id    in number   default 0,
+      c_source_qrys  in json     default null
+    );
+
+    FUNCTION GetSourceID(
+      c_index_owner  in     varchar2,
+      c_index_name   in     varchar2,
+      c_source_owner in     varchar2,
+      c_source_name  in     varchar2,
+      c_source_type  in out varchar2,
+      c_source_qrys  in out json
+    ) return number;
+
+    procedure DeleteSearchIndexMetadata(
+      c_index_owner  in varchar2,
+      c_index_name   in varchar2,
+      c_source_owner in varchar2 default null,
+      c_source_name  in varchar2 default null
+    );
+
+    PROCEDURE CreateSequence(
+      sequence_pfx in varchar2
+    );
+
+    PROCEDURE DropSequence(
+      sequence_pfx in varchar2
+    );
+
+    function GetNextSourceID(
+      sequence_name in varchar2
+    ) return number;
+
+    procedure CreateQueue(
+      queue_pfx in varchar2
+    );
+
+    procedure DropQueue(
+      queue_pfx in varchar2
+    );
+
+    procedure CreateSearchIndexSyncJob(
+      job_pfx         in varchar2,
+      index_name      in varchar2,
+      source_name     in varchar2,
+      source_id       in number,
+      memory          in varchar2,
+      parallel_degree in number
+    );
+
+    procedure DropSearchIndexSyncJob(
+      job_pfx    in varchar2
+    );
+
+    function GetSearchIndexCursor(
+      c_index_owner in varchar2,
+      c_index_name  in varchar2)
+      return sys_refcursor;
+
+    procedure CreateTableTrigger(
+      trigger_name    varchar2,
+      source_name     varchar2,
+      json_object_new varchar2,
+      json_object_old varchar2,
+      pfx             varchar2
+    );
+
+    procedure CreateViewTrigger(
+      trigger_name varchar2,
+      table_name   varchar2,
+      query_text   varchar2,
+      pfx          varchar2);
+
+    procedure DropTrigger(
+      trigger_name varchar2);
+
+    function LockSyncIndex(
+      idxid  in number,
+      srcid  in number
+    ) return varchar2;
+
+    procedure UnlockSyncIndex(
+      lock_handle in varchar2
+    );
+
+    FUNCTION GetSourceName(
+      c_index_owner  in  varchar2,
+      c_index_name   in  varchar2,
+      c_src_id       in  number,
+      c_source_owner out varchar2,
+      c_source_name  out varchar2,
+      c_source_type  out varchar2
+    ) return varchar2;
+
+    end dbms_search_def;
+dataProducts: []
+storedProcedureType: StoredPackage
+databaseSchema:
+  id: 9c93807b-1325-46a6-ba84-f17ec47afa86
+  type: databaseSchema
+  name: ctxsys
+  fullyQualifiedName: local_oracle_keshav.default.ctxsys
+  displayName: ctxsys
+  deleted: false
+database:
+  id: 514d5dca-5711-487a-b827-729bc2738341
+  type: database
+  name: default
+  fullyQualifiedName: local_oracle_keshav.default
+  displayName: default
+  deleted: false
+service:
+  id: 9f99e604-d130-4dd9-9f61-6fc1f2e49a8d
+  type: databaseService
+  name: local_oracle_keshav
+  fullyQualifiedName: local_oracle_keshav
+  displayName: local_oracle_keshav
+  deleted: false
+serviceType: Oracle
+owners: []
+tags: []
+domains: []
+sourceHash: 6fe78b9b6959b32ac42a156a2755a26e
+processedLineage: false
+entityStatus: Unprocessed
