@@ -5,7 +5,13 @@ style:
   color: "#1470EF"
 owners: []
 experts: []
-reviewers: []
+reviewers:
+  - id: 71d900d9-048f-49d2-ac94-8449a5eb0419
+    type: user
+    name: karthick.sharan
+    fullyQualifiedName: '"karthick.sharan"'
+    displayName: karthick.sharan
+    deleted: false
 domains:
   - id: 761f0a12-7b08-4889-acc3-b8d4d11a7865
     type: domain
@@ -15,4 +21,14 @@ domains:
     displayName: domain.with.dot
 lifecycleStage: DEVELOPMENT
 tags: []
+incrementalChangeDescription:
+  fieldsAdded:
+    - name: reviewers
+      newValue: "[{\"id\":\"71d900d9-048f-49d2-ac94-8449a5eb0419\",\"type\":\"user\"\
+        ,\"name\":\"karthick.sharan\",\"fullyQualifiedName\":\"\\\"karthick.sharan\\\
+        \"\",\"displayName\":\"karthick.sharan\",\"deleted\":false}]"
+  fieldsUpdated: []
+  fieldsDeleted: []
+  previousVersion: 0.1
+  changeSummary: {}
 entityStatus: Unprocessed
