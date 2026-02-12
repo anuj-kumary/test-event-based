@@ -1,0 +1,136 @@
+name: CTX_ENTITY
+fullyQualifiedName: local_oracle_keshav.default.ctxsys.CTX_ENTITY
+storedProcedureCode:
+  language: SQL
+  code: "PACKAGE BODY ctx_entity wrapped\na000000\n1\nabcd\nabcd\nabcd\nabcd\nabcd\n\
+    abcd\nabcd\nabcd\nabcd\nabcd\nabcd\nabcd\nabcd\nabcd\nabcd\nb\n3c6d eb7\n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\nPACKAGE ctx_entity AUTHID current_user\
+    \ AS\n\n\nLOCK_WAIT         \tconstant number := 0;\nLOCK_NOWAIT       \tconstant\
+    \ number := 1;\nLOCK_NOWAIT_ERROR \tconstant number := 2;\n\nCOMPILE_ALL     \
+    \    \tconstant number := 0;\nCOMPILE_RULES       \tconstant number := 1;\nCOMPILE_STOP_ENTITIES\t\
+    constant number := 2;\n\nSTATUS_NOTCOMPILED      constant number := 0;\nSTATUS_TOBEDELETED\
+    \      constant number := 1;\nSTATUS_COMPILED         constant number := 2;\n\
+    STATUS_SUBSET           constant number := 3;\n\n\n/*-------------------------------\
+    \ TYPE DEFINITIONS ------------------------*/\n\n\n/*----------------------------\
+    \ create_extract_policy ----------------------*/\n/*\n   NAME\n     create_extract_policy\n\
+    \n   DESCRIPTION\n     create an entity-extraction policy\n\n   ARGUMENT\n   \
+    \  policy_name\t\t- the name for the new policy\n     lexer\t\t\t- the lexer preference\
+    \ to use\n     storage_clause\t    \t- storage preferences (still undecided)\n\
+    \     include_supplied_rules \t- specify whether supplied rules are included\n\
+    \                                  in compilation of user-defined rules\n    \
+    \ include_supplied_dictionary - specify whether supplied dictionary is used\n\
+    \                                   in entity extraction\n     include_machine_learning\
+    \   - specify whether machine learning is included\n                         \
+    \         in entity extraction\n\n*/\n\nPROCEDURE create_extract_policy(\n  policy_name\t\
+    \t\tIN VARCHAR2,\n  lexer\t\t\t\tIN VARCHAR2 DEFAULT NULL,\n  include_supplied_rules\t\
+    IN BOOLEAN DEFAULT TRUE,\n  include_supplied_dictionary\tIN BOOLEAN DEFAULT TRUE\n\
+    );\nPRAGMA SUPPLEMENTAL_LOG_DATA(create_extract_policy, AUTO);\n\n/*----------------------------\
+    \ drop_extract_policy ------------------------*/\n/*\n   NAME\n     drop_extract_policy\n\
+    \n   DESCRIPTION\n     drop an entity-extraction policy\n\n   ARGUMENT\n     policy_name\t\
+    \t- the name of the policy\n*/\n\nPROCEDURE drop_extract_policy(\n  policy_name\t\
+    \t\tIN VARCHAR2\n);\nPRAGMA SUPPLEMENTAL_LOG_DATA(drop_extract_policy, AUTO);\n\
+    \n/*---------------------------- add_extract_rule --------------------------*/\n\
+    /*\n   NAME\n     add_extract_rule\n\n   DESCRIPTION\n     add a user-defined\
+    \ extraction rule to a policy object\n\n   ARGUMENT\n     policy_name\t\t- policy\
+    \ to associate rule with\n     rule_id\t\t    \t- a unique rule_id within the\
+    \ extract policy\n     extraction_rule\t    \t- specify the extraction rule to\
+    \ be added\n*/\n\nPROCEDURE add_extract_rule(\n  policy_name\t\t\tIN VARCHAR2,\n\
+    \  rule_id\t\t\tIN INTEGER,\n  extraction_rule \t\tIN VARCHAR2\n);\nPRAGMA SUPPLEMENTAL_LOG_DATA(add_extract_rule,\
+    \ AUTO);\n\n/*---------------------------- remove_extract_rule ------------------------*/\n\
+    /*\n   NAME\n     remove_extract_rule\n\n   DESCRIPTION\n     remove a single\
+    \ extraction rule from an extract policy\n\n   ARGUMENT\n     policy_name\t  \
+    \  \t- the name of the policy\n     rule_id\t    \t\t- id for rule to be removed\
+    \ from policy\n*/\n\nPROCEDURE remove_extract_rule(\n  policy_name\t\t\tIN VARCHAR2,\n\
+    \  rule_id\t\t\tIN INTEGER\n);\nPRAGMA SUPPLEMENTAL_LOG_DATA(remove_extract_rule,\
+    \ AUTO);\n\n/*---------------------------- add_stop_entity ----------------------------*/\n\
+    /*\n   NAME\n     add_stop_entity\n\n   DESCRIPTION\n     add an entity that is\
+    \ not to be classified - a \"stop entity\" - to the policy\n\n   ARGUMENT\n  \
+    \   policy_name\t    \t- policy to associate stop entity with\n     entity_name\t\
+    \    \t- entity mention\n     entity_type\t    \t- entity type\n     comments\t\
+    \t\t- comments\n*/\n\nPROCEDURE add_stop_entity(\n  policy_name\t\t\tIN VARCHAR2,\n\
+    \  entity_name\t\t\tIN VARCHAR2 DEFAULT NULL,\n  entity_type \t\t\tIN VARCHAR2\
+    \ DEFAULT NULL,\n  comments\t\t\tIN VARCHAR2 DEFAULT NULL\n);\nPRAGMA SUPPLEMENTAL_LOG_DATA(add_stop_entity,\
+    \ AUTO);\n\n/*---------------------------- remove_stop_entity -------------------------*/\n\
+    /*\n   NAME\n     remove_stop_entity\n\n   DESCRIPTION\n     remove a stop entity\
+    \ from an extract policy\n\n   ARGUMENT\n     policy_name\t    \t- the name of\
+    \ the policy\n     entity_name\t    \t- entity mention\n     entity_type\t   \
+    \ \t- entity type\n*/\n\nPROCEDURE remove_stop_entity(\n  policy_name\t\t\tIN\
+    \ VARCHAR2,\n  entity_name\t\t\tIN VARCHAR2 DEFAULT NULL,\n  entity_type \t\t\t\
+    IN VARCHAR2 DEFAULT NULL\n);\nPRAGMA SUPPLEMENTAL_LOG_DATA(remove_stop_entity,\
+    \ AUTO);\n\n/*---------------------------- compile ------------------------------------*/\n\
+    /*\n   NAME\n     compile\n\n   DESCRIPTION\n     compile added extraction rules\
+    \ and stop-entities into an extract policy\n\n   ARGUMENT\n     policy_name\t\
+    \    \t- the name of the policy\n     compile_choice\t- compile rules, stop-entities,\
+    \ or both\n     locking   \t\t- locking preferences\n*/\n\nPROCEDURE compile(\n\
+    \  policy_name\t\t\tIN VARCHAR2,\n  compile_choice\t\tIN NUMBER DEFAULT COMPILE_ALL,\n\
+    \  locking\t\t\tIN NUMBER DEFAULT LOCK_NOWAIT_ERROR\n);\nPRAGMA SUPPLEMENTAL_LOG_DATA(compile,\
+    \ AUTO);\n\n/*---------------------------- extract -----------------------------*/\n\
+    /*\n   NAME\n     extract\n\n   DESCRIPTION\n     generate character offsets and\
+    \ character lengths of an extracted entity from base document\n\n   ARGUMENT\n\
+    \     policy_name\t   \t- the name of the policy\n     document\t\t    \t- base\
+    \ document\n     language\t\t    \t- name of language in document\n     result\
+    \                 \t- clob containing xml output\n     entity_type_list\t    \t\
+    - entity types that will be extracted (NULL means all types)\n     locking   \t\
+    \t- locking preferences\n\n*/\n\nPROCEDURE extract(\n  policy_name\t\t\tIN VARCHAR2,\n\
+    \  document\t\t\tIN CLOB,\n  language\t\t\tIN VARCHAR2,\n  result\t\t\tIN OUT\
+    \ NOCOPY CLOB,\n  entity_type_list\t\tIN CLOB DEFAULT NULL,\n  locking\t\t\tIN\
+    \ NUMBER DEFAULT LOCK_NOWAIT_ERROR\n);\n\n/*---------------------------- import_dictionary\
+    \ ----------------------------*/\n/*\n   NAME\n    import_dictionary\n\n   DESCRIPTION\n\
+    \    --\n\n   ARGUMENT\n*/\n\nPROCEDURE import_dictionary(\n   policy_name   \
+    \ IN VARCHAR2,\n   data           IN CLOB,\n   isdrop         IN BOOLEAN DEFAULT\
+    \ FALSE\n);\nPRAGMA SUPPLEMENTAL_LOG_DATA(import_dictionary, AUTO);\n\nEND ctx_entity;"
+dataProducts: []
+storedProcedureType: StoredPackage
+databaseSchema:
+  id: 9c93807b-1325-46a6-ba84-f17ec47afa86
+  type: databaseSchema
+  name: ctxsys
+  fullyQualifiedName: local_oracle_keshav.default.ctxsys
+  displayName: ctxsys
+  deleted: false
+database:
+  id: 514d5dca-5711-487a-b827-729bc2738341
+  type: database
+  name: default
+  fullyQualifiedName: local_oracle_keshav.default
+  displayName: default
+  deleted: false
+service:
+  id: 9f99e604-d130-4dd9-9f61-6fc1f2e49a8d
+  type: databaseService
+  name: local_oracle_keshav
+  fullyQualifiedName: local_oracle_keshav
+  displayName: local_oracle_keshav
+  deleted: false
+serviceType: Oracle
+owners: []
+tags: []
+domains: []
+sourceHash: 3de585d5f09db664d05f2e0c945cabfb
+processedLineage: false
+entityStatus: Unprocessed
